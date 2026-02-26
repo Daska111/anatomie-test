@@ -1,0 +1,24 @@
+{
+  "title": "Anatomie – Masérský kurz",
+  "sections": [
+    {
+      "id": "cell",
+      "title": "Buňka",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "cell_1",
+          "q": "Anatomie je věda zabývající se:",
+          "options": ["funkcí organismu", "stavbou lidského těla", "pohybem těla", "látkovou přeměnou"],
+          "answer_index": 1
+        },
+        {
+          "id": "cell_2",
+          "q": "Fyziologie se zabývá:",
+          "options": ["stavbou tkání", "funkcí organismu", "názvoslovím", "genetickou výbavou"],
+          "answer_index": 1
+        }
+      ]
+    }
+  ]
+}
