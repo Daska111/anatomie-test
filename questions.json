@@ -148,7 +148,7 @@
     },
     {
       "id": "skeleton",
-      "title": "Kostra – pojmenuj kosti (CZ nebo LA)",
+      "title": "Kostra – pojmenuj kosti latinsky)",
       "type": "bones",
       "questions": [
         { "id": "bone_1", "q": "Lebka:", "answers": ["cranium", "lebka"] },
