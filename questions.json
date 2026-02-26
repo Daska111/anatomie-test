@@ -1,5 +1,5 @@
 {
-  "title": "Anatomie – Masérský kurz",
+  "title": "Anatomie – test (masérský kurz)",
   "sections": [
     {
       "id": "cell",
@@ -17,7 +17,154 @@
           "q": "Fyziologie se zabývá:",
           "options": ["stavbou tkání", "funkcí organismu", "názvoslovím", "genetickou výbavou"],
           "answer_index": 1
+        },
+        {
+          "id": "cell_3",
+          "q": "Kineziologie je nauka o:",
+          "options": ["podmínkách a zákonech pohybu u živých bytostí", "stavbě tkání", "stavbě kostí", "funkci buněk"],
+          "answer_index": 0
+        },
+        {
+          "id": "cell_4",
+          "q": "Buňka je:",
+          "options": ["základní stavební a funkční jednotka organismu", "orgán", "tkáň", "část orgánové soustavy"],
+          "answer_index": 0
+        },
+        {
+          "id": "cell_5",
+          "q": "Na povrchu buňky je:",
+          "options": ["buněčná membrána", "cytoplazma", "chromozomy", "endoplazmatické retikulum"],
+          "answer_index": 0
+        },
+        {
+          "id": "cell_6",
+          "q": "Cytoplazma obsahuje hlavně:",
+          "options": ["vodu", "jen bílkoviny", "jen tuky", "jen soli"],
+          "answer_index": 0
+        },
+        {
+          "id": "cell_7",
+          "q": "Velikost buněk se běžně udává v:",
+          "options": ["milimetrech", "centimetrech", "mikrometrech", "metrech"],
+          "answer_index": 2
+        },
+        {
+          "id": "cell_8",
+          "q": "Většina buněk těla má velikost přibližně:",
+          "options": ["2 μm", "20 μm", "200 μm", "2 mm"],
+          "answer_index": 1
+        },
+        {
+          "id": "cell_9",
+          "q": "Mezi základní vlastnosti buňky patří (vyber nejlepší odpověď):",
+          "options": ["růst, dráždivost, přizpůsobivost, látková přeměna a rozmnožování", "jen růst", "jen rozmnožování", "jen látková přeměna"],
+          "answer_index": 0
+        },
+        {
+          "id": "cell_10",
+          "q": "Nositelem genetické informace v buňce jsou:",
+          "options": ["mitochondrie", "chromozomy", "vakuoly", "cytoplazma"],
+          "answer_index": 1
+        },
+        {
+          "id": "cell_11",
+          "q": "Kolik chromozomů má lidská buňka celkem?",
+          "options": ["23", "46", "44", "22"],
+          "answer_index": 1
+        },
+        {
+          "id": "cell_12",
+          "q": "Kolik párů tělových (autosomálních) chromozomů má člověk?",
+          "options": ["23 párů", "22 párů", "1 pár", "46 párů"],
+          "answer_index": 1
+        },
+        {
+          "id": "cell_13",
+          "q": "Kolik párů pohlavních chromozomů má člověk?",
+          "options": ["0", "1", "2", "23"],
+          "answer_index": 1
         }
+      ]
+    },
+    {
+      "id": "tissues_organs",
+      "title": "Tkáně, orgán, orgánová soustava",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "to_1",
+          "q": "Buňky se sdružují do:",
+          "options": ["orgánů", "tkání", "soustav", "kostí"],
+          "answer_index": 1
+        },
+        {
+          "id": "to_2",
+          "q": "Základní druhy tkání jsou:",
+          "options": ["epitely, pojiva, svalová tkáň, nervová tkáň, krev", "jen epitely a svaly", "jen pojiva a nervy", "jen krev a svaly"],
+          "answer_index": 0
+        },
+        {
+          "id": "to_3",
+          "q": "Mezi pojiva patří:",
+          "options": ["vazivo, chrupavka, kost", "epitel", "nervová tkáň", "svalová tkáň"],
+          "answer_index": 0
+        },
+        {
+          "id": "to_4",
+          "q": "Krev je:",
+          "options": ["epitel", "tekutá forma pojivové tkáně", "svalová tkáň", "nervová tkáň"],
+          "answer_index": 1
+        },
+        {
+          "id": "to_5",
+          "q": "Orgán je (nejvýstižněji):",
+          "options": ["prostorově ohraničený celek vykonávající určitou funkci", "jedna buňka", "jedna tkáň", "část cytoplazmy"],
+          "answer_index": 0
+        },
+        {
+          "id": "to_6",
+          "q": "Orgán se zpravidla skládá:",
+          "options": ["jen z jedné tkáně", "z více druhů tkání", "jen z buněk bez tkání", "jen z pojiv"],
+          "answer_index": 1
+        },
+        {
+          "id": "to_7",
+          "q": "Orgánová soustava je:",
+          "options": ["skupina orgánů se společnou funkcí", "skupina buněk", "skupina tkání", "skupina kostí"],
+          "answer_index": 0
+        },
+        {
+          "id": "to_8",
+          "q": "Mezi orgánové soustavy patří (vyber správnou kombinaci):",
+          "options": [
+            "kosterní, svalová, trávicí, dýchací, močová, pohlavní, endokrinní, cévní, nervová, smyslová, kožní",
+            "jen kosterní a svalová",
+            "jen nervová a smyslová",
+            "jen trávicí a dýchací"
+          ],
+          "answer_index": 0
+        }
+      ]
+    },
+    {
+      "id": "skeleton",
+      "title": "Kostra – pojmenuj kosti (CZ nebo LA)",
+      "type": "bones",
+      "questions": [
+        { "id": "bone_1", "q": "Lebka:", "answers": ["cranium", "lebka"] },
+        { "id": "bone_2", "q": "Klíční kost:", "answers": ["clavicula", "klicni kost", "klíční kost"] },
+        { "id": "bone_3", "q": "Lopatka:", "answers": ["scapula", "lopatka"] },
+        { "id": "bone_4", "q": "Kost hrudní:", "answers": ["sternum", "kost hrudni", "kost hrudní"] },
+        { "id": "bone_5", "q": "Žebra:", "answers": ["costae", "zebra", "žebra"] },
+        { "id": "bone_6", "q": "Páteř:", "answers": ["columna vertebralis", "pater", "páteř"] },
+        { "id": "bone_7", "q": "Kost pánevní:", "answers": ["os coxae", "kost panevni", "kost pánevní"] },
+        { "id": "bone_8", "q": "Kost pažní:", "answers": ["humerus", "kost pazni", "kost pažní"] },
+        { "id": "bone_9", "q": "Kost vřetenní:", "answers": ["radius", "kost vretenni", "kost vřetenní"] },
+        { "id": "bone_10", "q": "Kost loketní:", "answers": ["ulna", "kost loketni", "kost loketní"] },
+        { "id": "bone_11", "q": "Kost stehenní:", "answers": ["femur", "kost stehenni", "kost stehenní"] },
+        { "id": "bone_12", "q": "Čéška:", "answers": ["patella", "ceska", "čéška"] },
+        { "id": "bone_13", "q": "Kost holenní:", "answers": ["tibia", "kost holenni", "kost holenní"] },
+        { "id": "bone_14", "q": "Kost lýtková:", "answers": ["fibula", "kost lytkova", "kost lýtková"] }
       ]
     }
   ]
