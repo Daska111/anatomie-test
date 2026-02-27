@@ -1,171 +1,321 @@
 {
-  "title": "Anatomie – test (masérský kurz)",
+  "title": "Anatomie – komplexní test (dle skript)",
   "sections": [
+
     {
-      "id": "cell",
-      "title": "Buňka",
+      "id": "intro",
+      "title": "Úvod – anatomie, fyziologie, kineziologie",
       "type": "mcq",
       "questions": [
         {
-          "id": "cell_1",
-          "q": "Anatomie je věda zabývající se:",
-          "options": ["funkcí organismu", "stavbou lidského těla", "pohybem těla", "látkovou přeměnou"],
-          "answer_index": 1
-        },
-        {
-          "id": "cell_2",
-          "q": "Fyziologie se zabývá:",
-          "options": ["stavbou tkání", "funkcí organismu", "názvoslovím", "genetickou výbavou"],
-          "answer_index": 1
-        },
-        {
-          "id": "cell_3",
-          "q": "Kineziologie je nauka o:",
-          "options": ["podmínkách a zákonech pohybu u živých bytostí", "stavbě tkání", "stavbě kostí", "funkci buněk"],
-          "answer_index": 0
-        },
-        {
-          "id": "cell_4",
-          "q": "Buňka je:",
-          "options": ["základní stavební a funkční jednotka organismu", "orgán", "tkáň", "část orgánové soustavy"],
-          "answer_index": 0
-        },
-        {
-          "id": "cell_5",
-          "q": "Na povrchu buňky je:",
-          "options": ["buněčná membrána", "cytoplazma", "chromozomy", "endoplazmatické retikulum"],
-          "answer_index": 0
-        },
-        {
-          "id": "cell_6",
-          "q": "Cytoplazma obsahuje hlavně:",
-          "options": ["vodu", "jen bílkoviny", "jen tuky", "jen soli"],
-          "answer_index": 0
-        },
-        {
-          "id": "cell_7",
-          "q": "Velikost buněk se běžně udává v:",
-          "options": ["milimetrech", "centimetrech", "mikrometrech", "metrech"],
-          "answer_index": 2
-        },
-        {
-          "id": "cell_8",
-          "q": "Většina buněk těla má velikost přibližně:",
-          "options": ["2 μm", "20 μm", "200 μm", "2 mm"],
-          "answer_index": 1
-        },
-        {
-          "id": "cell_9",
-          "q": "Mezi základní vlastnosti buňky patří (vyber nejlepší odpověď):",
-          "options": ["růst, dráždivost, přizpůsobivost, látková přeměna a rozmnožování", "jen růst", "jen rozmnožování", "jen látková přeměna"],
-          "answer_index": 0
-        },
-        {
-          "id": "cell_10",
-          "q": "Nositelem genetické informace v buňce jsou:",
-          "options": ["mitochondrie", "chromozomy", "vakuoly", "cytoplazma"],
-          "answer_index": 1
-        },
-        {
-          "id": "cell_11",
-          "q": "Kolik chromozomů má lidská buňka celkem?",
-          "options": ["23", "46", "44", "22"],
-          "answer_index": 1
-        },
-        {
-          "id": "cell_12",
-          "q": "Kolik párů tělových (autosomálních) chromozomů má člověk?",
-          "options": ["23 párů", "22 párů", "1 pár", "46 párů"],
-          "answer_index": 1
-        },
-        {
-          "id": "cell_13",
-          "q": "Kolik párů pohlavních chromozomů má člověk?",
-          "options": ["0", "1", "2", "23"],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "tissues_organs",
-      "title": "Tkáně, orgán, orgánová soustava",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "to_1",
-          "q": "Buňky se sdružují do:",
-          "options": ["orgánů", "tkání", "soustav", "kostí"],
-          "answer_index": 1
-        },
-        {
-          "id": "to_2",
-          "q": "Základní druhy tkání jsou:",
-          "options": ["epitely, pojiva, svalová tkáň, nervová tkáň, krev", "jen epitely a svaly", "jen pojiva a nervy", "jen krev a svaly"],
-          "answer_index": 0
-        },
-        {
-          "id": "to_3",
-          "q": "Mezi pojiva patří:",
-          "options": ["vazivo, chrupavka, kost", "epitel", "nervová tkáň", "svalová tkáň"],
-          "answer_index": 0
-        },
-        {
-          "id": "to_4",
-          "q": "Krev je:",
-          "options": ["epitel", "tekutá forma pojivové tkáně", "svalová tkáň", "nervová tkáň"],
-          "answer_index": 1
-        },
-        {
-          "id": "to_5",
-          "q": "Orgán je (nejvýstižněji):",
-          "options": ["prostorově ohraničený celek vykonávající určitou funkci", "jedna buňka", "jedna tkáň", "část cytoplazmy"],
-          "answer_index": 0
-        },
-        {
-          "id": "to_6",
-          "q": "Orgán se zpravidla skládá:",
-          "options": ["jen z jedné tkáně", "z více druhů tkání", "jen z buněk bez tkání", "jen z pojiv"],
-          "answer_index": 1
-        },
-        {
-          "id": "to_7",
-          "q": "Orgánová soustava je:",
-          "options": ["skupina orgánů se společnou funkcí", "skupina buněk", "skupina tkání", "skupina kostí"],
-          "answer_index": 0
-        },
-        {
-          "id": "to_8",
-          "q": "Mezi orgánové soustavy patří (vyber správnou kombinaci):",
+          "id": "i1",
+          "q": "Co je anatomie?",
           "options": [
-            "kosterní, svalová, trávicí, dýchací, močová, pohlavní, endokrinní, cévní, nervová, smyslová, kožní",
-            "jen kosterní a svalová",
-            "jen nervová a smyslová",
-            "jen trávicí a dýchací"
+            "Nauka o funkci organismu",
+            "Nauka o stavbě lidského těla, jeho uložení, struktuře a vzájemných vztazích částí vůči celku",
+            "Nauka o pohybu",
+            "Nauka o tkáních"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "i2",
+          "q": "Čím se zabývá fyziologie?",
+          "options": [
+            "Stavbou těla",
+            "Funkcí organismu",
+            "Popisem kloubů",
+            "Genetikou"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "i3",
+          "q": "Kineziologie je:",
+          "options": [
+            "Nauka o podmínkách a zákonech pohybu u živých bytostí",
+            "Nauka o svalech",
+            "Nauka o kostech",
+            "Nauka o kloubech"
           ],
           "answer_index": 0
         }
       ]
     },
+
     {
-      "id": "skeleton",
-      "title": "Kostra – pojmenuj kosti latinsky)",
-      "type": "bones",
+      "id": "cell",
+      "title": "Buňka, tkáň, orgán",
+      "type": "mcq",
       "questions": [
-        { "id": "bone_1", "q": "Lebka:", "answers": ["cranium", "lebka"] },
-        { "id": "bone_2", "q": "Klíční kost:", "answers": ["clavicula", "klicni kost", "klíční kost"] },
-        { "id": "bone_3", "q": "Lopatka:", "answers": ["scapula", "lopatka"] },
-        { "id": "bone_4", "q": "Kost hrudní:", "answers": ["sternum", "kost hrudni", "kost hrudní"] },
-        { "id": "bone_5", "q": "Žebra:", "answers": ["costae", "zebra", "žebra"] },
-        { "id": "bone_6", "q": "Páteř:", "answers": ["columna vertebralis", "pater", "páteř"] },
-        { "id": "bone_7", "q": "Kost pánevní:", "answers": ["os coxae", "kost panevni", "kost pánevní"] },
-        { "id": "bone_8", "q": "Kost pažní:", "answers": ["humerus", "kost pazni", "kost pažní"] },
-        { "id": "bone_9", "q": "Kost vřetenní:", "answers": ["radius", "kost vretenni", "kost vřetenní"] },
-        { "id": "bone_10", "q": "Kost loketní:", "answers": ["ulna", "kost loketni", "kost loketní"] },
-        { "id": "bone_11", "q": "Kost stehenní:", "answers": ["femur", "kost stehenni", "kost stehenní"] },
-        { "id": "bone_12", "q": "Čéška:", "answers": ["patella", "ceska", "čéška"] },
-        { "id": "bone_13", "q": "Kost holenní:", "answers": ["tibia", "kost holenni", "kost holenní"] },
-        { "id": "bone_14", "q": "Kost lýtková:", "answers": ["fibula", "kost lytkova", "kost lýtková"] }
+        {
+          "id": "c1",
+          "q": "Buňka je:",
+          "options": [
+            "Nejmenší orgán",
+            "Základní stavební a funkční jednotka organismu",
+            "Typ tkáně",
+            "Část chromozomu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "c2",
+          "q": "Na povrchu buňky je:",
+          "options": [
+            "Cytoplazma",
+            "Buněčná membrána",
+            "Jádro",
+            "Chromozom"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "c3",
+          "q": "Tělo buňky je tvořeno:",
+          "options": [
+            "Pouze jádrem",
+            "Jádrem s jadérkem a buněčnými organelami",
+            "Jen cytoplazmou",
+            "Jen mitochondriemi"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "c4",
+          "q": "Cytoplazma obsahuje především:",
+          "options": [
+            "Vodu, bílkoviny, tuky, cukry, soli a další látky",
+            "Jen vodu",
+            "Jen bílkoviny",
+            "Jen tuky"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "c5",
+          "q": "Velikost buněk se běžně udává v:",
+          "options": [
+            "Milimetrech",
+            "Centimetrech",
+            "Mikrometrech",
+            "Metrech"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "c6",
+          "q": "Většina buněk těla má velikost přibližně:",
+          "options": [
+            "2 mikrometry",
+            "20 mikrometrů",
+            "200 mikrometrů",
+            "2 milimetry"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "c7",
+          "q": "Kolik párů chromozomů má lidská buňka?",
+          "options": [
+            "22",
+            "23",
+            "46",
+            "44"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "c8",
+          "q": "Kolik je tělových chromozomů?",
+          "options": [
+            "22 párů",
+            "23 párů",
+            "1 pár",
+            "46 párů"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "c9",
+          "q": "Tkáně vznikají:",
+          "options": [
+            "Spojením orgánů",
+            "Seskupením buněk se stejným tvarem a funkcí",
+            "Spojením svalů",
+            "Spojením kloubů"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+
+    {
+      "id": "planes_axes",
+      "title": "Anatomické názvosloví – roviny a osy",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "p1",
+          "q": "Mediánní rovina rozděluje tělo na:",
+          "options": [
+            "Přední a zadní část",
+            "Horní a dolní část",
+            "Pravou a levou polovinu",
+            "Mediální a laterální část"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "p2",
+          "q": "Roviny příčné rozdělují tělo na:",
+          "options": [
+            "Přední a zadní část",
+            "Horní (kraniální) a dolní (kaudální) část",
+            "Pravou a levou část",
+            "Mediální a laterální část"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "p3",
+          "q": "Roviny čelní dělí tělo na:",
+          "options": [
+            "Pravou a levou část",
+            "Horní a dolní část",
+            "Přední (ventrální) a zadní (dorzální) část",
+            "Proximální a distální část"
+          ],
+          "answer_index": 2
+        }
+      ]
+    },
+
+    {
+      "id": "bones_structure",
+      "title": "Kosti – stavba",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "b1",
+          "q": "Na dlouhých kostech rozlišujeme:",
+          "options": [
+            "Tělo a hlavice",
+            "Pouze hlavice",
+            "Pouze tělo",
+            "Tělo a chrupavku"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "b2",
+          "q": "Tělo dlouhých kostí je:",
+          "options": [
+            "Plné",
+            "Duté",
+            "Vyplněné chrupavkou",
+            "Tvořeno houbovitou kostí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "b3",
+          "q": "Dutina dlouhých kostí se nazývá:",
+          "options": [
+            "Kloubní dutina",
+            "Dřeňová dutina",
+            "Haversův kanál",
+            "Synoviální dutina"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "b4",
+          "q": "Kost houbovitá je tvořena:",
+          "options": [
+            "Plnou kompaktní hmotou",
+            "Systémem trámečků navzájem propletených",
+            "Chrupavkou",
+            "Vazivem"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "b5",
+          "q": "Uspořádání trámců houbovité kosti, které umožňuje odolávat tlaku a tahu, se nazývá:",
+          "options": [
+            "Kompaktnost",
+            "Architektonika kosti",
+            "Elasticita",
+            "Synovie"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+
+    {
+      "id": "joints",
+      "title": "Spojení kostí a klouby",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "j1",
+          "q": "Kosti jsou v těle spojeny:",
+          "options": [
+            "Jedním způsobem",
+            "Dvojím způsobem – souvisle nebo kloubně",
+            "Pouze kloubně",
+            "Pouze vazivem"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "j2",
+          "q": "Mezi spojení souvislá patří:",
+          "options": [
+            "Spojení vazivem, chrupavkou, kostí",
+            "Pouze vazivem",
+            "Pouze chrupavkou",
+            "Pouze kostí"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "j3",
+          "q": "Kloub vzniká spojením:",
+          "options": [
+            "Jedné kosti",
+            "Dvou nebo více kostí",
+            "Svalu a kosti",
+            "Chrupavky a svalu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "j4",
+          "q": "Vnitřní vrstva kloubního pouzdra:",
+          "options": [
+            "Produkuje kloubní maz",
+            "Je tvořena kostí",
+            "Je tvořena chrupavkou",
+            "Tvoří vazy"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "j5",
+          "q": "Klouby kulovité umožňují pohyb:",
+          "options": [
+            "Pouze v jedné rovině",
+            "Ve více osách",
+            "Pouze otáčení",
+            "Bez pohybu"
+          ],
+          "answer_index": 1
+        }
       ]
     }
+
   ]
 }
