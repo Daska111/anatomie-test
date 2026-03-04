@@ -39,13 +39,24 @@
             "Nauka o kloubech"
           ],
           "answer_index": 0
+        },
+        {
+          "id": "i4",
+          "q": "Kineziologie navazuje na znalosti:",
+          "options": [
+            "Fyziologie",
+            "Anatomie",
+            "Kineziologie",
+            "Genetiky"
+          ],
+          "answer_index": 1
         }
       ]
     },
 
     {
       "id": "cell",
-      "title": "Buňka, tkáň, orgán",
+      "title": "Buňka – stavba a vlastnosti",
       "type": "mcq",
       "questions": [
         {
@@ -75,7 +86,7 @@
           "q": "Tělo buňky je tvořeno:",
           "options": [
             "Pouze jádrem",
-            "Jádrem s jadérkem a buněčnými organelami",
+            "Buněčným jádrem s jadérkem a buněčnými organelami",
             "Jen cytoplazmou",
             "Jen mitochondriemi"
           ],
@@ -127,7 +138,7 @@
         },
         {
           "id": "c8",
-          "q": "Kolik je tělových chromozomů?",
+          "q": "Kolik je tělových chromozomů (párů)?",
           "options": [
             "22 párů",
             "23 párů",
@@ -138,14 +149,132 @@
         },
         {
           "id": "c9",
+          "q": "Pohlavní chromozom je označován jako:",
+          "options": [
+            "A nebo B",
+            "X nebo Y",
+            "M nebo F",
+            "P nebo Q"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "c10",
+          "q": "Nositelem genetických informací v buňce jsou:",
+          "options": [
+            "Mitochondrie",
+            "Chromozomy",
+            "Vakuoly",
+            "Ribozomy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "c11",
+          "q": "Mezi základní vlastnosti buňky NEPATŘÍ:",
+          "options": [
+            "Růst a dráždivost",
+            "Přizpůsobivost a látková přeměna",
+            "Rozmnožování",
+            "Fotosyntéza"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "c12",
+          "q": "Mezi buněčné organely patří:",
+          "options": [
+            "Chromozomy, vápník, fosfor",
+            "Mitochondrie, Golgiho komplex, endoplazmatické retikulum",
+            "Cytoplazma, membrána, jádro",
+            "Epitel, vazivo, chrupavka"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+
+    {
+      "id": "tissues",
+      "title": "Tkáně, orgány a orgánové soustavy",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "t1",
           "q": "Tkáně vznikají:",
           "options": [
             "Spojením orgánů",
-            "Seskupením buněk se stejným tvarem a funkcí",
+            "Seskupením buněk se stejným tvarem a jednou hlavní funkcí",
             "Spojením svalů",
             "Spojením kloubů"
           ],
           "answer_index": 1
+        },
+        {
+          "id": "t2",
+          "q": "Které z níže uvedených NENÍ základním druhem tkáně?",
+          "options": [
+            "Epitel",
+            "Svalová tkáň",
+            "Nervová tkáň",
+            "Chlopenní tkáň"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "t3",
+          "q": "Krev je z hlediska tkáně považována za:",
+          "options": [
+            "Zvláštní nervovou tkáň",
+            "Tekutou formu pojivové tkáně",
+            "Typ epitelové tkáně",
+            "Svalovou tkáň"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "t4",
+          "q": "Pojiva zahrnují:",
+          "options": [
+            "Svaly, nervy a krev",
+            "Vazivo, chrupavku a kost",
+            "Epitely a nervovou tkáň",
+            "Pouze vazivo"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "t5",
+          "q": "Orgán je:",
+          "options": [
+            "Seskupení buněk stejného druhu",
+            "Prostorově ohraničený celek z více druhů tkání, vykonávající určitou funkci",
+            "Každá tkáň v těle",
+            "Soubor orgánových soustav"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "t6",
+          "q": "Orgánovou soustavu tvoří orgány, které:",
+          "options": [
+            "Jsou si tvarově podobné",
+            "Slouží k určité společné funkci",
+            "Jsou na stejném místě v těle",
+            "Mají stejnou velikost"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "t7",
+          "q": "Která soustava NENÍ zmíněna v základním přehledu orgánových soustav?",
+          "options": [
+            "Kosterní soustava",
+            "Dýchací soustava",
+            "Imunitní soustava",
+            "Nervová soustava"
+          ],
+          "answer_index": 2
         }
       ]
     },
@@ -157,7 +286,7 @@
       "questions": [
         {
           "id": "p1",
-          "q": "Mediánní rovina rozděluje tělo na:",
+          "q": "Mediánní (střední) rovina rozděluje tělo na:",
           "options": [
             "Přední a zadní část",
             "Horní a dolní část",
@@ -168,7 +297,7 @@
         },
         {
           "id": "p2",
-          "q": "Roviny příčné rozdělují tělo na:",
+          "q": "Roviny příčné (transverzální) rozdělují tělo na:",
           "options": [
             "Přední a zadní část",
             "Horní (kraniální) a dolní (kaudální) část",
@@ -179,12 +308,78 @@
         },
         {
           "id": "p3",
-          "q": "Roviny čelní dělí tělo na:",
+          "q": "Roviny čelní (frontální) dělí tělo na:",
           "options": [
             "Pravou a levou část",
             "Horní a dolní část",
             "Přední (ventrální) a zadní (dorzální) část",
             "Proximální a distální část"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "p4",
+          "q": "Rovina rovnoběžná s mediánní rovinou se nazývá:",
+          "options": [
+            "Frontální rovina",
+            "Šípová (sagitální) rovina",
+            "Transverzální rovina",
+            "Dorzální rovina"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "p5",
+          "q": "Termín 'proximální' označuje směr:",
+          "options": [
+            "Vzdálenější od trupu (k periferii)",
+            "Bližší k trupu",
+            "Směrem vzad",
+            "Směrem ke střední rovině"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "p6",
+          "q": "Termín 'distální' označuje směr:",
+          "options": [
+            "Bližší k trupu",
+            "Ke střední rovině",
+            "Vzdálenější od trupu, k periferii končetin",
+            "Dopředu"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "p7",
+          "q": "Termín 'laterální' označuje směr:",
+          "options": [
+            "Ke střední rovině",
+            "Od střední roviny",
+            "Dolů",
+            "Nahoru"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "p8",
+          "q": "V základním anatomickém postavení jsou dlaně obráceny:",
+          "options": [
+            "Vzad",
+            "Dolů",
+            "Vpřed",
+            "K tělu"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "p9",
+          "q": "Osa předozadní (sagitální) zahrnuje směry:",
+          "options": [
+            "Kraniální a kaudální",
+            "Mediální a laterální",
+            "Ventrální (vpřed) a dorzální (vzad)",
+            "Proximální a distální"
           ],
           "answer_index": 2
         }
@@ -193,11 +388,22 @@
 
     {
       "id": "bones_structure",
-      "title": "Kosti – stavba",
+      "title": "Kosti – tvar a stavba",
       "type": "mcq",
       "questions": [
         {
           "id": "b1",
+          "q": "Tvar kosti odpovídá:",
+          "options": [
+            "Věku jedince",
+            "Funkci, které kost slouží",
+            "Pohlaví",
+            "Hmotnosti těla"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "b2",
           "q": "Na dlouhých kostech rozlišujeme:",
           "options": [
             "Tělo a hlavice",
@@ -208,7 +414,7 @@
           "answer_index": 0
         },
         {
-          "id": "b2",
+          "id": "b3",
           "q": "Tělo dlouhých kostí je:",
           "options": [
             "Plné",
@@ -219,7 +425,7 @@
           "answer_index": 1
         },
         {
-          "id": "b3",
+          "id": "b4",
           "q": "Dutina dlouhých kostí se nazývá:",
           "options": [
             "Kloubní dutina",
@@ -230,7 +436,7 @@
           "answer_index": 1
         },
         {
-          "id": "b4",
+          "id": "b5",
           "q": "Kost houbovitá je tvořena:",
           "options": [
             "Plnou kompaktní hmotou",
@@ -241,8 +447,8 @@
           "answer_index": 1
         },
         {
-          "id": "b5",
-          "q": "Uspořádání trámců houbovité kosti, které umožňuje odolávat tlaku a tahu, se nazývá:",
+          "id": "b6",
+          "q": "Uspořádání trámců houbovité kosti tak, aby odolávaly tlaku a tahu, se nazývá:",
           "options": [
             "Kompaktnost",
             "Architektonika kosti",
@@ -250,6 +456,83 @@
             "Synovie"
           ],
           "answer_index": 1
+        },
+        {
+          "id": "b7",
+          "q": "Organická složka (osein) kostní tkáně zajišťuje:",
+          "options": [
+            "Pevnost kosti",
+            "Pružnost kosti",
+            "Krvetvorbu",
+            "Výživu kosti"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "b8",
+          "q": "Anorganická (minerální) složka kostní tkáně obsahuje zejména:",
+          "options": [
+            "Železo a hořčík",
+            "Sodík a draslík",
+            "Vápník a fosfor",
+            "Zinek a měď"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "b9",
+          "q": "Okostice:",
+          "options": [
+            "Kryje kost včetně kloubních ploch",
+            "Je tuhá vazivová blána, která kryje povrch kosti (mimo kloubní plochy)",
+            "Je to samotná kloubní chrupavka",
+            "Je totéž co periost a nemá vliv na růst kosti"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "b10",
+          "q": "Okostice zajišťuje:",
+          "options": [
+            "Pouze tvorbu červených krvinek",
+            "Výživu kostí, růst kostí do šířky; obsahuje nervová vlákna",
+            "Jen mechanickou ochranu kosti",
+            "Tvorbu synoviální tekutiny"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "b11",
+          "q": "Červená kostní dřeň je:",
+          "options": [
+            "Zásobárna tuku",
+            "Krvetvorný orgán",
+            "Součást synoviální výstelky",
+            "Druh pojivové tkáně bez funkce"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "b12",
+          "q": "V dospělosti je krvetvorba soustředěna hlavně do kostí:",
+          "options": [
+            "Dlouhých (femur, tibia)",
+            "Plochých (hrudní, kyčelní) a krátkých",
+            "Vzdušných",
+            "Zápěstních"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "b13",
+          "q": "Které typy kostí rozlišujeme?",
+          "options": [
+            "Dlouhé, ploché, krátké, vzdušné a nepravidelného tvaru",
+            "Jen dlouhé a krátké",
+            "Jen ploché a vzdušné",
+            "Dlouhé, kulaté a hranaté"
+          ],
+          "answer_index": 0
         }
       ]
     },
@@ -274,7 +557,7 @@
           "id": "j2",
           "q": "Mezi spojení souvislá patří:",
           "options": [
-            "Spojení vazivem, chrupavkou, kostí",
+            "Spojení vazivem, chrupavkou nebo kostí",
             "Pouze vazivem",
             "Pouze chrupavkou",
             "Pouze kostí"
@@ -283,7 +566,18 @@
         },
         {
           "id": "j3",
-          "q": "Kloub vzniká spojením:",
+          "q": "Meziobratlové ploténky jsou příkladem spojení:",
+          "options": [
+            "Pomocí vaziva",
+            "Pomocí chrupavky",
+            "Pomocí kosti",
+            "Kloubního"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "j4",
+          "q": "Kloub (articulatio) vzniká spojením:",
           "options": [
             "Jedné kosti",
             "Dvou nebo více kostí",
@@ -293,24 +587,175 @@
           "answer_index": 1
         },
         {
-          "id": "j4",
-          "q": "Vnitřní vrstva kloubního pouzdra:",
+          "id": "j5",
+          "q": "Styčné kloubní plochy jsou pokryty:",
           "options": [
-            "Produkuje kloubní maz",
+            "Okosticí",
+            "Kloubní chrupavkou",
+            "Synoviální membránou",
+            "Vazivem"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "j6",
+          "q": "Vnitřní vrstva kloubního pouzdra (synoviální výstelka):",
+          "options": [
+            "Produkuje kloubní maz (synovii)",
             "Je tvořena kostí",
             "Je tvořena chrupavkou",
-            "Tvoří vazy"
+            "Tvoří kloubní vazy"
           ],
           "answer_index": 0
         },
         {
-          "id": "j5",
-          "q": "Klouby kulovité umožňují pohyb:",
+          "id": "j7",
+          "q": "Kloubní maz slouží hlavně jako:",
+          "options": [
+            "Zdroj výživy pro kloubní chrupavky",
+            "Pevné zpevnění kloubu",
+            "Krvetvorný materiál",
+            "Ochrana nervových vláken"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "j8",
+          "q": "Menisky v kolenním kloubu slouží k:",
+          "options": [
+            "Produkci kloubního mazu",
+            "Vyrovnávání nerovností kloubních ploch",
+            "Spojení kosti s okosticí",
+            "Přenosu nervových signálů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "j9",
+          "q": "Synoviální váčky (tíhové vaky) jsou uloženy v místě:",
+          "options": [
+            "Nervových pletení",
+            "Tření mezi šlachami, vazy a kloubním pouzdrem",
+            "Kostní dřeně",
+            "Kloubní chrupavky"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "j10",
+          "q": "Klouby kulovité (např. ramenní) umožňují pohyb:",
           "options": [
             "Pouze v jedné rovině",
             "Ve více osách",
             "Pouze otáčení",
             "Bez pohybu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "j11",
+          "q": "Flexe a extenze jsou pohyby kolem osy:",
+          "options": [
+            "Svislé",
+            "Příčné",
+            "Šípové",
+            "Frontální"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "j12",
+          "q": "Addukce a abdukce jsou pohyby kolem osy:",
+          "options": [
+            "Příčné",
+            "Svislé",
+            "Šípové",
+            "Frontální"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "j13",
+          "q": "Cirkumdukce (kroužení) je:",
+          "options": [
+            "Jednoduchý pohyb v jedné rovině",
+            "Složený pohyb kombinující flexi, extenzi, abdukci a addukci",
+            "Otáčení kolem svislé osy",
+            "Pohyb pouze v kloubu kolenním"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "j14",
+          "q": "Rozsah pohybu v kloubu s věkem:",
+          "options": [
+            "Roste, protože kosti jsou silnější",
+            "Zmenšuje se, protože klesá elasticita pohybového aparátu",
+            "Zůstává stejný",
+            "Závisí pouze na pohlaví"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "j15",
+          "q": "Kloubní pouzdro je tvořeno:",
+          "options": [
+            "Pouze chrupavkou",
+            "Dvěma vrstvami vaziva – vnitřní synoviální a zevní pevnou vazivovou",
+            "Pouze kostní tkání",
+            "Svalovými vlákny"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+
+    {
+      "id": "movement",
+      "title": "Pohybové ústrojí – obecně",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "m1",
+          "q": "Pohybové ústrojí tvoří:",
+          "options": [
+            "Jen kosterní soustava",
+            "Kosterní a svalová soustava",
+            "Nervová a svalová soustava",
+            "Kosterní, svalová a trávicí soustava"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "m2",
+          "q": "Pasivní složkou pohybového ústrojí je:",
+          "options": [
+            "Svalová soustava",
+            "Nervová soustava",
+            "Kosterní soustava",
+            "Cévní soustava"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "m3",
+          "q": "Aktivní složkou pohybového ústrojí je:",
+          "options": [
+            "Kosterní soustava",
+            "Svalová soustava",
+            "Cévní soustava",
+            "Dýchací soustava"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "m4",
+          "q": "Aktivitu svalové soustavy řídí:",
+          "options": [
+            "Endokrinní systém",
+            "Nervová soustava",
+            "Kosterní soustava",
+            "Trávicí soustava"
           ],
           "answer_index": 1
         }
