@@ -33,62 +33,25 @@ data = load_questions()
 st.title(data.get("title", "Test"))
 
 sections = data.get("sections", [])
-all_ids = [s["id"] for s in sections]
 
-# ── Session state init ─────────────────────────────────────────────────────────
-if "selected" not in st.session_state:
-    st.session_state["selected"] = set(all_ids)
-
-# ── Sidebar ────────────────────────────────────────────────────────────────────
+# ── Sidebar – čistý klikací seznam kapitol ─────────────────────────────────────
 st.sidebar.header("📚 Kapitoly")
+st.sidebar.markdown("Klikni na kapitolu pro přechod na otázky:")
+st.sidebar.markdown("---")
 
+# Klikatelné kotvy – každá kapitola jako odkaz
+sidebar_links = ""
+for sec in sections:
+    sidebar_links += f'<a href="#{sec["id"]}" style="display:block; padding:4px 0; color:#1f77b4; text-decoration:none; font-size:14px;">▸ {sec["title"]}</a>\n'
+
+st.sidebar.markdown(sidebar_links, unsafe_allow_html=True)
+
+st.sidebar.markdown("---")
 if st.sidebar.button("🔄 Reset odpovědí"):
     for k in list(st.session_state.keys()):
         if k.startswith("ans_"):
             del st.session_state[k]
     st.rerun()
-
-st.sidebar.markdown("---")
-
-col_a, col_b = st.sidebar.columns(2)
-if col_a.button("✅ Vše"):
-    st.session_state["selected"] = set(all_ids)
-    st.rerun()
-if col_b.button("❌ Nic"):
-    st.session_state["selected"] = set()
-    st.rerun()
-
-st.sidebar.markdown("---")
-
-for sec in sections:
-    checked = sec["id"] in st.session_state["selected"]
-    new_checked = st.sidebar.checkbox(
-        sec["title"],
-        value=checked,
-        key=f"chk_{sec['id']}"
-    )
-    if new_checked != checked:
-        if new_checked:
-            st.session_state["selected"].add(sec["id"])
-        else:
-            st.session_state["selected"].discard(sec["id"])
-        st.rerun()
-
-selected = st.session_state["selected"]
-
-# ── Navigační přehled kapitol na začátku stránky ───────────────────────────────
-st.markdown("### 📋 Přehled vybraných kapitol")
-
-visible_sections = [s for s in sections if s["id"] in selected]
-
-if visible_sections:
-    nav_cols = st.columns(3)
-    for i, sec in enumerate(visible_sections):
-        nav_cols[i % 3].markdown(f"[{sec['title']}](#{sec['id']})")
-else:
-    st.info("Žádná kapitola není vybrána. Zaškrtni kapitoly v levém panelu.")
-
-st.divider()
 
 # ── Otázky ─────────────────────────────────────────────────────────────────────
 total = 0
@@ -96,9 +59,6 @@ answered = 0
 correct = 0
 
 for sec in sections:
-    if sec["id"] not in selected:
-        continue
-
     # HTML kotva pro navigaci
     st.markdown(f"<div id='{sec['id']}'></div>", unsafe_allow_html=True)
     st.subheader(sec["title"])
