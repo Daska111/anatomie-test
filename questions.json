@@ -1,2347 +1,1666 @@
-{
-  "title": "Anatomie – komplexní test (dle skript)",
-  "sections": [
-    {
-      "id": "intro",
-      "title": "Úvod – anatomie, fyziologie, kineziologie",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "i1",
-          "q": "Co je anatomie?",
-          "options": [
-            "Nauka o funkci organismu",
-            "Nauka o stavbě lidského těla, jeho uložení, struktuře a vzájemných vztazích částí vůči celku",
-            "Nauka o pohybu",
-            "Nauka o tkáních"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "i2",
-          "q": "Čím se zabývá fyziologie?",
-          "options": [
-            "Stavbou těla",
-            "Funkcí organismu",
-            "Popisem kloubů",
-            "Genetikou"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "i3",
-          "q": "Kineziologie je:",
-          "options": [
-            "Nauka o podmínkách a zákonech pohybu u živých bytostí",
-            "Nauka o svalech",
-            "Nauka o kostech",
-            "Nauka o kloubech"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "i4",
-          "q": "Kineziologie navazuje na znalosti:",
-          "options": [
-            "Fyziologie",
-            "Anatomie",
-            "Genetiky",
-            "Kineziologie samotné"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "i5",
-          "q": "Anatomie a fyziologie jsou vědní obory, které jsou:",
-          "options": [
-            "Navzájem nesouvisející",
-            "Vzájemně se doplňující",
-            "Identické",
-            "Vzájemně si odporující"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "cell",
-      "title": "Buňka – stavba a vlastnosti",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "c1",
-          "q": "Buňka je:",
-          "options": [
-            "Nejmenší orgán",
-            "Základní stavební a funkční jednotka organismu",
-            "Typ tkáně",
-            "Část chromozomu"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "c2",
-          "q": "Na povrchu buňky je:",
-          "options": [
-            "Cytoplazma",
-            "Buněčná membrána",
-            "Jádro",
-            "Chromozom"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "c3",
-          "q": "Tělo buňky je tvořeno:",
-          "options": [
-            "Pouze jádrem",
-            "Buněčným jádrem s jadérkem a buněčnými organelami",
-            "Jen cytoplazmou",
-            "Jen mitochondriemi"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "c4",
-          "q": "Cytoplazma obsahuje především:",
-          "options": [
-            "Vodu, bílkoviny, tuky, cukry, soli a další látky",
-            "Jen vodu",
-            "Jen bílkoviny",
-            "Jen tuky"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "c5",
-          "q": "Velikost buněk se běžně udává v:",
-          "options": [
-            "Milimetrech",
-            "Centimetrech",
-            "Mikrometrech",
-            "Metrech"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "c6",
-          "q": "Většina buněk těla má velikost přibližně:",
-          "options": [
-            "2 mikrometry",
-            "20 mikrometrů",
-            "200 mikrometrů",
-            "2 milimetry"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "c7",
-          "q": "Kolik párů chromozomů má lidská buňka?",
-          "options": [
-            "22",
-            "23",
-            "46",
-            "44"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "c8",
-          "q": "Kolik párů jsou chromozomy tělové?",
-          "options": [
-            "22 párů",
-            "23 párů",
-            "1 pár",
-            "46 párů"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "c9",
-          "q": "Pohlavní chromozom je označován jako:",
-          "options": [
-            "A nebo B",
-            "X nebo Y",
-            "M nebo F",
-            "P nebo Q"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "c10",
-          "q": "Nositelem genetických informací v buňce jsou:",
-          "options": [
-            "Mitochondrie",
-            "Chromozomy",
-            "Vakuoly",
-            "Ribozomy"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "c11",
-          "q": "Mezi základní vlastnosti buňky NEPATŘÍ:",
-          "options": [
-            "Růst a dráždivost",
-            "Přizpůsobivost a látková přeměna",
-            "Rozmnožování",
-            "Fotosyntéza"
-          ],
-          "answer_index": 3
-        },
-        {
-          "id": "c12",
-          "q": "Mezi buněčné organely patří:",
-          "options": [
-            "Chromozomy, vápník, fosfor",
-            "Mitochondrie, Golgiho komplex, endoplazmatické retikulum",
-            "Cytoplazma, membrána, jádro",
-            "Epitel, vazivo, chrupavka"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "tissues",
-      "title": "Tkáně, orgány a orgánové soustavy",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "t1",
-          "q": "Tkáně vznikají:",
-          "options": [
-            "Spojením orgánů",
-            "Seskupením buněk se stejným tvarem a jednou hlavní funkcí",
-            "Spojením svalů",
-            "Spojením kloubů"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "t2",
-          "q": "Jaké základní druhy tkání rozeznáváme?",
-          "options": [
-            "Epitely, pojiva, svalová tkáň, nervová tkáň, krev",
-            "Epitely, kosti, nervy, cévy",
-            "Svalová, kostní, nervová, cévní",
-            "Pojiva, epitely, krev, lymfa, mozek"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "t3",
-          "q": "Co zahrnují pojiva?",
-          "options": [
-            "Svaly, nervy a krev",
-            "Vazivo, chrupavku a kost",
-            "Epitely a nervovou tkáň",
-            "Pouze vazivo"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "t4",
-          "q": "Krev je z hlediska tkáně považována za:",
-          "options": [
-            "Zvláštní nervovou tkáň",
-            "Tekutou formu pojivové tkáně",
-            "Typ epitelové tkáně",
-            "Svalovou tkáň"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "t5",
-          "q": "Které z níže uvedených NENÍ základním druhem tkáně?",
-          "options": [
-            "Epitel",
-            "Svalová tkáň",
-            "Nervová tkáň",
-            "Chlopenní tkáň"
-          ],
-          "answer_index": 3
-        },
-        {
-          "id": "t6",
-          "q": "Orgán je:",
-          "options": [
-            "Seskupení buněk stejného druhu",
-            "Prostorově ohraničený celek z více druhů tkání, vykonávající určitou funkci",
-            "Každá tkáň v těle",
-            "Soubor orgánových soustav"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "t7",
-          "q": "Orgánovou soustavu tvoří orgány, které:",
-          "options": [
-            "Jsou si tvarově podobné",
-            "Slouží k určité společné funkci",
-            "Jsou na stejném místě v těle",
-            "Mají stejnou velikost"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "t8",
-          "q": "Jaké orgánové soustavy rozeznáváme?",
-          "options": [
-            "Kosterní, svalovou, trávicí, dýchací, močovou, pohlavní, žláz s vnitřní sekrecí, cévní, nervovou, smyslovou a kožní",
-            "Kosterní, svalovou, trávicí, dýchací a cévní",
-            "Nervovou, svalovou, imunitní, lymfatickou a kožní",
-            "Pohybovou, vegetativní, smyslovou a kožní"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "t9",
-          "q": "Která soustava NENÍ uvedena v základním přehledu orgánových soustav?",
-          "options": [
-            "Kosterní soustava",
-            "Dýchací soustava",
-            "Imunitní soustava",
-            "Nervová soustava"
-          ],
-          "answer_index": 2
-        }
-      ]
-    },
-    {
-      "id": "tissues_open",
-      "title": "Tkáně a soustavy – otázky slovy",
-      "type": "bones",
-      "questions": [
-        {
-          "id": "to1",
-          "q": "Vyjmenujte základní druhy tkání.",
-          "answers": [
-            "epitely, pojiva, svalová tkáň, nervová tkáň, krev",
-            "epitely pojiva svalová tkáň nervová tkáň krev",
-            "epitel, pojivo, sval, nerv, krev"
-          ]
-        },
-        {
-          "id": "to2",
-          "q": "Jaké orgánové soustavy rozeznáváme? Vyjmenujte je.",
-          "answers": [
-            "kosterní, svalová, trávicí, dýchací, močová, pohlavní, žlázy s vnitřní sekrecí, cévní, nervová, smyslová, kožní",
-            "kosterní svalová trávicí dýchací močová pohlavní cévní nervová smyslová kožní"
-          ]
-        },
-        {
-          "id": "to3",
-          "q": "Co zahrnují pojiva jako druh tkáně?",
-          "answers": [
-            "vazivo, chrupavka, kost",
-            "vazivo chrupavka kost"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "planes_axes",
-      "title": "Anatomické názvosloví – roviny a osy",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "p1",
-          "q": "Mediánní (střední) rovina rozděluje tělo na:",
-          "options": [
-            "Přední a zadní část",
-            "Horní a dolní část",
-            "Pravou a levou polovinu",
-            "Mediální a laterální část"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "p2",
-          "q": "Roviny příčné (transverzální) rozdělují tělo na:",
-          "options": [
-            "Přední a zadní část",
-            "Horní (kraniální) a dolní (kaudální) část",
-            "Pravou a levou část",
-            "Mediální a laterální část"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "p3",
-          "q": "Roviny čelní (frontální) dělí tělo na:",
-          "options": [
-            "Pravou a levou část",
-            "Horní a dolní část",
-            "Přední (ventrální) a zadní (dorzální) část",
-            "Proximální a distální část"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "p4",
-          "q": "Rovina rovnoběžná s mediánní rovinou se nazývá:",
-          "options": [
-            "Frontální rovina",
-            "Šípová (sagitální) rovina",
-            "Transverzální rovina",
-            "Dorzální rovina"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "p5",
-          "q": "Termín 'proximální' označuje směr:",
-          "options": [
-            "Vzdálenější od trupu (k periferii)",
-            "Bližší k trupu",
-            "Směrem vzad",
-            "Směrem ke střední rovině"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "p6",
-          "q": "Termín 'distální' označuje směr:",
-          "options": [
-            "Bližší k trupu",
-            "Ke střední rovině",
-            "Vzdálenější od trupu, k periferii končetin",
-            "Dopředu"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "p7",
-          "q": "Termín 'laterální' označuje směr:",
-          "options": [
-            "Ke střední rovině",
-            "Od střední roviny",
-            "Dolů",
-            "Nahoru"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "p8",
-          "q": "V základním anatomickém postavení jsou dlaně obráceny:",
-          "options": [
-            "Vzad",
-            "Dolů",
-            "Vpřed",
-            "K tělu"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "p9",
-          "q": "Osa předozadní (sagitální) zahrnuje směry:",
-          "options": [
-            "Kraniální a kaudální",
-            "Mediální a laterální",
-            "Ventrální (vpřed) a dorzální (vzad)",
-            "Proximální a distální"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "p10",
-          "q": "Směr 'kraniální' znamená:",
-          "options": [
-            "Směrem k dolní části trupu",
-            "Směrem k hlavě",
-            "Směrem vpřed",
-            "Směrem ke střední rovině"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "p11",
-          "q": "Směr 'kaudální' znamená:",
-          "options": [
-            "Směrem k hlavě",
-            "Směrem k dolní části trupu",
-            "Směrem vzad",
-            "Směrem od střední roviny"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "bones_structure",
-      "title": "Kosti – tvar a stavba",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "b1",
-          "q": "Tvar kosti odpovídá:",
-          "options": [
-            "Věku jedince",
-            "Funkci, které kost slouží",
-            "Pohlaví",
-            "Hmotnosti těla"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b2",
-          "q": "Které typy kostí rozlišujeme?",
-          "options": [
-            "Dlouhé, ploché, krátké, vzdušné a nepravidelného tvaru",
-            "Jen dlouhé a krátké",
-            "Jen ploché a vzdušné",
-            "Dlouhé, kulaté a hranaté"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "b3",
-          "q": "Na dlouhých kostech rozlišujeme:",
-          "options": [
-            "Tělo a hlavice",
-            "Pouze hlavice",
-            "Pouze tělo",
-            "Tělo a chrupavku"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "b4",
-          "q": "Tělo dlouhých kostí je:",
-          "options": [
-            "Plné",
-            "Duté",
-            "Vyplněné chrupavkou",
-            "Tvořeno houbovitou kostí"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b5",
-          "q": "Dutina dlouhých kostí se nazývá:",
-          "options": [
-            "Kloubní dutina",
-            "Dřeňová dutina",
-            "Haversův kanál",
-            "Synoviální dutina"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b6",
-          "q": "Dřeňovou dutinu obklopuje:",
-          "options": [
-            "Kost houbovitá",
-            "Kost hutná (kompakta)",
-            "Okostice",
-            "Synoviální výstelka"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b7",
-          "q": "Kost houbovitá je tvořena:",
-          "options": [
-            "Plnou kompaktní hmotou",
-            "Systémem trámečků navzájem propletených",
-            "Chrupavkou",
-            "Vazivem"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b8",
-          "q": "Uspořádání trámců houbovité kosti tak, aby odolávaly tlaku a tahu, se nazývá:",
-          "options": [
-            "Kompaktnost",
-            "Architektonika kosti",
-            "Elasticita",
-            "Synovie"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b9",
-          "q": "Organická složka (osein) kostní tkáně zajišťuje:",
-          "options": [
-            "Pevnost kosti",
-            "Pružnost kosti",
-            "Krvetvorbu",
-            "Výživu kosti"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b10",
-          "q": "Anorganická (minerální) složka kostní tkáně zajišťuje:",
-          "options": [
-            "Pružnost kosti",
-            "Pevnost kosti",
-            "Krvetvorbu",
-            "Výživu kosti"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b11",
-          "q": "Anorganická složka kostní tkáně obsahuje zejména:",
-          "options": [
-            "Železo a hořčík",
-            "Sodík a draslík",
-            "Vápník a fosfor",
-            "Zinek a měď"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "b12",
-          "q": "Okostice je:",
-          "options": [
-            "Kloubní chrupavka",
-            "Tuhá vazivová blána kryjící povrch kosti (mimo kloubní plochy)",
-            "Vnitřní výstelka dřeňové dutiny",
-            "Synoviální vrstva"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b13",
-          "q": "Okostice zajišťuje:",
-          "options": [
-            "Pouze tvorbu červených krvinek",
-            "Výživu kostí, růst kostí do šířky; je citlivá díky nervovým vláknům",
-            "Jen mechanickou ochranu kosti",
-            "Tvorbu synoviální tekutiny"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b14",
-          "q": "Červená kostní dřeň je:",
-          "options": [
-            "Zásobárna tuku",
-            "Krvetvorný orgán",
-            "Součást synoviální výstelky",
-            "Druh pojivové tkáně bez funkce"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b15",
-          "q": "Žlutá kostní dřeň vzniká, když jsou krvetvorné buňky nahrazeny:",
-          "options": [
-            "Nervovými buňkami",
-            "Tukovými buňkami",
-            "Svalovými buňkami",
-            "Chrupavkovými buňkami"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b16",
-          "q": "V dospělosti je krvetvorba soustředěna hlavně do kostí:",
-          "options": [
-            "Dlouhých (femur, tibia)",
-            "Plochých (hrudní, kyčelní) a krátkých",
-            "Vzdušných",
-            "Zápěstních"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "b17",
-          "q": "Kloubní plochy kostí jsou pokryty:",
-          "options": [
-            "Okosticí",
-            "Kloubní chrupavkou",
-            "Kostní dření",
-            "Vazivem"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "joints",
-      "title": "Spojení kostí a klouby",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "j1",
-          "q": "Kosti jsou v těle spojeny:",
-          "options": [
-            "Jedním způsobem",
-            "Dvojím způsobem – souvisle nebo kloubně",
-            "Pouze kloubně",
-            "Pouze vazivem"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j2",
-          "q": "Jaké tři druhy souvislých spojení kostí rozeznáváme?",
-          "options": [
-            "Pomocí vaziva, chrupavky nebo kosti",
-            "Pomocí vaziva, svalu nebo nervu",
-            "Pomocí chrupavky, kosti nebo synovie",
-            "Pomocí kloubního pouzdra, vazu nebo ploténky"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "j3",
-          "q": "Kosti lebeční jsou příkladem spojení:",
-          "options": [
-            "Pomocí chrupavky",
-            "Pomocí vaziva",
-            "Pomocí kosti",
-            "Kloubního"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j4",
-          "q": "Meziobratlové ploténky jsou příkladem spojení:",
-          "options": [
-            "Pomocí vaziva",
-            "Pomocí chrupavky",
-            "Pomocí kosti",
-            "Kloubního"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j5",
-          "q": "Kost kyčelní je příkladem spojení:",
-          "options": [
-            "Pomocí vaziva",
-            "Pomocí chrupavky",
-            "Pomocí kosti",
-            "Kloubního"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "j6",
-          "q": "Kloub (articulatio) vzniká spojením:",
-          "options": [
-            "Jedné kosti",
-            "Dvou nebo více kostí",
-            "Svalu a kosti",
-            "Chrupavky a svalu"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j7",
-          "q": "Styčné kloubní plochy jsou pokryty:",
-          "options": [
-            "Okosticí",
-            "Kloubní chrupavkou",
-            "Synoviální membránou",
-            "Vazivem"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j8",
-          "q": "Kloubní pouzdro se skládá z:",
-          "options": [
-            "Jedné vrstvy chrupavky",
-            "Dvou vrstev vaziva – vnitřní synoviální a zevní pevné",
-            "Pouze kostní tkáně",
-            "Svalových vláken"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j9",
-          "q": "Vnitřní vrstva kloubního pouzdra (synoviální výstelka):",
-          "options": [
-            "Produkuje kloubní maz (synovii)",
-            "Je tvořena kostí",
-            "Je tvořena chrupavkou",
-            "Tvoří kloubní vazy"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "j10",
-          "q": "Kloubní maz slouží hlavně jako:",
-          "options": [
-            "Zdroj výživy pro kloubní chrupavky",
-            "Pevné zpevnění kloubu",
-            "Krvetvorný materiál",
-            "Ochrana nervových vláken"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "j11",
-          "q": "Menisky v kolenním kloubu slouží k:",
-          "options": [
-            "Produkci kloubního mazu",
-            "Vyrovnávání nerovností kloubních ploch",
-            "Spojení kosti s okosticí",
-            "Přenosu nervových signálů"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j12",
-          "q": "Synoviální váčky (tíhové vaky) jsou uloženy v místě:",
-          "options": [
-            "Nervových pletení",
-            "Tření mezi šlachami, vazy a kloubním pouzdrem",
-            "Kostní dřeně",
-            "Kloubní chrupavky"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j13",
-          "q": "Podle počtu kostí dělíme klouby na:",
-          "options": [
-            "Jednoduché a složené",
-            "Kulovité a válcové",
-            "Pohyblivé a tuhé",
-            "Velké a malé"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "j14",
-          "q": "Příkladem jednoduchého kloubu je kloub, kde:",
-          "options": [
-            "Se stýkají více než dvě kosti",
-            "Se dotýkají pouze dvě kosti",
-            "Je vsunut disk nebo meniskus",
-            "Není kloubní chrupavka"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j15",
-          "q": "Klouby kulovité (např. ramenní) umožňují pohyb:",
-          "options": [
-            "Pouze v jedné rovině",
-            "Ve více osách",
-            "Pouze otáčení",
-            "Bez pohybu"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j16",
-          "q": "Příkladem kloubu válcového je:",
-          "options": [
-            "Kloub ramenní",
-            "Klouby mezi články prstů",
-            "Kloub kolenní",
-            "Spojení kosti týlní s prvním krčním obratlem"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j17",
-          "q": "Příkladem kloubu elipsového je:",
-          "options": [
-            "Kloub ramenní",
-            "Kloub loketní",
-            "Spojení mezi kostí týlní a prvním krčním obratlem",
-            "Kloub kolenní"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "j18",
-          "q": "Příkladem kloubu sedlového je:",
-          "options": [
-            "Kloub ramenní",
-            "Kloub mezi záprstní kostí palce a zápěstní kůstkou",
-            "Kloub kolenní",
-            "Kloub kyčelní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j19",
-          "q": "Příkladem kloubu tuhého je:",
-          "options": [
-            "Kloub ramenní",
-            "Kloub kolenní",
-            "Spojení mezi kostí křížovou a pánevní",
-            "Kloub loketní"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "j20",
-          "q": "Rozsah pohybu v kloubu s věkem:",
-          "options": [
-            "Roste, protože kosti jsou silnější",
-            "Zmenšuje se, protože klesá elasticita pohybového aparátu",
-            "Zůstává stejný",
-            "Závisí pouze na pohlaví"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "j21",
-          "q": "Rozsah pohybu v kloubu je u žen ve srovnání s muži stejného věku zpravidla:",
-          "options": [
-            "Menší",
-            "Stejný",
-            "Větší",
-            "Nelze porovnat"
-          ],
-          "answer_index": 2
-        }
-      ]
-    },
-    {
-      "id": "movement_types",
-      "title": "Pohyby v kloubech",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "mv1",
-          "q": "Flexe a extenze jsou pohyby kolem osy:",
-          "options": [
-            "Svislé",
-            "Příčné",
-            "Šípové",
-            "Frontální"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "mv2",
-          "q": "Flexe znamená:",
-          "options": [
-            "Natažení (narovnání) v kloubu",
-            "Ohnutí v kloubu",
-            "Otočení končetiny",
-            "Odtažení od těla"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "mv3",
-          "q": "Extenze znamená:",
-          "options": [
-            "Ohnutí v kloubu",
-            "Natažení (narovnání) v kloubu",
-            "Přitažení k tělu",
-            "Rotace"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "mv4",
-          "q": "Addukce a abdukce jsou pohyby kolem osy:",
-          "options": [
-            "Příčné",
-            "Svislé",
-            "Šípové",
-            "Frontální"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "mv5",
-          "q": "Addukce znamená:",
-          "options": [
-            "Odtažení končetiny od těla",
-            "Přitažení končetiny k tělu (ke střední rovině)",
-            "Ohnutí v kloubu",
-            "Otočení dovnitř"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "mv6",
-          "q": "Abdukce znamená:",
-          "options": [
-            "Přitažení končetiny k tělu",
-            "Ohnutí v kloubu",
-            "Odtažení končetiny od těla (od střední roviny)",
-            "Natažení v kloubu"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "mv7",
-          "q": "Rotace (otáčení) probíhá kolem osy:",
-          "options": [
-            "Příčné",
-            "Šípové",
-            "Svislé",
-            "Frontální"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "mv8",
-          "q": "Pronace je:",
-          "options": [
-            "Otočení předloktí tak, aby dlaň směřovala nahoru",
-            "Otočení předloktí tak, aby dlaň směřovala dolů (dopředu)",
-            "Ohnutí v loketním kloubu",
-            "Přitažení paže k tělu"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "mv9",
-          "q": "Supinace je:",
-          "options": [
-            "Otočení předloktí tak, aby dlaň směřovala dolů",
-            "Otočení předloktí tak, aby dlaň směřovala nahoru (dozadu)",
-            "Natažení v loketním kloubu",
-            "Odtažení paže od těla"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "mv10",
-          "q": "Pronace a supinace jsou příkladem pohybu:",
-          "options": [
-            "Flexe a extenze",
-            "Addukce a abdukce",
-            "Rotace na horní končetině",
-            "Cirkumdukce"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "mv11",
-          "q": "Cirkumdukce (kroužení) je:",
-          "options": [
-            "Jednoduchý pohyb v jedné rovině",
-            "Složený pohyb kombinující flexi, extenzi, abdukci a addukci",
-            "Otáčení kolem svislé osy",
-            "Pohyb pouze v kolenním kloubu"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "joints_upper",
-      "title": "Klouby horní končetiny – proximo-distální směr",
-      "type": "bones",
-      "questions": [
-        {
-          "id": "ju1",
-          "q": "Vyjmenujte klouby horní končetiny v proximo-distálním směru (od trupu k prstům).",
-          "answers": [
-            "kloub ramenní, kloub loketní, klouby zápěstní, klouby záprstní, klouby prstů",
-            "ramenní, loketní, zápěstní, záprstní, prstů",
-            "ramenní loketní zápěstní záprstní prstů"
-          ]
-        },
-        {
-          "id": "ju2",
-          "q": "Jaký kloub spojuje pažní kost s lopatkou?",
-          "answers": [
-            "kloub ramenní",
-            "ramenní kloub",
-            "ramenní"
-          ]
-        },
-        {
-          "id": "ju3",
-          "q": "Jaký kloub leží mezi pažní kostí a kostmi předloktí?",
-          "answers": [
-            "kloub loketní",
-            "loketní kloub",
-            "loketní"
-          ]
-        },
-        {
-          "id": "ju4",
-          "q": "Jaké klouby spojují předloktí s rukou?",
-          "answers": [
-            "klouby zápěstní",
-            "zápěstní klouby",
-            "zápěstní"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "joints_lower",
-      "title": "Klouby dolní končetiny – proximo-distální směr",
-      "type": "bones",
-      "questions": [
-        {
-          "id": "jl1",
-          "q": "Vyjmenujte klouby dolní končetiny v proximo-distálním směru (od trupu k prstům).",
-          "answers": [
-            "kloub kyčelní, kloub kolenní, klouby hlezenní, klouby nártní, klouby prstů",
-            "kyčelní, kolenní, hlezenní, nártní, prstů",
-            "kyčelní kolenní hlezenní nártní prstů"
-          ]
-        },
-        {
-          "id": "jl2",
-          "q": "Jaký kloub spojuje stehenní kost s pánevní kostí?",
-          "answers": [
-            "kloub kyčelní",
-            "kyčelní kloub",
-            "kyčelní"
-          ]
-        },
-        {
-          "id": "jl3",
-          "q": "Jaký kloub leží mezi stehenní kostí a kostmi bérce?",
-          "answers": [
-            "kloub kolenní",
-            "kolenní kloub",
-            "kolenní"
-          ]
-        },
-        {
-          "id": "jl4",
-          "q": "Jaké klouby spojují bérec s nohou?",
-          "answers": [
-            "klouby hlezenní",
-            "hlezenní klouby",
-            "hlezenní"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "movement_general",
-      "title": "Pohybové ústrojí – obecně",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "mg1",
-          "q": "Pohybové ústrojí tvoří:",
-          "options": [
-            "Jen kosterní soustava",
-            "Kosterní a svalová soustava",
-            "Nervová a svalová soustava",
-            "Kosterní, svalová a trávicí soustava"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "mg2",
-          "q": "Pasivní složkou pohybového ústrojí je:",
-          "options": [
-            "Svalová soustava",
-            "Nervová soustava",
-            "Kosterní soustava",
-            "Cévní soustava"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "mg3",
-          "q": "Aktivní složkou pohybového ústrojí je:",
-          "options": [
-            "Kosterní soustava",
-            "Svalová soustava",
-            "Cévní soustava",
-            "Dýchací soustava"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "mg4",
-          "q": "Aktivitu svalové soustavy řídí:",
-          "options": [
-            "Endokrinní systém",
-            "Nervová soustava",
-            "Kosterní soustava",
-            "Trávicí soustava"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "pater",
-      "title": "Páteř",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "pa1",
-          "q": "Z kolika obratlů se skládá páteř člověka?",
-          "options": [
-            "28–30",
-            "33–34",
-            "36–38",
-            "24–26"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa2",
-          "q": "Kolik krčních obratlů má páteř?",
-          "options": [
-            "5",
-            "7",
-            "12",
-            "4"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa3",
-          "q": "Kolik hrudních obratlů má páteř?",
-          "options": [
-            "5",
-            "7",
-            "12",
-            "10"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "pa4",
-          "q": "Kolik bederních obratlů má páteř?",
-          "options": [
-            "3",
-            "4",
-            "5",
-            "7"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "pa5",
-          "q": "Kolik křížových obratlů je srostlých v kost křížovou?",
-          "options": [
-            "3",
-            "4",
-            "5",
-            "7"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "pa6",
-          "q": "Kolik kostrčních obratlů tvoří kostrč?",
-          "options": [
-            "2–3",
-            "4–5",
-            "6–7",
-            "3–4"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa7",
-          "q": "Mezi hlavní funkce páteře patří:",
-          "options": [
-            "Krvetvorba a ochrana srdce",
-            "Ochrana míchy a CNS před otřesy, umožňuje pohyb a vzpřímené držení těla",
-            "Výživa míchy a tvorba kloubního mazu",
-            "Pouze vzpřímené držení těla"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa8",
-          "q": "Na každém obratli rozlišujeme:",
-          "options": [
-            "Tělo, hlavici a krček",
-            "Tělo, oblouk a výběžky",
-            "Tělo, ploténku a vazy",
-            "Oblouk, ploténku a krček"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa9",
-          "q": "Páteřní kanál vzniká:",
-          "options": [
-            "Spojením obratlových těl",
-            "Nastavením obratlových otvorů na sebe",
-            "Propletením vazů páteře",
-            "Spojením meziobratlových plotének"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa10",
-          "q": "Co prochází meziobratlových otvory?",
-          "options": [
-            "Cévy páteřní",
-            "Míšní nervy",
-            "Vazy páteře",
-            "Mozkomíšní mok"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa11",
-          "q": "Obratlové výběžky jsou celkem:",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "9"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "pa12",
-          "q": "Trnový výběžek obratle míří:",
-          "options": [
-            "Dopředu",
-            "Do stran",
-            "Dozadu",
-            "Nahoru"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "pa13",
-          "q": "Příčné výběžky obratle míří:",
-          "options": [
-            "Dozadu",
-            "Do stran a upínají se na ně svaly a žebra",
-            "Nahoru a dolů",
-            "Dopředu"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa14",
-          "q": "Kloubní výběžky obratle zajišťují:",
-          "options": [
-            "Upínání svalů",
-            "Pohyblivé spojení obratlů",
-            "Ochranu míchy",
-            "Spojení s žebry"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa15",
-          "q": "1. krční obratel se nazývá:",
-          "options": [
-            "Axis",
-            "Atlas (nosič)",
-            "Čepovec",
-            "Epistropheus"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa16",
-          "q": "2. krční obratel se nazývá:",
-          "options": [
-            "Atlas",
-            "Nosič",
-            "Čepovec (axis)",
-            "Prominens"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "pa17",
-          "q": "Atlas (1. krční obratel) se liší od ostatních tím, že:",
-          "options": [
-            "Má mohutné tělo",
-            "Nemá tělo, tvoří ho jen dva kostěné oblouky",
-            "Má rozvidlený trnový výběžek",
-            "Je srostlý s lebkou"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa18",
-          "q": "Atlas se horní plochou spojuje s:",
-          "options": [
-            "Kostí čelní",
-            "Kostí klínovou",
-            "Kostí týlní na lebce",
-            "2. krčním obratlem"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "pa19",
-          "q": "Čepovec (axis) má výběžek, kolem kterého se:",
-          "options": [
-            "Otáčí lebka",
-            "Otáčí atlas",
-            "Upínají žebra",
-            "Prochází mícha"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa20",
-          "q": "Kost křížová vzniká srůstem:",
-          "options": [
-            "4 křížových obratlů",
-            "5 křížových obratlů",
-            "4–5 kostrčních obratlů",
-            "3 bederních obratlů"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa21",
-          "q": "Kost křížová má tvar:",
-          "options": [
-            "Kulovitý",
-            "Klínovitý",
-            "Válcový",
-            "Plochý obdélníkový"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa22",
-          "q": "Kostrč je:",
-          "options": [
-            "Část bederní páteře",
-            "Malá kůstka klínovitého tvaru vzniklá srůstem zakrnělých 4–5 kostrčních obratlů",
-            "Synonymum pro kost křížovou",
-            "Část pánve"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa23",
-          "q": "Meziobratlové ploténky jsou tvořeny:",
-          "options": [
-            "Kostní tkání s dřeňovou dutinou",
-            "Chrupavkou s rosolovitým jádrem uprostřed",
-            "Vazivem a synoviální výstelkou",
-            "Pouze tuhým vazivem"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa24",
-          "q": "Kolik meziobratlových plotének je v páteři?",
-          "options": [
-            "18",
-            "23",
-            "26",
-            "33"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa25",
-          "q": "Tloušťka meziobratlových plotének se směrem ke kosti křížové:",
-          "options": [
-            "Zmenšuje",
-            "Zvětšuje",
-            "Nemění",
-            "Střídá"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa26",
-          "q": "Páteř je dvakrát esovitě zakřivena. V krčním a bederním úseku je zakřivena:",
-          "options": [
-            "Dozadu – kyfóza",
-            "Dopředu – lordóza",
-            "Do strany – skolióza",
-            "Není zakřivena"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa27",
-          "q": "V hrudním a křížovém úseku je páteř zakřivena:",
-          "options": [
-            "Dopředu – lordóza",
-            "Do strany – skolióza",
-            "Dozadu – kyfóza",
-            "Není zakřivena"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "pa28",
-          "q": "Co je skolióza?",
-          "options": [
-            "Zvýšená lordóza bederní páteře",
-            "Zakřivení páteře směrem do boku",
-            "Chybění lordózy krční i bederní",
-            "Plynulá kyfóza krční a hrudní páteře"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "pa29",
-          "q": "Záda plochá jsou charakterizována:",
-          "options": [
-            "Vystupňovanými lordózami i kyfózami",
-            "Chyběním lordózy krční i bederní",
-            "Plynulou kyfózou krční a hrudní páteře",
-            "Zakřivením do boku"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "hrudnik",
-      "title": "Kostra hrudníku",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "hr1",
-          "q": "Kostru hrudníku tvoří:",
-          "options": [
-            "Žebra a kost hrudní",
-            "Hrudní obratle, kost hrudní a žebra",
-            "Žebra, kost hrudní a klíček",
-            "Hrudní obratle a žebra"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "hr2",
-          "q": "Kolik párů žeber má člověk?",
-          "options": [
-            "10",
-            "11",
-            "12",
-            "14"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "hr3",
-          "q": "Kolik párů jsou žebra pravá (končí na kosti hrudní)?",
-          "options": [
-            "5",
-            "7",
-            "9",
-            "3"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "hr4",
-          "q": "Žebra nepravá:",
-          "options": [
-            "Končí přímo na kosti hrudní",
-            "Končí vždy na chrupavce páru předchozího",
-            "Nepřipojují se vůbec",
-            "Jsou srostlá s klíčkem"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "hr5",
-          "q": "Kolik párů jsou žebra volná?",
-          "options": [
-            "3",
-            "2",
-            "4",
-            "1"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "hr6",
-          "q": "Žebra volná jsou ta, která:",
-          "options": [
-            "Končí na kosti hrudní",
-            "Končí na chrupavce předchozího páru",
-            "Končí v dutině břišní ve svalové stěně a nepřipojují se na kost hrudní",
-            "Jsou srostlá s hrudními obratli"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "hr7",
-          "q": "Zadní konce žeber jsou připojeny k hrudním obratlům:",
-          "options": [
-            "Vazivem",
-            "Kloubně",
-            "Chrupavčitě",
-            "Srůstem"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "hr8",
-          "q": "Kost hrudní se skládá ze tří částí:",
-          "options": [
-            "Tělo, hlavice, krček",
-            "Rukojeť, tělo a mečovitý výběžek",
-            "Tělo, oblouk a výběžky",
-            "Rukojeť, oblouk a výběžek"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "hr9",
-          "q": "Kost hrudní je:",
-          "options": [
-            "Párová dlouhá kost",
-            "Nepárová plochá kost",
-            "Párová krátká kost",
-            "Vzdušná kost"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "lebka",
-      "title": "Kostra hlavy – lebka",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "le1",
-          "q": "Kostra hlavy je tvořena:",
-          "options": [
-            "16 kostmi",
-            "22 samostatnými lebečními kostmi",
-            "18 kostmi",
-            "30 kostmi"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "le2",
-          "q": "Lebku rozdělujeme na:",
-          "options": [
-            "Část přední a zadní",
-            "Část mozkovou a obličejovou",
-            "Část horní a dolní",
-            "Část kostěnou a chrupavčitou"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "le3",
-          "q": "Část mozková lebky tvoří:",
-          "options": [
-            "Ochranné pouzdro pro mozek",
-            "Podklad obličeje",
-            "Ohraničení dutiny ústní",
-            "Ochranu hrtanu"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "le4",
-          "q": "Kosti mozkové části lebky jsou spojeny:",
-          "options": [
-            "Kloubně",
-            "Chrupavčitě",
-            "Vazivovými švy",
-            "Srůstem s mozkem"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "le5",
-          "q": "Která kost je spojena s kostí spánkovou kloubem čelistním?",
-          "options": [
-            "Horní čelist",
-            "Dolní čelist",
-            "Kost lícní",
-            "Kost nosní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "le6",
-          "q": "Část obličejová lebky tvoří:",
-          "options": [
-            "Ochranné pouzdro pro mozek",
-            "Podklad obličeje a ohraničuje dutinu ústní, nosní a očnici",
-            "Pouze ochranu zubů",
-            "Jen dutinu nosní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "le7",
-          "q": "Jazylka je zavěšena na výběžku kosti:",
-          "options": [
-            "Čelní",
-            "Týlní",
-            "Spánkové",
-            "Klínové"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "le8",
-          "q": "Jazylka slouží k:",
-          "options": [
-            "Ochraně mozku",
-            "Upevnění hrtanu",
-            "Spojení s dolní čelistí",
-            "Tvoří část dutiny nosní"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "kostra_horni",
-      "title": "Kostra horní končetiny",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "kh1",
-          "q": "Kostra horní končetiny se skládá z:",
-          "options": [
-            "Pouze kostry volné horní končetiny",
-            "Pletence horní končetiny a kostry volné horní končetiny",
-            "Lopatky, klíčku a pažní kosti",
-            "Pletenece a kloubů"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh2",
-          "q": "Pletenec horní končetiny tvoří:",
-          "options": [
-            "Lopatka, klíček a pažní kost",
-            "Lopatka a klíček",
-            "Klíček a kost hrudní",
-            "Lopatka a kost pažní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh3",
-          "q": "Lopatka (scapula) je:",
-          "options": [
-            "Dlouhá válcovitá kost",
-            "Plochá trojúhelníkovitá kost se dvěma plochami, třemi okraji a třemi úhly",
-            "Krátká nepravidelná kost",
-            "Vzdušná kost s dutinami"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh4",
-          "q": "Nadpažek (acromion) je:",
-          "options": [
-            "Výběžek pažní kosti",
-            "Místo, kde hřeben lopatky vybíhá vpředu nad kloubem ramenním",
-            "Část klíčku",
-            "Kloubní plocha lopatky"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh5",
-          "q": "Klíček (clavicula) je dlouhý přibližně:",
-          "options": [
-            "6–8 cm",
-            "12–16 cm",
-            "20–22 cm",
-            "8–10 cm"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh6",
-          "q": "Vnitřní konec klíčku je spojen s:",
-          "options": [
-            "Nadpažkem lopatky",
-            "Rukojetí kosti hrudní",
-            "Pažní kostí",
-            "Lopatkou"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh7",
-          "q": "Vnější konec klíčku se spojuje s:",
-          "options": [
-            "Rukojetí kosti hrudní",
-            "Pažní kostí",
-            "Nadpažkem lopatky",
-            "Lopatkou přímo"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "kh8",
-          "q": "Kostra volné horní končetiny se skládá z:",
-          "options": [
-            "Lopatky, pažní kosti a předloktí",
-            "Kostry paže, kostry předloktí a kostry ruky",
-            "Pažní kosti, loketní kosti a ruky",
-            "Klíčku, pažní kosti a předloktí"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh9",
-          "q": "Podkladem paže je:",
-          "options": [
-            "Kost loketní",
-            "Kost vřetenní",
-            "Kost pažní (humerus)",
-            "Klíček"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "kh10",
-          "q": "Kostra předloktí je tvořena:",
-          "options": [
-            "Kostí pažní a loketní",
-            "Kostí vřetenní (radius) a loketní (ulna)",
-            "Kostí vřetenní a zápěstními kostmi",
-            "Dvěma stejně velkými kostmi"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh11",
-          "q": "Kost vřetenní leží na straně předloktí:",
-          "options": [
-            "Malíkové",
-            "Palcové",
-            "Zadní",
-            "Přední"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh12",
-          "q": "Kost loketní leží na straně předloktí:",
-          "options": [
-            "Palcové",
-            "Malíkové",
-            "Přední",
-            "Zadní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh13",
-          "q": "Olecranon je:",
-          "options": [
-            "Výběžek kosti vřetenní",
-            "Mohutný výběžek loketní kosti vzadu (hmatný jako 'loket')",
-            "Část zápěstí",
-            "Kloubní plocha pažní kosti"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh14",
-          "q": "Kostra ruky se skládá z:",
-          "options": [
-            "Zápěstních, záprstních kostí a článků prstů",
-            "Pouze záprstních kostí a článků prstů",
-            "Zápěstních a záprstních kostí",
-            "8 článků prstů a zápěstí"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "kh15",
-          "q": "Kolik je kostí zápěstních?",
-          "options": [
-            "6",
-            "7",
-            "8",
-            "10"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "kh16",
-          "q": "Zápěstní kosti jsou sestaveny do:",
-          "options": [
-            "Jedné řady po osmi",
-            "Dvou řad po čtyřech",
-            "Tří řad",
-            "Jednoho kruhu"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh17",
-          "q": "Kolik je kostí záprstních?",
-          "options": [
-            "4",
-            "5",
-            "8",
-            "6"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh18",
-          "q": "Celkový počet článků prstů ruky je:",
-          "options": [
-            "12",
-            "14",
-            "16",
-            "10"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh19",
-          "q": "Palec ruky má článků:",
-          "options": [
-            "3",
-            "2",
-            "4",
-            "1"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kh20",
-          "q": "Ostatní prsty ruky (kromě palce) mají článků:",
-          "options": [
-            "2",
-            "3",
-            "4",
-            "5"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "klouby_horni",
-      "title": "Klouby horní končetiny",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "khkl1",
-          "q": "Kloub hrudoklíčkový připojuje:",
-          "options": [
-            "Klíční kost k lopatce",
-            "Klíční kost k rukojeti kosti hrudní",
-            "Lopatku k hrudní kosti",
-            "Klíček k pažní kosti"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "khkl2",
-          "q": "Kloub nadpažkoklíčkový spojuje:",
-          "options": [
-            "Lopatku s hrudní kostí",
-            "Klíční kost a nadpažek lopatky – je to tuhý kloub",
-            "Klíček s pažní kostí",
-            "Lopatku s obratle"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "khkl3",
-          "q": "Kloub ramenní je:",
-          "options": [
-            "Kloub válcový",
-            "Kloub kulovitý – nejpohyblivější kloub těla",
-            "Kloub kladkový",
-            "Kloub tuhý"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "khkl4",
-          "q": "V kloubu ramenním lze vykonávat tyto pohyby:",
-          "options": [
-            "Pouze flexi a extenzi",
-            "Předpažení, zapažení, upažení, připažení, vnitřní a zevní rotaci",
-            "Pouze rotaci",
-            "Flexi, extenzi a abdukci"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "khkl5",
-          "q": "Kloub loketní je:",
-          "options": [
-            "Kloub jednoduchý",
-            "Kloub složený, kde se stýkají kost pažní, loketní a vřetenní",
-            "Kloub kulovitý",
-            "Kloub tuhý"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "khkl6",
-          "q": "Pronace v loketním kloubu je pohyb, při němž:",
-          "options": [
-            "Je dlaň otočena vpřed, kosti předloketní jsou rovnoběžně",
-            "Je dlaň otočena vzad, obě kosti předloketní jsou překříženy",
-            "Dochází k ohnutí v loketním kloubu",
-            "Je paže přitažena k tělu"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "khkl7",
-          "q": "Supinace v loketním kloubu je pohyb, při němž:",
-          "options": [
-            "Je dlaň otočena vzad, kosti jsou překříženy",
-            "Je dlaň otočena vpřed, kosti předloketní jsou uloženy rovnoběžně",
-            "Dochází k natažení v loketním kloubu",
-            "Paže se odtahuje od těla"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "khkl8",
-          "q": "Kloub vřetenozápěstní připojuje:",
-          "options": [
-            "Zápěstí ke kosti loketní",
-            "Zápěstí ke kosti vřetenní",
-            "Dvě řady zápěstních kůstek mezi sebou",
-            "Záprstní kosti k zápěstí"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "khkl9",
-          "q": "Klouby mezičlánkové ruky umožňují:",
-          "options": [
-            "Pohyby ve všech směrech",
-            "Pouze ohnutí a natažení",
-            "Rotaci prstů",
-            "Odtažení a přitažení prstů"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "kostra_dolni",
-      "title": "Kostra dolní končetiny",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "kd1",
-          "q": "Pletenec dolní končetiny tvoří v dospělosti:",
-          "options": [
-            "Tři samostatné kosti",
-            "Jediná kost pánevní (os coxae)",
-            "Kost křížová a kostrč",
-            "Kost kyčelní a sedací"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kd2",
-          "q": "Za vývoje se kost pánevní skládá ze tří kostí:",
-          "options": [
-            "Kost křížová, kostrč, kost kyčelní",
-            "Kost kyčelní, stydká a sedací",
-            "Kost sedací, stydká a křížová",
-            "Kost kyčelní, loketní a sedací"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kd3",
-          "q": "Jamka kloubu kyčelního se nazývá:",
-          "options": [
-            "Condylus",
-            "Acetabulum",
-            "Glenoid",
-            "Fovea"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kd4",
-          "q": "Kostra volné dolní končetiny se skládá z:",
-          "options": [
-            "Kostry stehna, bérce a nohy",
-            "Stehna, kolenního kloubu a chodidla",
-            "Femuru, tibie a fibuly",
-            "Pletence a femuru"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "kd5",
-          "q": "Kost stehenní (femur) je:",
-          "options": [
-            "Nejdelší, ale ne nejmohutnější kost těla",
-            "Dlouhá, nejmohutnější kost lidského těla",
-            "Plochá kost pletence",
-            "Krátká kost bérce"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kd6",
-          "q": "Podkladem bérce jsou:",
-          "options": [
-            "Kost stehenní a holenní",
-            "Kost holenní (tibia) a lýtková (fibula)",
-            "Kost lýtková a patní",
-            "Pouze kost holenní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kd7",
-          "q": "Kost holenní leží na straně bérce:",
-          "options": [
-            "Malíkové (zevní)",
-            "Palcové (vnitřní)",
-            "Zadní",
-            "Přední"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kd8",
-          "q": "Vnitřní kotník je výběžkem kosti:",
-          "options": [
-            "Lýtkové",
-            "Holenní",
-            "Patní",
-            "Hlezenní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kd9",
-          "q": "Zevní kotník je výběžkem kosti:",
-          "options": [
-            "Holenní",
-            "Lýtkové",
-            "Patní",
-            "Hlezenní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kd10",
-          "q": "Čéška (patella) je:",
-          "options": [
-            "Kost patní",
-            "Sezamská kost zavzatá do šlachy čtyřhlavého svalu stehenního",
-            "Část hlezenního kloubu",
-            "Kloubní ploténka kolenního kloubu"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kd11",
-          "q": "Kostra nohy se skládá z:",
-          "options": [
-            "Kostí zánártních, nártních a článků prstů",
-            "Pouze nártních kostí a článků",
-            "Hlezenní kosti, nártních a článků",
-            "Patní, hlezenní a nártních kostí"
-          ],
-          "answer_index": 0
-        },
-        {
-          "id": "kd12",
-          "q": "Kolik je kostí zánártních?",
-          "options": [
-            "5",
-            "6",
-            "7",
-            "8"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "kd13",
-          "q": "Nejmohutnější zánártní kost je:",
-          "options": [
-            "Kost hlezenní",
-            "Kost patní (calcaneus)",
-            "Kost loďkovitá",
-            "Kost krychlová"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kd14",
-          "q": "Kolik je kostí nártních?",
-          "options": [
-            "4",
-            "5",
-            "6",
-            "7"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "klouby_dolni",
-      "title": "Klouby dolní končetiny",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "kdkl1",
-          "q": "Kloub křížokyčelní (articulatio sacroiliaca) je:",
-          "options": [
-            "Kulovitý kloub s velkým rozsahem pohybu",
-            "Tuhý kloub mezi kostí pánevní a křížovou, pohyby malého rozsahu",
-            "Chrupavčité spojení vpředu",
-            "Kloub složený s menisky"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kdkl2",
-          "q": "Spona stydká (symphysis pubica) je:",
-          "options": [
-            "Kloubní spojení s kloubním mazem",
-            "Chrupavčité spojení obou stydkých kostí vpředu",
-            "Vazivové spojení pánve",
-            "Tuhý kloub"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kdkl3",
-          "q": "Kloub kyčelní (articulatio coxae) je:",
-          "options": [
-            "Kloub kladkový",
-            "Kloub kulovitý, kde hlavici tvoří hlavice kosti stehenní a jamku acetabulum",
-            "Kloub složený s menisky",
-            "Kloub tuhý"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kdkl4",
-          "q": "V kloubu kyčelním lze vykonávat:",
-          "options": [
-            "Pouze flexi a extenzi",
-            "Přednožení, zanožení, unožení, přinožení, zevní a vnitřní rotaci",
-            "Pouze rotaci",
-            "Flexi, extenzi a abdukci"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kdkl5",
-          "q": "Kloub kolenní (articulatio genus) je kloub složený, kde se stýkají:",
-          "options": [
-            "Kost stehenní a holenní",
-            "Kost stehenní, holenní a čéška",
-            "Kost stehenní, lýtková a čéška",
-            "Kost holenní, lýtková a čéška"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kdkl6",
-          "q": "Menisky v kolenním kloubu jsou vsunuty mezi:",
-          "options": [
-            "Čéšku a kost holenní",
-            "Styčné plochy kosti stehenní a holenní",
-            "Kost lýtkovou a holenní",
-            "Kost stehenní a čéšku"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kdkl7",
-          "q": "Kolenní kloub je zesílen vazy:",
-          "options": [
-            "Pouze zevními postranními",
-            "Uvnitř křížovými, zevně postranními",
-            "Pouze předními",
-            "Pouze zadními"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kdkl8",
-          "q": "Kloub hlezenní (articulatio talocruralis) je kloub složený, kde se stýká:",
-          "options": [
-            "Kost patní a loďkovitá",
-            "Kost lýtková a holenní s kostí hlezenní",
-            "Kost holenní a patní",
-            "Kost hlezenní a nártní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "kdkl9",
-          "q": "V kloubu hlezenním jsou možné pohyby:",
-          "options": [
-            "Rotace a abdukce",
-            "Přiblížení nártu k bérci (natažení) a pohyb opačný (ohnutí)",
-            "Pouze rotace",
-            "Addukce a abdukce"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "nozni_klenba",
-      "title": "Nožní klenba",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "nk1",
-          "q": "Nožní klenba je:",
-          "options": [
-            "Pouze podélná",
-            "Podélná a příčná",
-            "Pouze příčná",
-            "Trojúhelníková a okrouhlá"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "nk2",
-          "q": "Nožní klenba způsobuje, že se noha dotýká podložky ve třech bodech. Které to jsou?",
-          "options": [
-            "Hrbol patní, hlavička 2. a 5. nártní kosti",
-            "Hrbol patní, hlavička palcové a malíkové kosti nártní",
-            "Hrbol patní, prsty a střed chodidla",
-            "Pata, nárt a prsty"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "nk3",
-          "q": "Nožní klenba je zabezpečována:",
-          "options": [
-            "Pouze vazy v chodidle",
-            "Pouze svaly plosky nohy",
-            "Vazy (v chodidle) a svaly (zejména v plosce nohy)",
-            "Kostní strukturou bez svalů a vazů"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "nk4",
-          "q": "Podélná klenba nohy je tvořena:",
-          "options": [
-            "Jedním paprskem",
-            "Dvěma paprsky – vnitřním a zevním",
-            "Třemi paprsky",
-            "Příčnými vazy"
-          ],
-          "answer_index": 1
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "svaly_obecne",
+    "title": "Svalová soustava – obecná nauka",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "so1",
+        "q": "Podle funkce dělíme svalstvo na:",
+        "options": [
+          "Svaly příčně pruhované, hladké a vzdušné",
+          "Svaly hladké, příčně pruhované kosterní a příčně pruhované srdeční",
+          "Svaly tonické, fázické a srdeční",
+          "Svaly červené, bílé a smíšené"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so2",
+        "q": "Hladká svalovina se nachází hlavně:",
+        "options": [
+          "Ve svalech končetin",
+          "V srdci",
+          "Ve stěně dutých orgánů a ve stěně cév",
+          "V kůži"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "so3",
+        "q": "Činnost hladké svaloviny:",
+        "options": [
+          "Je ovládána vůlí",
+          "Není ovládána vůlí",
+          "Je řízena míšními nervy",
+          "Závisí pouze na teplotě"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so4",
+        "q": "Příčně pruhovaná svalovina srdeční je specifická tím, že:",
+        "options": [
+          "Je ovládána vůlí",
+          "Nemá příčné pruhování",
+          "Mezi buňkami jsou spojovací můstky umožňující rychlé šíření vzruchu",
+          "Tvoří stěnu žaludku"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "so5",
+        "q": "Příčně pruhovaná svalovina kosterní je:",
+        "options": [
+          "Nejlehčí soustavou lidského těla",
+          "Nejobjemnější soustavou lidského těla",
+          "Součástí stěn dutých orgánů",
+          "Ovládána autonomním nervovým systémem"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so6",
+        "q": "Základní funkční jednotkou příčně pruhovaného svalu je:",
+        "options": [
+          "Jednojaderná buňka",
+          "Svalová šlacha",
+          "Mnohojaderná buňka – svalové vlákno",
+          "Snopec svalových vláken"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "so7",
+        "q": "Na těle člověka rozlišujeme přibližně kolik svalů?",
+        "options": [
+          "200",
+          "400",
+          "600",
+          "800"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "so8",
+        "q": "Začátek svalu je:",
+        "options": [
+          "Nejširší část svalu",
+          "Část, kterou je sval pomocí šlachy připojen ke kosti (méně pohyblivý konec)",
+          "Připojení svalu ke kosti na pohyblivějším konci",
+          "Vazivový obal svalu"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so9",
+        "q": "Úpon svalu je:",
+        "options": [
+          "Část, která se méně pohybuje",
+          "Nejširší část svalu",
+          "Připojení svalu ke kosti na pohyblivějším konci pomocí šlachy",
+          "Začáteční část svalu"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "so10",
+        "q": "Svalová šlacha je:",
+        "options": [
+          "Červená, bohatě prokrvená část svalu",
+          "Bělavá vazivová část spojující svalová vlákna s kostí",
+          "Část svalu tvořená tukovými buňkami",
+          "Totéž co svalová fascie"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so11",
+        "q": "Svalový tonus je:",
+        "options": [
+          "Maximální síla svalu při kontrakci",
+          "Klidové napětí svalu, které sval udržuje i v klidu",
+          "Schopnost svalu se zkrátit",
+          "Rychlost svalové kontrakce"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so12",
+        "q": "Chlad svalový tonus:",
+        "options": [
+          "Snižuje",
+          "Zvyšuje",
+          "Nemění",
+          "Nejprve zvyšuje, pak snižuje"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so13",
+        "q": "Svaly s převahou červených (pomalých) vláken nazýváme:",
+        "options": [
+          "Svaly fázické – mají tendenci k ochabování",
+          "Svaly tonické – mají tendenci ke zkracování",
+          "Svaly smíšené",
+          "Svaly antagonistické"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so14",
+        "q": "Svaly s převahou bílých (rychlých) vláken nazýváme:",
+        "options": [
+          "Svaly tonické – mají tendenci ke zkracování",
+          "Svaly fázické – mají tendenci k ochabování",
+          "Svaly agonistické",
+          "Svaly synergistické"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so15",
+        "q": "Agonisté jsou:",
+        "options": [
+          "Svaly provádějící pohyb opačný než hlavní sval",
+          "Svaly zpevňující část těla, ze které pohyb vychází",
+          "Hlavní svaly provádějící daný pohyb",
+          "Svaly spoluúčastnící se pohybu"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "so16",
+        "q": "Antagonisté jsou:",
+        "options": [
+          "Hlavní svaly provádějící pohyb",
+          "Svaly vykonávající pohyb opačný než agonisté",
+          "Svaly spoluúčastnící se pohybu",
+          "Svaly fixující polohu těla"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so17",
+        "q": "Izotonická kontrakce je taková, při které:",
+        "options": [
+          "Se sval zkracuje, ale napětí zůstává stejné",
+          "Sval nemění délku, mění se pouze napětí",
+          "Sval se nezkracuje ani neprodlužuje",
+          "Sval se prodlužuje za současného zvyšování napětí"
+        ],
+        "answer_index": 0
+      },
+      {
+        "id": "so18",
+        "q": "Izometrická kontrakce je taková, při které:",
+        "options": [
+          "Se sval zkracuje a napětí klesá",
+          "Sval mění délku, napětí zůstává stejné",
+          "Sval během činnosti nemění délku, mění se pouze jeho napětí",
+          "Sval se prodlužuje"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "so19",
+        "q": "Motorická nervová vlákna vedou do svalu:",
+        "options": [
+          "Informace o stupni napětí svalových vláken",
+          "Podněty ke smrštění svalových vláken",
+          "Nervové zásobení stěn krevních cév",
+          "Senzitivní informace ze svalových vřetének"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "so20",
+        "q": "Při poškození nervového zásobení svalu dojde k:",
+        "options": [
+          "Zvýšení svalového tonu",
+          "Zesílení svalu",
+          "Atrofii – svalová tkáň zaniká a je nahrazena vazivovou tkání",
+          "Pouze dočasnému oslabení"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "svaly_hlavy_zvy",
+    "title": "Svaly hlavy – žvýkací svaly",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "shz1",
+        "q": "Svaly hlavy dělíme na:",
+        "options": [
+          "Svaly žvýkací a mimické",
+          "Svaly povrchové a hluboké",
+          "Svaly přední a zadní",
+          "Svaly obličejové a lebeční"
+        ],
+        "answer_index": 0
+      },
+      {
+        "id": "shz2",
+        "q": "Latinský název zevního svalu žvýkacího je:",
+        "options": [
+          "M. temporalis",
+          "M. masseter",
+          "M. pterygoideus medialis",
+          "M. pterygoideus lateralis"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "shz3",
+        "q": "Funkce zevního svalu žvýkacího (m. masseter) je:",
+        "options": [
+          "Otevírá ústa",
+          "Zavírá ústa",
+          "Táhne čelist na opačnou stranu",
+          "Táhne dolní čelist dozadu"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "shz4",
+        "q": "Sval spánkový (m. temporalis):",
+        "options": [
+          "Zavírá ústa a táhne dolní čelist dopředu",
+          "Zavírá ústa a táhne dolní čelist dozadu",
+          "Otevírá ústa",
+          "Táhne čelist na opačnou stranu"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "shz5",
+        "q": "Latinský název svalu spánkového je:",
+        "options": [
+          "M. masseter",
+          "M. pterygoideus medialis",
+          "M. temporalis",
+          "M. pterygoideus lateralis"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "shz6",
+        "q": "Sval křídlový vnitřní (m. pterygoideus medialis):",
+        "options": [
+          "Zavírá ústa, táhne čelist na opačnou stranu",
+          "Otevírá ústa",
+          "Táhne dolní čelist dozadu",
+          "Táhne dolní čelist dopředu"
+        ],
+        "answer_index": 0
+      },
+      {
+        "id": "shz7",
+        "q": "Sval křídlový vnější (m. pterygoideus lateralis):",
+        "options": [
+          "Zavírá ústa, táhne dolní čelist dozadu",
+          "Otevírá ústa, táhne čelist na opačnou stranu",
+          "Táhne horní ret nahoru",
+          "Zavírá ústa, táhne čelist na opačnou stranu"
+        ],
+        "answer_index": 3
+      }
+    ]
+  },
+  {
+    "id": "svaly_hlavy_mim",
+    "title": "Svaly hlavy – mimické svaly",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "shm1",
+        "q": "Mimické svaly jsou charakteristické tím, že:",
+        "options": [
+          "Jsou připojeny na obou koncích ke kostem",
+          "Jedním koncem jsou přichyceny ke kosti, druhým končí v kůži",
+          "Jsou uloženy pouze na klenbě lebeční",
+          "Ovládají pohyby očních víček"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "shm2",
+        "q": "Funkce kruhového svalu ústního (m. orbicularis oris) je:",
+        "options": [
+          "Táhne ústní koutek nahoru",
+          "Táhne horní ret nahoru",
+          "Zavírá ústa, svírá a špulí rty",
+          "Táhne ústní koutek dolů"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "shm3",
+        "q": "Latinský název zdvihače horního rtu je:",
+        "options": [
+          "M. orbicularis oris",
+          "M. levator labii superioris",
+          "M. zygomaticus major",
+          "M. risorius"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "shm4",
+        "q": "Velký a malý sval lícní (m. zygomaticus major et minor):",
+        "options": [
+          "Táhnou ústní koutek dolů",
+          "Svírají rty",
+          "Táhnou ústní koutek nahoru a do strany",
+          "Táhnou dolní ret dolů"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "shm5",
+        "q": "Sval smíchový (m. risorius):",
+        "options": [
+          "Táhne ústní koutek dolů",
+          "Táhne ústní koutek nahoru a do strany, podmiňuje důlek ve tváři",
+          "Zavírá ústa",
+          "Táhne kůži brady nahoru"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "shm6",
+        "q": "Stahovač ústního koutku (m. depressor anguli oris):",
+        "options": [
+          "Táhne ústní koutek nahoru",
+          "Táhne ústní koutek dolů",
+          "Zavírá oční štěrbinu",
+          "Táhne horní ret nahoru"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "shm7",
+        "q": "Sval bradový (m. mentalis):",
+        "options": [
+          "Táhne dolní ret dolů",
+          "Táhne kůži brady nahoru, podmiňuje důlek na bradě",
+          "Táhne ústní koutek dolů",
+          "Svírá rty"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "shm8",
+        "q": "Sval tvářový (m. buccinator):",
+        "options": [
+          "Táhne ústní koutek dolů",
+          "Tvoří svislé vrásky nad kořenem nosu",
+          "Podklad tváře, rozšiřuje štěrbinu ústní při smíchu nebo pláči",
+          "Táhne dolní ret dolů"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "shm9",
+        "q": "Kruhový sval oční (m. orbicularis oculi):",
+        "options": [
+          "Táhne obočí dolů",
+          "Tvoří podklad očních víček, svírání víček, mrkání",
+          "Tvoří příčné vrásky na čele",
+          "Táhne kůži hlavy dozadu"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "shm10",
+        "q": "Svrašťovač obočí (m. corrugator supercilii):",
+        "options": [
+          "Táhne kůži hlavy dozadu",
+          "Tvoří příčné vrásky na čele",
+          "Tvoří svislé vrásky nad kořenem nosu",
+          "Rozšiřuje nosní dírky"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "shm11",
+        "q": "Sval čelní (m. frontalis):",
+        "options": [
+          "Táhne kůži hlavy dozadu",
+          "Tvoří příčné vrásky na čele",
+          "Tvoří svislé vrásky nad kořenem nosu",
+          "Táhne ústní koutek nahoru"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "shm12",
+        "q": "Sval týlní (m. occipitalis):",
+        "options": [
+          "Tvoří příčné vrásky na čele",
+          "Táhne kůži hlavy dozadu",
+          "Zavírá oční víčka",
+          "Táhne ústní koutek dolů"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "svaly_krku",
+    "title": "Svaly krku",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "sk1",
+        "q": "Latinský název podkožního svalu krčního je:",
+        "options": [
+          "M. sternocleidomastoideus",
+          "M. platysma",
+          "M. longus colli",
+          "M. scaleni"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sk2",
+        "q": "Funkce podkožního svalu krčního (m. platysma) je:",
+        "options": [
+          "Předklání krční páteř",
+          "Uklání hlavu na stranu",
+          "Napíná kůži krku",
+          "Zvedá jazylku"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sk3",
+        "q": "Začátek zdvihače hlavy (m. sternocleidomastoideus) je:",
+        "options": [
+          "Bradavčitý výběžek kosti spánkové",
+          "Příčné výběžky krčních obratlů",
+          "Rukojeť kosti hrudní a vnitřní část klíční kosti",
+          "Kůže nad dolní čelistí"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sk4",
+        "q": "Úpon zdvihače hlavy (m. sternocleidomastoideus) je:",
+        "options": [
+          "Rukojeť kosti hrudní",
+          "Bradavčitý výběžek kosti spánkové",
+          "Příčné výběžky krčních obratlů",
+          "1. žebro"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sk5",
+        "q": "Při jednostranné akci zdvihač hlavy:",
+        "options": [
+          "Předklání hlavu",
+          "Zaklání hlavu",
+          "Uklání hlavu na svou stranu a otáčí ji na stranu opačnou",
+          "Pouze otáčí hlavu"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sk6",
+        "q": "Při oboustranné akci zdvihač hlavy:",
+        "options": [
+          "Uklání hlavu na stranu",
+          "Posunuje hlavu v horizontální rovině vpřed a provádí záklon hlavy",
+          "Otáčí hlavu",
+          "Zvedá jazylku"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sk7",
+        "q": "Svaly kloněné (mm. scaleni) mají začátek na:",
+        "options": [
+          "Rukojeti kosti hrudní",
+          "Příčných výběžcích krčních obratlů",
+          "Bradavčitém výběžku kosti spánkové",
+          "Dolní čelisti"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sk8",
+        "q": "Úpon svalu kloněného předního a středního je:",
+        "options": [
+          "2. žebro",
+          "1. žebro",
+          "Příčné výběžky krčních obratlů",
+          "Klíční kost"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sk9",
+        "q": "Svaly kloněné při oboustranné akci:",
+        "options": [
+          "Zaklání krční páteř",
+          "Předklání krční páteř nebo zvedají 1. a 2. žebro (pomocné svaly vdechové)",
+          "Otáčí krční páteř",
+          "Zvedají jazylku"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sk10",
+        "q": "Dlouhý sval krku (m. longus colli):",
+        "options": [
+          "Zaklání krční páteř při oboustranné akci",
+          "Předklání krční páteř při oboustranné akci",
+          "Otáčí krční páteř",
+          "Zvedá 1. žebro"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sk11",
+        "q": "Svaly nadjazylkové (mm. suprahyoidei):",
+        "options": [
+          "Spojují jazylku s kostí hrudní",
+          "Spojují dolní čelist s jazylkou – otevírají ústa nebo zvedají jazylku",
+          "Napínají kůži krku",
+          "Předklání krční páteř"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sk12",
+        "q": "Svaly podjazylkové (mm. infrahyoidei):",
+        "options": [
+          "Spojují dolní čelist s jazylkou",
+          "Spojují jazylku s kostí hrudní, lopatkou nebo hrtanem – funkce: pohyby jazylky",
+          "Napínají kůži krku",
+          "Uklání krční páteř"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "svaly_hrudniku",
+    "title": "Svaly hrudníku",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "sh1",
+        "q": "Svaly hrudníku dělíme na:",
+        "options": [
+          "Přední a zadní",
+          "Povrchové a hluboké",
+          "Vnitřní a vnější",
+          "Mezižeberní a bránicové"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sh2",
+        "q": "Začátek velkého prsního svalu (m. pectoralis major) je:",
+        "options": [
+          "3.–5. žebro",
+          "1. žebro",
+          "Vnitřní třetina klíční kosti, hrudní kost a přilehlé chrupavky 2.–7. žebra, pochva přímých břišních svalů",
+          "Osmi zuby od 1.–8. žebra"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sh3",
+        "q": "Úpon velkého prsního svalu (m. pectoralis major) je:",
+        "options": [
+          "Hákovitý výběžek lopatky",
+          "Hrana pod velkým hrbolem kosti pažní",
+          "Spodní plocha vnějšího konce klíční kosti",
+          "Dolní úhel lopatky"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sh4",
+        "q": "Funkce velkého prsního svalu (m. pectoralis major) je:",
+        "options": [
+          "Táhne lopatku dopředu a dolů",
+          "Přitlačuje lopatku k hrudníku",
+          "Připažení, předpažení a vnitřní rotace v ramenním kloubu; pomocný sval nádechový",
+          "Přitažení klíční kosti k 1. žebru"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sh5",
+        "q": "Začátek malého prsního svalu (m. pectoralis minor) je:",
+        "options": [
+          "Vnitřní třetina klíční kosti",
+          "3.–5. žebro",
+          "1. žebro",
+          "Hrudní kost"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sh6",
+        "q": "Úpon malého prsního svalu (m. pectoralis minor) je:",
+        "options": [
+          "Hrana pod velkým hrbolem kosti pažní",
+          "Spodní plocha klíční kosti",
+          "Hákovitý výběžek lopatky",
+          "Dolní úhel lopatky"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sh7",
+        "q": "Funkce malého prsního svalu (m. pectoralis minor) je:",
+        "options": [
+          "Připažení a vnitřní rotace v ramenním kloubu",
+          "Táhne lopatku dopředu a dolů; pomocný sval nádechový",
+          "Přitažení klíční kosti k 1. žebru",
+          "Upažení paže nad horizontálu"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sh8",
+        "q": "Sval podklíčkový (m. subclavius) má funkci:",
+        "options": [
+          "Táhne lopatku dopředu",
+          "Přitažení klíční kosti k 1. žebru",
+          "Pomocný sval nádechový",
+          "Připažení v ramenním kloubu"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sh9",
+        "q": "Začátek pilovitého svalu předního (m. serratus anterior) je:",
+        "options": [
+          "3.–5. žebro",
+          "Osmi zuby od 1.–8. žebra",
+          "Vnitřní třetina klíční kosti",
+          "Trnové výběžky hrudních obratlů"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sh10",
+        "q": "Funkce pilovitého svalu předního (m. serratus anterior) je:",
+        "options": [
+          "Táhne lopatku dozadu a nahoru",
+          "Přitlačuje lopatku k hrudníku, táhne dolní úhel lopatky dolů a do strany, umožňuje upažení paže nad horizontálu",
+          "Připažení v ramenním kloubu",
+          "Pomocný sval výdechový"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sh11",
+        "q": "Mezižeberní svaly vnější (mm. intercostales externi) jsou:",
+        "options": [
+          "Pomocné svaly výdechové – zmenšují objem hrudníku",
+          "Pomocné svaly nádechové – rozšiřují objem hrudníku",
+          "Hlavní svaly nádechové",
+          "Svaly bez respirační funkce"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sh12",
+        "q": "Mezižeberní svaly vnitřní (mm. intercostales interni) jsou:",
+        "options": [
+          "Pomocné svaly nádechové",
+          "Hlavní svaly nádechové",
+          "Pomocné svaly výdechové – zmenšují objem hrudníku",
+          "Svaly bez respirační funkce"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sh13",
+        "q": "Bránice (diaphragma) je:",
+        "options": [
+          "Pomocný sval výdechový",
+          "Hlavní sval nádechový; plochý sval kopulovitě vyklenutý do dutiny hrudní",
+          "Sval mezižeberní",
+          "Sval hrudníku bez respirační funkce"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sh14",
+        "q": "Při nádechu se bránice:",
+        "options": [
+          "Klenutí zvyšuje – dutina hrudní se zmenšuje",
+          "Oplošťuje – dutina hrudní se zvětšuje na úkor dutiny břišní",
+          "Nemění tvar",
+          "Přesunuje do dutiny břišní"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "svaly_bricha",
+    "title": "Břišní svaly",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "sb1",
+        "q": "Břišní svaly dělíme do 3 skupin podle uložení:",
+        "options": [
+          "Povrchová, střední a hluboká",
+          "Přední, boční a zadní",
+          "Horní, střední a dolní",
+          "Vnitřní, vnější a příčná"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sb2",
+        "q": "Začátek přímého svalu břišního (m. rectus abdominis) je:",
+        "options": [
+          "Hřeben kosti kyčelní",
+          "Spona stydká",
+          "Dolní konec hrudní kosti a přilehlé chrupavky 5.–7. žebra",
+          "Tříselný vaz"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sb3",
+        "q": "Úpon přímého svalu břišního (m. rectus abdominis) je:",
+        "options": [
+          "Hřeben kosti kyčelní",
+          "Spona stydká",
+          "3 poslední žebra",
+          "Příčné výběžky bederních obratlů"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sb4",
+        "q": "Funkce přímého svalu břišního při oboustranné akci je:",
+        "options": [
+          "Uklání trup na stranu",
+          "Předklání trup, spolupracuje při břišním lisu; pomocný sval výdechový",
+          "Otáčí trup na opačnou stranu",
+          "Zaklání bederní páteř"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sb5",
+        "q": "Latinský název zevního šikmého svalu břišního je:",
+        "options": [
+          "M. obliquus internus abdominis",
+          "M. transversus abdominis",
+          "M. obliquus externus abdominis",
+          "M. rectus abdominis"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sb6",
+        "q": "Při jednostranné akci zevní šikmý sval břišní:",
+        "options": [
+          "Uklání trup na svou stranu a otáčí ho na stranu opačnou",
+          "Uklání trup na opačnou stranu",
+          "Pouze předklání trup",
+          "Zaklání bederní páteř"
+        ],
+        "answer_index": 0
+      },
+      {
+        "id": "sb7",
+        "q": "Vnitřní šikmý sval břišní (m. obliquus internus abdominis) při jednostranné akci:",
+        "options": [
+          "Uklání a otáčí trup na opačnou stranu",
+          "Uklání a otáčí trup na svou stranu",
+          "Pouze předklání trup",
+          "Zaklání bederní páteř"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sb8",
+        "q": "Příčný sval břišní (m. transversus abdominis) při oboustranné akci:",
+        "options": [
+          "Uklání trup",
+          "Předklání trup",
+          "Zatahuje břicho, spolupracuje při břišním lisu; pomocný sval výdechový",
+          "Zaklání bederní páteř"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sb9",
+        "q": "Čtyřhranný sval bederní (m. quadratus lumborum) má začátek na:",
+        "options": [
+          "Sponě stydké",
+          "12. žebru a 3–4 horních bederních obratlích",
+          "Hřebenu kosti kyčelní",
+          "Tříselném vazu"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sb10",
+        "q": "Funkce čtyřhranného svalu bederního při oboustranné akci je:",
+        "options": [
+          "Předklání trup",
+          "Uklání bederní páteř na stranu",
+          "Zaklání bederní páteř, podílí se na vzpřímeném držení trupu",
+          "Otáčí trup"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "svaly_zad",
+    "title": "Zádové svaly",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "sz1",
+        "q": "Zádové svaly dělíme na:",
+        "options": [
+          "Přední a zadní skupinu",
+          "Povrchové (od páteře k horní končetině nebo žebrům) a hluboké (vzpřimovače trupu)",
+          "Vnitřní a vnější skupinu",
+          "Krční, hrudní a bederní skupinu"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sz2",
+        "q": "Začátek sval trapézového (m. trapezius) je:",
+        "options": [
+          "Příčné výběžky prvních 4 krčních obratlů",
+          "Trnové výběžky 6.–7. krčního obratle",
+          "Kost týlní, trnové výběžky krčních a hrudních obratlů",
+          "Trnové výběžky posledních 6 hrudních obratlů"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sz3",
+        "q": "Úpon sval trapézového (m. trapezius) je:",
+        "options": [
+          "Horní úhel lopatky",
+          "Vnější třetina klíční kosti, nadpažek, hřeben lopatky",
+          "Vnitřní okraj lopatky",
+          "Dolní úhel lopatky"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sz4",
+        "q": "Horní část trapézového svalu:",
+        "options": [
+          "Stahuje lopatku dolů",
+          "Přitahuje lopatku k páteři",
+          "Zvedá lopatku",
+          "Táhne lopatku nahoru a k páteři"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sz5",
+        "q": "Latinský název zdvihače lopatky je:",
+        "options": [
+          "M. trapezius",
+          "M. rhomboideus minor",
+          "M. levator scapulae",
+          "M. latissimus dorsi"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sz6",
+        "q": "Začátek zdvihače lopatky (m. levator scapulae) je:",
+        "options": [
+          "Trnové výběžky hrudních obratlů",
+          "Příčné výběžky prvních 4 krčních obratlů",
+          "Kost týlní",
+          "Trnové výběžky krčních obratlů"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sz7",
+        "q": "Malý sval rombický (m. rhomboideus minor) má úpon na:",
+        "options": [
+          "Vnitřní okraj lopatky oproti podhřebenové jámě",
+          "Vnitřní okraj lopatky oproti nadhřebenové jámě",
+          "Nadpažek lopatky",
+          "Horní úhel lopatky"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sz8",
+        "q": "Velký sval rombický (m. rhomboideus major) má začátek na:",
+        "options": [
+          "Trnových výběžcích 6.–7. krčního obratle",
+          "Trnových výběžcích 1.–4. hrudního obratle",
+          "Kosti týlní",
+          "Příčných výběžcích krčních obratlů"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sz9",
+        "q": "Funkce obou svalů rombických je:",
+        "options": [
+          "Zvedají lopatku nahoru a táhnou ji k páteři",
+          "Stahují lopatku dolů",
+          "Přitlačují lopatku k hrudníku",
+          "Otáčejí lopatku"
+        ],
+        "answer_index": 0
+      },
+      {
+        "id": "sz10",
+        "q": "Latinský název širokého svalu zádového je:",
+        "options": [
+          "M. trapezius",
+          "M. rhomboideus major",
+          "M. serratus posterior",
+          "M. latissimus dorsi"
+        ],
+        "answer_index": 3
+      },
+      {
+        "id": "sz11",
+        "q": "Úpon širokého svalu zádového (m. latissimus dorsi) je:",
+        "options": [
+          "Hrana pod velkým hrbolem kosti pažní",
+          "Hrana pod malým hrbolem kosti pažní",
+          "Drsnatina kosti pažní",
+          "Velký hrbol kosti pažní"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sz12",
+        "q": "Funkce širokého svalu zádového (m. latissimus dorsi) je:",
+        "options": [
+          "Upažení, předpažení a zevní rotace v ramenním kloubu",
+          "Připažení (addukce), zapažení (extenze), vnitřní rotace v ramenním kloubu; je-li tělo zavěšeno, vytahuje trup směrem vzhůru",
+          "Zvedá lopatku",
+          "Táhne lopatku k páteři"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sz13",
+        "q": "Zadní pilovitý sval horní (m. serratus posterior superior) je:",
+        "options": [
+          "Pomocný sval výdechový – táhne žebra dolů",
+          "Pomocný sval nádechový – zvedá žebra",
+          "Hlavní sval nádechový",
+          "Sval bez respirační funkce"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sz14",
+        "q": "Hluboké svaly zádové – vzpřimovače trupu (m. erector spinae) při oboustranné akci:",
+        "options": [
+          "Předklání páteř",
+          "Zaklání páteř",
+          "Otáčejí páteř",
+          "Uklání páteř"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "svaly_ramenniho_kloubu",
+    "title": "Svaly horní končetiny – ramenní kloub",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "srk1",
+        "q": "Začátek deltového svalu (m. deltoideus) je:",
+        "options": [
+          "Jáma nadhřebenová na lopatce",
+          "Vnější třetina klíční kosti, nadpažek, hřeben lopatky",
+          "Přední plocha lopatky",
+          "Dolní úhel lopatky"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "srk2",
+        "q": "Funkce deltového svalu (m. deltoideus) je:",
+        "options": [
+          "Připažení, předpažení a vnitřní rotace",
+          "Upažení (abdukce), předpažení (flexe), zapažení (extenze) v kloubu ramenním",
+          "Pouze upažení",
+          "Zevní rotace a zapažení"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "srk3",
+        "q": "Sval nadhřebenový (m. supraspinatus) má začátek v:",
+        "options": [
+          "Jámě podhřebenové na lopatce",
+          "Jámě nadhřebenové na lopatce",
+          "Vnějším okraji lopatky",
+          "Dolním úhlu lopatky"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "srk4",
+        "q": "Funkce svalu nadhřebenového (m. supraspinatus) je:",
+        "options": [
+          "Připažení a vnitřní rotace",
+          "Zapažení a zevní rotace",
+          "Upažení (abdukce) a zevní rotace v kloubu ramenním",
+          "Předpažení a vnitřní rotace"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "srk5",
+        "q": "Sval podhřebenový (m. infraspinatus) má funkci:",
+        "options": [
+          "Upažení a zevní rotace",
+          "Připažení (addukce) a zevní rotace v kloubu ramenním",
+          "Připažení a vnitřní rotace",
+          "Předpažení a zevní rotace"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "srk6",
+        "q": "Malý sval oblý (m. teres minor) má začátek na:",
+        "options": [
+          "Dolním úhlu lopatky",
+          "Jámě podhřebenové",
+          "Vnějším okraji lopatky",
+          "Jámě nadhřebenové"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "srk7",
+        "q": "Velký sval oblý (m. teres major) má funkci:",
+        "options": [
+          "Upažení a zevní rotace",
+          "Připažení (addukce), zapažení (extenze) a vnitřní rotace v kloubu ramenním",
+          "Připažení a zevní rotace",
+          "Předpažení a vnitřní rotace"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "srk8",
+        "q": "Sval podlopatkový (m. subscapularis) má začátek na:",
+        "options": [
+          "Zadní ploše lopatky",
+          "Přední ploše lopatky (přivrácené k žebrům)",
+          "Vnějším okraji lopatky",
+          "Dolním úhlu lopatky"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "srk9",
+        "q": "Funkce svalu podlopatkového (m. subscapularis) je:",
+        "options": [
+          "Upažení a zevní rotace",
+          "Připažení (addukce) a zevní rotace",
+          "Připažení (addukce) a vnitřní rotace v kloubu ramenním",
+          "Zapažení a zevní rotace"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "svaly_paze",
+    "title": "Svaly paže",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "sp1",
+        "q": "Latinský název dvojhlavého svalu pažního je:",
+        "options": [
+          "M. brachialis",
+          "M. triceps brachii",
+          "M. biceps brachii",
+          "M. coracobrachialis"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sp2",
+        "q": "Úpon dvojhlavého svalu pažního (m. biceps brachii) je:",
+        "options": [
+          "Drsnatina kosti loketní",
+          "Okovec kosti loketní",
+          "Drsnatina kosti vřetenní",
+          "Vnější epikondyl kosti pažní"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sp3",
+        "q": "Funkce dvojhlavého svalu pažního (m. biceps brachii) je:",
+        "options": [
+          "Natažení (extenze) v kloubu loketním",
+          "Ohnutí (flexe) v kloubu loketním, supinace předloktí",
+          "Připažení a předpažení v kloubu ramenním",
+          "Pronace předloktí"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sp4",
+        "q": "Sval hákový (m. coracobrachialis) má funkci:",
+        "options": [
+          "Natažení v kloubu loketním",
+          "Ohnutí v kloubu loketním",
+          "Připažení (addukce) a předpažení (flexe) v kloubu ramenním",
+          "Supinace předloktí"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sp5",
+        "q": "Hluboký sval pažní (m. brachialis) má funkci:",
+        "options": [
+          "Natažení (extenze) v kloubu loketním",
+          "Supinace předloktí",
+          "Ohnutí (flexe) v kloubu loketním",
+          "Připažení v kloubu ramenním"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sp6",
+        "q": "Latinský název trojhlavého svalu pažního je:",
+        "options": [
+          "M. biceps brachii",
+          "M. brachialis",
+          "M. anconeus",
+          "M. triceps brachii"
+        ],
+        "answer_index": 3
+      },
+      {
+        "id": "sp7",
+        "q": "Úpon trojhlavého svalu pažního (m. triceps brachii) je:",
+        "options": [
+          "Drsnatina kosti vřetenní",
+          "Okovec kosti loketní",
+          "Vnější epikondyl kosti pažní",
+          "Drsnatina kosti loketní"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sp8",
+        "q": "Funkce trojhlavého svalu pažního (m. triceps brachii) je:",
+        "options": [
+          "Ohnutí (flexe) v kloubu loketním",
+          "Supinace předloktí",
+          "Natažení (extenze) v kloubu loketním",
+          "Připažení v kloubu ramenním"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sp9",
+        "q": "Sval loketní (m. anconeus) má funkci:",
+        "options": [
+          "Ohnutí v kloubu loketním",
+          "Supinace předloktí",
+          "Natažení (extenze) v kloubu loketním",
+          "Pronace předloktí"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "svaly_predlokti_ruky",
+    "title": "Svaly předloktí a ruky",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "spr1",
+        "q": "Svaly předloktí dělíme do 3 skupin:",
+        "options": [
+          "Přední, zadní a boční",
+          "Ohybače (flexory), natahovače (extenzory) a rotátory",
+          "Povrchové, hluboké a střední",
+          "Palcové, malíkové a mezikostní"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "spr2",
+        "q": "Skupina ohybačů (flexorů) předloktí leží na:",
+        "options": [
+          "Zadní straně předloktí",
+          "Přední straně předloktí, začíná převážně od vnitřního epikondylu kosti pažní",
+          "Vnější straně předloktí",
+          "Vnitřní straně předloktí"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "spr3",
+        "q": "Skupina natahovačů (extenzorů) předloktí leží na:",
+        "options": [
+          "Přední straně předloktí",
+          "Vnitřní straně předloktí",
+          "Zadní straně předloktí, začíná převážně od vnějšího epikondylu kosti pažní",
+          "Palcové straně předloktí"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "spr4",
+        "q": "Pronátory předloktí jsou svaly provádějící:",
+        "options": [
+          "Zevní rotaci předloktí (otočení dlaní nahoru)",
+          "Vnitřní rotaci předloktí (otočení dlaní dolů)",
+          "Ohnutí v kloubu loketním",
+          "Natažení v kloubu loketním"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "spr5",
+        "q": "Supinátory předloktí jsou svaly provádějící:",
+        "options": [
+          "Vnitřní rotaci předloktí (otočení dlaní dolů)",
+          "Ohnutí v kloubu loketním",
+          "Zevní rotaci předloktí (otočení dlaní nahoru)",
+          "Natažení v kloubu loketním"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "spr6",
+        "q": "Svaly ruky (svaly thenar) tvoří:",
+        "options": [
+          "Malíkový val",
+          "Palcový val",
+          "Mezikostní svaly",
+          "Červovité svaly"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "spr7",
+        "q": "Svaly hypothenar tvoří:",
+        "options": [
+          "Palcový val",
+          "Mezikostní svaly",
+          "Malíkový val",
+          "Červovité svaly"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "spr8",
+        "q": "Funkčně nejdůležitější svaly ruky jsou ty, které umožňují:",
+        "options": [
+          "Ohnutí prstů",
+          "Natažení prstů",
+          "Opozici palce a malíku – zajišťují kvalitní úchop",
+          "Odtažení prstů"
+        ],
+        "answer_index": 2
+      }
+    ]
+  },
+  {
+    "id": "svaly_kycelniko_kloubu",
+    "title": "Svaly dolní končetiny – kyčelní kloub",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "skk1",
+        "q": "Latinský název svalu bedrokyčlostehenního je:",
+        "options": [
+          "M. glutaeus maximus",
+          "M. iliopsoas",
+          "M. tensor fasciae latae",
+          "M. glutaeus medius"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "skk2",
+        "q": "Úpon svalu bedrokyčlostehenního (m. iliopsoas) je:",
+        "options": [
+          "Velký chocholík kosti stehenní",
+          "Malý chocholík kosti stehenní",
+          "Drsnatina pod velkým chocholíkem",
+          "Vnitřní kondyl kosti holenní"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "skk3",
+        "q": "Funkce svalu bedrokyčlostehenního (m. iliopsoas) je:",
+        "options": [
+          "Zanožení (extenze) v kloubu kyčelním",
+          "Přednožení (flexe) v kloubu kyčelním, napomáhá vykročení",
+          "Unožení (abdukce) v kloubu kyčelním",
+          "Přinožení (addukce) v kloubu kyčelním"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "skk4",
+        "q": "Latinský název velkého svalu hýžďového je:",
+        "options": [
+          "M. glutaeus medius",
+          "M. glutaeus minimus",
+          "M. glutaeus maximus",
+          "M. iliopsoas"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "skk5",
+        "q": "Funkce velkého svalu hýžďového (m. glutaeus maximus) je:",
+        "options": [
+          "Přednožení v kloubu kyčelním",
+          "Unožení v kloubu kyčelním",
+          "Zanožení (extenze) v kloubu kyčelním",
+          "Přinožení v kloubu kyčelním"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "skk6",
+        "q": "Funkce středního a malého svalu hýžďového (m. glutaeus medius et minimus) je:",
+        "options": [
+          "Zanožení v kloubu kyčelním",
+          "Přednožení v kloubu kyčelním",
+          "Unožení (abdukce) v kloubu kyčelním",
+          "Přinožení v kloubu kyčelním"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "skk7",
+        "q": "Napínač povázky stehenní (m. tensor fasciae latae) má funkci:",
+        "options": [
+          "Zanožení a unožení",
+          "Přednožení (flexe) a unožení (abdukce) v kloubu kyčelním",
+          "Přinožení a zevní rotace",
+          "Zanožení a přinožení"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "svaly_stehna",
+    "title": "Svaly stehna",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "sst1",
+        "q": "Čtyřhlavý sval stehenní (m. quadriceps femoris) je:",
+        "options": [
+          "Nejdelší sval v lidském těle",
+          "Nejmohutnější sval v lidském těle",
+          "Nejpohyblivější sval v lidském těle",
+          "Nejhlubší sval stehna"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sst2",
+        "q": "Úpon čtyřhlavého svalu stehenního (m. quadriceps femoris) je:",
+        "options": [
+          "Sedací hrbol",
+          "Vnitřní kondyl kosti holenní",
+          "Čéška a úponová šlacha přecházející ve vaz upínající se na drsnatinu kosti holenní",
+          "Hlavička lýtkové kosti"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sst3",
+        "q": "Funkce čtyřhlavého svalu stehenního je:",
+        "options": [
+          "Ohnutí v kloubu kolenním",
+          "Zanožení v kloubu kyčelním",
+          "Natažení (extenze) v kloubu kolenním; přímý sval stehenní pomáhá při přednožení",
+          "Přinožení v kloubu kyčelním"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sst4",
+        "q": "Krejčovský sval (m. sartorius) je:",
+        "options": [
+          "Nejmohutnější sval těla",
+          "Nejdelší sval v těle",
+          "Nejširší sval stehna",
+          "Nejkratší sval dolní končetiny"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sst5",
+        "q": "Funkce krejčovského svalu (m. sartorius) je:",
+        "options": [
+          "Zanožení, přinožení a vnitřní rotace v kloubu kyčelním",
+          "Přednožení (flexe), unožení (abdukce) a zevní rotace v kloubu kyčelním, ohnutí (flexe) v kloubu kolenním",
+          "Natažení v kloubu kolenním",
+          "Přinožení a zanožení"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sst6",
+        "q": "Dvojhlavý sval stehenní (m. biceps femoris) má úpon na:",
+        "options": [
+          "Vnitřním kondylu kosti holenní",
+          "Sedacím hrbolu",
+          "Hlavičce lýtkové kosti",
+          "Drsnatině kosti holenní"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sst7",
+        "q": "Funkce dvojhlavého svalu stehenního (m. biceps femoris) je:",
+        "options": [
+          "Natažení v kloubu kolenním, přednožení v kloubu kyčelním",
+          "Ohnutí (flexe) v kloubu kolenním, zanožení (extenze) v kloubu kyčelním",
+          "Přinožení v kloubu kyčelním",
+          "Unožení v kloubu kyčelním"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sst8",
+        "q": "Sval pološlašitý (m. semitendinosus) a sval poloblanitý (m. semimembranosus) mají začátek na:",
+        "options": [
+          "Přední horní trn kosti kyčelní",
+          "Sedacím hrbolu",
+          "Vnitřním kondylu kosti stehenní",
+          "Hlavičce lýtkové kosti"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sst9",
+        "q": "Přitahovače stehna (m. adductor longus, brevis et magnus) mají začátek na:",
+        "options": [
+          "Kosti kyčelní",
+          "Kosti stydké",
+          "Kosti sedací",
+          "Přední horní trn kosti kyčelní"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sst10",
+        "q": "Funkce přitahovačů stehna (adduktorů) je:",
+        "options": [
+          "Unožení (abdukce) v kloubu kyčelním",
+          "Přinožení (addukce) v kloubu kyčelním",
+          "Zanožení v kloubu kyčelním",
+          "Přednožení v kloubu kyčelním"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sst11",
+        "q": "Štíhlý sval stehenní (m. gracilis) má funkci:",
+        "options": [
+          "Unožení v kloubu kyčelním, natažení v kloubu kolenním",
+          "Přinožení (addukce) v kloubu kyčelním, ohnutí (flexe) v kloubu kolenním",
+          "Zanožení a přinožení",
+          "Přednožení a zevní rotace"
+        ],
+        "answer_index": 1
+      }
+    ]
+  },
+  {
+    "id": "svaly_berce",
+    "title": "Svaly bérce",
+    "type": "mcq",
+    "questions": [
+      {
+        "id": "sbe1",
+        "q": "Svaly bérce dělíme do 3 skupin:",
+        "options": [
+          "Povrchové, hluboké a střední",
+          "Přední (natahovače), zadní (ohybače) a vnější (pronátory)",
+          "Vnitřní, vnější a přední",
+          "Natahovače, ohybače a rotátory"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sbe2",
+        "q": "Latinský název předního svalu holenního je:",
+        "options": [
+          "M. extensor digitorum longus",
+          "M. tibialis posterior",
+          "M. tibialis anterior",
+          "M. peroneus longus"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sbe3",
+        "q": "Funkce předního svalu holenního (m. tibialis anterior) je:",
+        "options": [
+          "Plantární flexe a pronace v hlezenním kloubu",
+          "Dorzální flexe (extenze) v hlezenním kloubu, supinace",
+          "Ohnutí prstů",
+          "Propnutí špičky"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sbe4",
+        "q": "Latinský název trojhlavého svalu lýtkového je:",
+        "options": [
+          "M. tibialis anterior",
+          "M. peroneus longus",
+          "M. triceps surae",
+          "M. popliteus"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sbe5",
+        "q": "Trojhlavý sval lýtkový (m. triceps surae) se skládá z:",
+        "options": [
+          "Předního svalu holenního a dlouhého svalu lýtkového",
+          "Dvojhlavého svalu lýtkového (m. gastrocnemius) a šikmého svalu lýtkového (m. soleus)",
+          "Třech samostatných svalů bez společné šlachy",
+          "Svalu zákolenního a šikmého svalu lýtkového"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sbe6",
+        "q": "Trojhlavý sval lýtkový se upíná prostřednictvím Achillovy šlachy na:",
+        "options": [
+          "Drsnatinu kosti holenní",
+          "Hlavičku lýtkové kosti",
+          "Hrbol kosti patní",
+          "Vnitřní kotník"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sbe7",
+        "q": "Funkce trojhlavého svalu lýtkového je:",
+        "options": [
+          "Dorzální flexe (zvednutí špičky), supinace",
+          "Propnutí špičky (plantární flexe), ohnutí (flexe) v kloubu kolenním",
+          "Pronace a plantární flexe",
+          "Natažení prstů"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sbe8",
+        "q": "Sval zákolenní (m. popliteus) má funkci:",
+        "options": [
+          "Propnutí špičky (plantární flexe)",
+          "Natažení (extenze) v kloubu kolenním",
+          "Ohnutí (flexe) v kloubu kolenním",
+          "Pronace v hlezenním kloubu"
+        ],
+        "answer_index": 2
+      },
+      {
+        "id": "sbe9",
+        "q": "Dlouhý sval lýtkový (m. peroneus longus) má funkci:",
+        "options": [
+          "Supinace a dorzální flexe v hlezenním kloubu",
+          "Pronace a plantární flexe v hlezenním kloubu",
+          "Natažení prstů",
+          "Ohnutí palce"
+        ],
+        "answer_index": 1
+      },
+      {
+        "id": "sbe10",
+        "q": "Zadní sval holenní (m. tibialis posterior) má funkci:",
+        "options": [
+          "Dorzální flexe v hlezenním kloubu",
+          "Pronace v hlezenním kloubu",
+          "Plantární flexe v hlezenním kloubu",
+          "Natažení prstů"
+        ],
+        "answer_index": 2
+      }
+    ]
+  }
+]
