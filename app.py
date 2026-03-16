@@ -33,21 +33,64 @@ data = load_questions()
 st.title(data.get("title", "Test"))
 
 sections = data.get("sections", [])
+all_ids = [s["id"] for s in sections]
 
-st.sidebar.header("Kapitoly")
-selected = st.sidebar.multiselect(
-    "Vyber kapitoly",
-    options=[s["id"] for s in sections],
-    default=[s["id"] for s in sections],
-    format_func=lambda sid: next((s["title"] for s in sections if s["id"] == sid), sid),
-)
+# ── Session state init ─────────────────────────────────────────────────────────
+if "selected" not in st.session_state:
+    st.session_state["selected"] = set(all_ids)
 
-if st.sidebar.button("Reset"):
+# ── Sidebar ────────────────────────────────────────────────────────────────────
+st.sidebar.header("📚 Kapitoly")
+
+if st.sidebar.button("🔄 Reset odpovědí"):
     for k in list(st.session_state.keys()):
         if k.startswith("ans_"):
             del st.session_state[k]
     st.rerun()
 
+st.sidebar.markdown("---")
+
+col_a, col_b = st.sidebar.columns(2)
+if col_a.button("✅ Vše"):
+    st.session_state["selected"] = set(all_ids)
+    st.rerun()
+if col_b.button("❌ Nic"):
+    st.session_state["selected"] = set()
+    st.rerun()
+
+st.sidebar.markdown("---")
+
+for sec in sections:
+    checked = sec["id"] in st.session_state["selected"]
+    new_checked = st.sidebar.checkbox(
+        sec["title"],
+        value=checked,
+        key=f"chk_{sec['id']}"
+    )
+    if new_checked != checked:
+        if new_checked:
+            st.session_state["selected"].add(sec["id"])
+        else:
+            st.session_state["selected"].discard(sec["id"])
+        st.rerun()
+
+selected = st.session_state["selected"]
+
+# ── Navigační přehled kapitol na začátku stránky ───────────────────────────────
+st.markdown("### 📋 Přehled vybraných kapitol")
+
+visible_sections = [s for s in sections if s["id"] in selected]
+
+if visible_sections:
+    nav_cols = st.columns(3)
+    for i, sec in enumerate(visible_sections):
+        nav_cols[i % 3].markdown(f"[{sec['title']}](#{sec['id']})")
+else:
+    st.info("Žádná kapitola není vybrána. Zaškrtni kapitoly v levém panelu.")
+
+st.divider()
+
+# ── Otázky ─────────────────────────────────────────────────────────────────────
 total = 0
 answered = 0
 correct = 0
@@ -56,6 +99,8 @@ for sec in sections:
     if sec["id"] not in selected:
         continue
 
+    # HTML kotva pro navigaci
+    st.markdown(f"<div id='{sec['id']}'></div>", unsafe_allow_html=True)
     st.subheader(sec["title"])
 
     for q in sec["questions"]:
@@ -63,7 +108,7 @@ for sec in sections:
         qid = f"ans_{q['id']}"
 
         card_start()
-        col1, col2 = st.columns([2,1])
+        col1, col2 = st.columns([2, 1])
 
         with col1:
             st.markdown(f"**{q['q']}**")
@@ -73,10 +118,9 @@ for sec in sections:
                     "",
                     options=list(range(len(q["options"]))),
                     index=None,
-                    format_func=lambda i: q["options"][i],
+                    format_func=lambda i, q=q: q["options"][i],
                     key=qid
                 )
-
                 if choice is not None:
                     answered += 1
                     if choice == q["answer_index"]:
@@ -94,7 +138,6 @@ for sec in sections:
             if sec["type"] == "mcq":
                 choice = st.session_state.get(qid)
                 correct_idx = q["answer_index"]
-
                 if choice is None:
                     st.info("Zatím bez odpovědi")
                 else:
@@ -118,10 +161,11 @@ for sec in sections:
 
         card_end()
 
+# ── Statistiky ─────────────────────────────────────────────────────────────────
 st.divider()
-st.progress(answered/total if total else 0)
+st.progress(answered / total if total else 0)
 
 c1, c2, c3 = st.columns(3)
 c1.metric("Zodpovězeno", f"{answered}/{total}")
 c2.metric("Správně", correct)
-c3.metric("Úspěšnost", f"{(correct/answered*100):.0f}%" if answered else "—")
+c3.metric("Úspěšnost", f"{(correct / answered * 100):.0f}%" if answered else "—")
