@@ -4,18 +4,11 @@ import streamlit as st
 
 st.set_page_config(page_title="Anatomie – test", page_icon="🧠", layout="wide")
 
-# ── CSS styling ────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
 /* Sidebar gradient */
 [data-testid="stSidebar"] {
     background: linear-gradient(160deg, #EEF2FF 0%, #FAF0FB 50%, #FFF0F6 100%) !important;
-}
-
-/* Sidebar nadpis */
-[data-testid="stSidebar"] h1,
-[data-testid="stSidebar"] .sidebar-header {
-    color: #534AB7 !important;
 }
 
 /* Sidebar odkaz styl */
@@ -26,15 +19,15 @@ st.markdown("""
     font-size: 14px;
     color: #7F77DD;
     text-decoration: none;
-    transition: background 0.15s;
     margin-bottom: 2px;
 }
 .sidebar-link:hover {
     background: rgba(83,74,183,0.10);
     color: #534AB7;
+    text-decoration: none;
 }
 
-/* Hlavní nadpis s gradientem */
+/* Hlavní nadpis */
 .main-title {
     background: linear-gradient(90deg, #534AB7, #D4537E);
     -webkit-background-clip: text;
@@ -44,18 +37,83 @@ st.markdown("""
     margin-bottom: 0.2rem;
 }
 
-/* Karty otázek */
-.question-card {
-    border: 0.5px solid rgba(127, 119, 221, 0.25);
+/* Sekce nadpis */
+.sec-title {
+    color: #534AB7;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 24px 0 12px 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg, #7F77DD, #D4537E) 1;
+}
+
+/* Karta otázky */
+.q-card {
+    border: 0.5px solid rgba(127,119,221,0.3);
     border-radius: 16px;
-    padding: 16px;
+    padding: 16px 20px;
     background: white;
+    margin-bottom: 14px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+.q-left { flex: 2; }
+.q-right { flex: 1; display: flex; align-items: center; justify-content: center; }
+
+.q-text {
+    font-weight: 600;
+    font-size: 15px;
     margin-bottom: 12px;
+    color: #2d2d2d;
+}
+
+/* Stavové boxy vpravo */
+.box-neutral {
+    background: #EEF2FF;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #534AB7;
+    text-align: center;
+    width: 100%;
+}
+.box-correct {
+    background: #E1F5EE;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #0F6E56;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+.box-wrong {
+    background: #FAECE7;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 13px;
+    color: #993C1D;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+}
+.box-wrong-answer {
+    font-size: 12px;
+    color: #993C1D;
+    text-align: center;
+    margin-top: 5px;
 }
 
 /* Progress bar */
 .stProgress > div > div > div > div {
     background: linear-gradient(90deg, #7F77DD, #D4537E) !important;
+    border-radius: 99px !important;
+}
+.stProgress > div > div > div {
+    background: #EEF2FF !important;
+    border-radius: 99px !important;
 }
 
 /* Metric karty */
@@ -63,7 +121,10 @@ st.markdown("""
     background: #EEF2FF;
     border-radius: 12px;
     padding: 12px !important;
+    border: 0.5px solid rgba(127,119,221,0.2);
 }
+[data-testid="stMetricLabel"] { color: #534AB7 !important; }
+[data-testid="stMetricValue"] { color: #3C3489 !important; }
 
 /* Reset tlačítko */
 .stButton > button {
@@ -71,39 +132,19 @@ st.markdown("""
     color: #534AB7 !important;
     border: 0.5px solid #AFA9EC !important;
     border-radius: 8px !important;
+    width: 100%;
 }
 .stButton > button:hover {
     background: #EEF2FF !important;
 }
 
-/* Subheader barva */
-h2, h3 {
-    color: #534AB7 !important;
+/* Radio accent */
+[data-testid="stRadio"] input[type=radio]:checked {
+    accent-color: #534AB7;
 }
 
-/* Info box – bez odpovědi */
-[data-testid="stInfo"] {
-    background: #EEF2FF !important;
-    border-left-color: #7F77DD !important;
-    color: #534AB7 !important;
-}
-
-/* Success box */
-[data-testid="stSuccess"] {
-    background: #E1F5EE !important;
-    border-left-color: #1D9E75 !important;
-}
-
-/* Error box */
-[data-testid="stError"] {
-    background: #FAECE7 !important;
-    border-left-color: #D85A30 !important;
-}
-
-/* Radio button akcent */
-[data-testid="stRadio"] label span {
-    color: #534AB7 !important;
-}
+/* Divider */
+hr { border-color: rgba(127,119,221,0.2) !important; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -117,34 +158,17 @@ def norm(s: str) -> str:
     s = "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
     return " ".join(s.split())
 
-def card_start():
-    st.markdown(
-        """<div style="
-            border: 0.5px solid rgba(127,119,221,0.25);
-            border-radius: 16px;
-            padding: 16px;
-            background: white;
-            margin-bottom: 12px;">
-        """, unsafe_allow_html=True)
-
-def card_end():
-    st.markdown("</div>", unsafe_allow_html=True)
-
 
 data = load_questions()
 
-# Gradient nadpis
-st.markdown(
-    f'<p class="main-title">{data.get("title", "Test")}</p>',
-    unsafe_allow_html=True
-)
+st.markdown(f'<p class="main-title">{data.get("title", "Test")}</p>', unsafe_allow_html=True)
 
 sections = data.get("sections", [])
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 st.sidebar.markdown(
-    '<p style="font-size:13px; font-weight:600; color:#534AB7; '
-    'text-transform:uppercase; letter-spacing:0.05em; margin-bottom:8px;">📚 Kapitoly</p>',
+    '<p style="font-size:12px;font-weight:600;color:#534AB7;'
+    'text-transform:uppercase;letter-spacing:0.05em;margin-bottom:8px;">📚 Kapitoly</p>',
     unsafe_allow_html=True
 )
 
@@ -167,17 +191,20 @@ correct = 0
 
 for sec in sections:
     st.markdown(f"<div id='{sec['id']}'></div>", unsafe_allow_html=True)
-    st.subheader(sec["title"])
+    st.markdown(f'<p class="sec-title">{sec["title"]}</p>', unsafe_allow_html=True)
 
     for q in sec["questions"]:
         total += 1
         qid = f"ans_{q['id']}"
 
-        card_start()
         col1, col2 = st.columns([2, 1])
 
         with col1:
-            st.markdown(f"**{q['q']}**")
+            st.markdown(
+                f'<div class="q-card"><div class="q-left">'
+                f'<div class="q-text">{q["q"]}</div>',
+                unsafe_allow_html=True
+            )
 
             if sec["type"] == "mcq":
                 choice = st.radio(
@@ -200,32 +227,37 @@ for sec in sections:
                     if ok:
                         correct += 1
 
+            st.markdown("</div></div>", unsafe_allow_html=True)
+
         with col2:
             if sec["type"] == "mcq":
                 choice = st.session_state.get(qid)
                 correct_idx = q["answer_index"]
                 if choice is None:
-                    st.info("Zatím bez odpovědi")
+                    st.markdown('<div class="box-neutral">Zatím bez odpovědi</div>', unsafe_allow_html=True)
+                elif choice == correct_idx:
+                    st.markdown('<div class="box-correct">Správně ✅</div>', unsafe_allow_html=True)
                 else:
-                    if choice == correct_idx:
-                        st.success("Správně ✅")
-                    else:
-                        st.error("Špatně ❌")
-                        st.markdown(f"**Správně:** {q['options'][correct_idx]}")
+                    st.markdown(
+                        f'<div class="box-wrong">Špatně ❌</div>'
+                        f'<div class="box-wrong-answer"><b>Správně:</b> {q["options"][correct_idx]}</div>',
+                        unsafe_allow_html=True
+                    )
 
             elif sec["type"] == "bones":
                 user = st.session_state.get(qid, "")
                 if not user.strip():
-                    st.info("Zatím bez odpovědi")
+                    st.markdown('<div class="box-neutral">Zatím bez odpovědi</div>', unsafe_allow_html=True)
                 else:
                     ok = any(norm(user) == norm(a) for a in q["answers"])
                     if ok:
-                        st.success("Správně ✅")
+                        st.markdown('<div class="box-correct">Správně ✅</div>', unsafe_allow_html=True)
                     else:
-                        st.error("Špatně ❌")
-                        st.markdown(f"**Správně:** {q['answers'][0]}")
-
-        card_end()
+                        st.markdown(
+                            f'<div class="box-wrong">Špatně ❌</div>'
+                            f'<div class="box-wrong-answer"><b>Správně:</b> {q["answers"][0]}</div>',
+                            unsafe_allow_html=True
+                        )
 
 # ── Statistiky ─────────────────────────────────────────────────────────────────
 st.divider()
