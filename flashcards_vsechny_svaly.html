@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flashcards – Svaly</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #EEF2FF 0%, #FAF0FB 50%, #FFF0F6 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px;
+  }
+  header { text-align: center; margin-bottom: 24px; }
+  header h1 {
+    font-size: 1.8rem; font-weight: 700;
+    background: linear-gradient(90deg, #534AB7, #D4537E);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    margin-bottom: 4px;
+  }
+  header p { font-size: 14px; color: #7F77DD; }
+
+  .filter {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    justify-content: center; margin-bottom: 20px; max-width: 600px;
+  }
+  .filter button {
+    padding: 6px 14px; border-radius: 99px;
+    border: 1.5px solid #AFA9EC; background: white;
+    color: #534AB7; font-size: 13px; font-weight: 500;
+    cursor: pointer; transition: all 0.15s;
+  }
+  .filter button.active {
+    background: linear-gradient(90deg, #7F77DD, #D4537E);
+    border-color: transparent; color: white;
+  }
+  .filter button:hover:not(.active) { background: #EEF2FF; }
+
+  .progress-bar-wrap { width: 100%; max-width: 480px; margin-bottom: 8px; }
+  .progress-track { height: 6px; background: rgba(127,119,221,0.2); border-radius: 99px; overflow: hidden; }
+  .progress-fill { height: 100%; background: linear-gradient(90deg, #7F77DD, #D4537E); border-radius: 99px; transition: width 0.3s ease; }
+  .progress-label { font-size: 12px; color: #7F77DD; text-align: center; margin-top: 5px; margin-bottom: 16px; }
+
+  .stats { display: flex; gap: 10px; width: 100%; max-width: 480px; margin-bottom: 20px; }
+  .stat { flex: 1; border-radius: 12px; padding: 10px; text-align: center; }
+  .stat.total { background: #EEEDFE; }
+  .stat.yes { background: #E1F5EE; }
+  .stat.no { background: #FAECE7; }
+  .stat-num { font-size: 22px; font-weight: 700; }
+  .stat.total .stat-num { color: #3C3489; }
+  .stat.yes .stat-num { color: #085041; }
+  .stat.no .stat-num { color: #712B13; }
+  .stat-lbl { font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.05em; }
+  .stat.total .stat-lbl { color: #534AB7; }
+  .stat.yes .stat-lbl { color: #0F6E56; }
+  .stat.no .stat-lbl { color: #993C1D; }
+
+  .card-area { width: 100%; max-width: 480px; perspective: 1200px; margin-bottom: 20px; }
+  .card {
+    width: 100%; min-height: 280px; position: relative;
+    transform-style: preserve-3d; transition: transform 0.5s ease; cursor: pointer;
+  }
+  .card.flipped { transform: rotateY(180deg); }
+  .card-face {
+    position: absolute; width: 100%; min-height: 280px;
+    backface-visibility: hidden; -webkit-backface-visibility: hidden;
+    border-radius: 20px; display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 28px 24px; text-align: center;
+  }
+  .card-front { background: white; border: 1.5px solid rgba(127,119,221,0.3); }
+  .card-back { background: white; border: 1.5px solid rgba(212,83,126,0.3); transform: rotateY(180deg); }
+
+  .card-tag {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.07em; padding: 3px 10px; border-radius: 99px; margin-bottom: 14px;
+  }
+  .tag-hlava { background: #EEEDFE; color: #534AB7; }
+  .tag-krk { background: #E1F5EE; color: #0F6E56; }
+  .tag-hrudnik { background: #FAECE7; color: #993C1D; }
+  .tag-bricho { background: #FAEEDA; color: #633806; }
+  .tag-zada { background: #FBEAF0; color: #72243E; }
+  .tag-horni { background: #E6F1FB; color: #185FA5; }
+  .tag-dolni { background: #EAF3DE; color: #27500A; }
+
+  .card-name { font-size: 20px; font-weight: 700; color: #26215C; margin-bottom: 6px; line-height: 1.3; }
+  .card-hint { font-size: 13px; color: #AFA9EC; margin-top: 14px; }
+
+  .card-latin { font-size: 14px; font-style: italic; color: #D4537E; margin-bottom: 14px; font-weight: 500; }
+  .back-rows { width: 100%; display: flex; flex-direction: column; gap: 8px; }
+  .back-row { display: flex; gap: 8px; align-items: flex-start; text-align: left; }
+  .back-label {
+    font-size: 11px; font-weight: 600; text-transform: uppercase;
+    letter-spacing: 0.04em; padding: 2px 8px; border-radius: 4px;
+    white-space: nowrap; flex-shrink: 0; margin-top: 2px;
+  }
+  .lbl-z { background: #EEEDFE; color: #3C3489; }
+  .lbl-u { background: #E1F5EE; color: #085041; }
+  .lbl-f { background: #FBEAF0; color: #72243E; }
+  .back-val { font-size: 13px; color: #26215C; line-height: 1.5; }
+
+  .result-row { display: flex; gap: 10px; width: 100%; max-width: 480px; display: none; margin-bottom: 16px; }
+  .result-btn { flex: 1; padding: 12px; border-radius: 12px; border: none; font-size: 14px; font-weight: 600; cursor: pointer; transition: opacity 0.15s; }
+  .result-btn.yes { background: #E1F5EE; color: #085041; border: 1.5px solid #5DCAA5; }
+  .result-btn.no { background: #FAECE7; color: #712B13; border: 1.5px solid #F0997B; }
+  .result-btn:hover { opacity: 0.8; }
+
+  .nav { display: flex; gap: 12px; align-items: center; margin-bottom: 20px; }
+  .nav button {
+    width: 48px; height: 48px; border-radius: 50%;
+    border: 1.5px solid #AFA9EC; background: white;
+    color: #534AB7; font-size: 20px; cursor: pointer;
+    transition: all 0.15s; display: flex; align-items: center; justify-content: center;
+  }
+  .nav button:hover { background: #EEF2FF; border-color: #7F77DD; }
+  .nav button:disabled { opacity: 0.3; cursor: default; }
+  .btn-flip {
+    padding: 12px 32px; border-radius: 99px;
+    background: linear-gradient(90deg, #7F77DD, #D4537E);
+    border: none; color: white; font-size: 15px; font-weight: 600;
+    cursor: pointer; transition: opacity 0.15s;
+  }
+  .btn-flip:hover { opacity: 0.9; }
+
+  .done {
+    background: white; border-radius: 20px; padding: 36px 28px;
+    text-align: center; max-width: 480px; width: 100%;
+    border: 1.5px solid rgba(127,119,221,0.3); display: none;
+  }
+  .done h2 {
+    font-size: 1.4rem; font-weight: 700;
+    background: linear-gradient(90deg, #534AB7, #D4537E);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    margin-bottom: 8px;
+  }
+  .done p { font-size: 14px; color: #7F77DD; margin-bottom: 20px; }
+  .btn-restart {
+    padding: 12px 32px; border-radius: 99px;
+    background: linear-gradient(90deg, #7F77DD, #D4537E);
+    border: none; color: white; font-size: 15px; font-weight: 600; cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Svaly – flashcards</h1>
+  <p>Klikni na kartičku pro otočení · přesně dle učebnice</p>
+</header>
+
+<div class="filter">
+  <button class="active" onclick="setFilter('vse')">Vše</button>
+  <button onclick="setFilter('hlava')">Hlava</button>
+  <button onclick="setFilter('krk')">Krk</button>
+  <button onclick="setFilter('hrudnik')">Hrudník</button>
+  <button onclick="setFilter('bricho')">Břicho</button>
+  <button onclick="setFilter('zada')">Záda</button>
+  <button onclick="setFilter('horni')">Horní konč.</button>
+  <button onclick="setFilter('dolni')">Dolní konč.</button>
+</div>
+
+<div class="progress-bar-wrap">
+  <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+  <div class="progress-label" id="progressLabel">0 / 0</div>
+</div>
+
+<div class="stats">
+  <div class="stat total"><div class="stat-num" id="statTotal">0</div><div class="stat-lbl">Celkem</div></div>
+  <div class="stat yes"><div class="stat-num" id="statYes">0</div><div class="stat-lbl">Znám ✓</div></div>
+  <div class="stat no"><div class="stat-num" id="statNo">0</div><div class="stat-lbl">Učím se ✗</div></div>
+</div>
+
+<div class="card-area">
+  <div class="card" id="card" onclick="flipCard()">
+    <div class="card-face card-front">
+      <span class="card-tag" id="cardTag"></span>
+      <div class="card-name" id="cardName"></div>
+      <div class="card-hint">Klikni pro otočení</div>
+    </div>
+    <div class="card-face card-back">
+      <span class="card-tag" id="cardTagBack"></span>
+      <div class="card-latin" id="cardLatin"></div>
+      <div class="back-rows" id="backRows"></div>
+    </div>
+  </div>
+</div>
+
+<div class="result-row" id="resultRow">
+  <button class="result-btn no" onclick="answer(false)">✗ Ještě se učím</button>
+  <button class="result-btn yes" onclick="answer(true)">✓ Znám</button>
+</div>
+
+<div class="nav">
+  <button id="btnPrev" onclick="prevCard()">&#8592;</button>
+  <button class="btn-flip" onclick="flipCard()">Otočit</button>
+  <button id="btnNext" onclick="nextCard()">&#8594;</button>
+</div>
+
+<div class="done" id="doneScreen">
+  <h2 id="doneTitle"></h2>
+  <p id="doneText"></p>
+  <button class="btn-restart" onclick="restart()">Znovu od začátku</button>
+</div>
+
+<script>
+const ALL_CARDS = [
+  // ── SVALY HLAVY ──────────────────────────────────────────────────────────
+  // Žvýkací – jen funkce (dle učebnice)
+  { s:'hlava', n:'Zevní sval žvýkací', l:'musculus masseter', polozky:[{t:'f',v:'Zavírá ústa'}] },
+  { s:'hlava', n:'Sval spánkový', l:'musculus temporalis', polozky:[{t:'f',v:'Zavírá ústa, táhne dolní čelist dozadu'}] },
+  { s:'hlava', n:'Sval křídlový vnitřní', l:'musculus pterygoideus medialis', polozky:[{t:'f',v:'Zavírá ústa, táhne čelist na opačnou stranu'}] },
+  { s:'hlava', n:'Sval křídlový vnější', l:'musculus pterygoideus lateralis', polozky:[{t:'f',v:'Zavírá ústa, táhne čelist na opačnou stranu'}] },
+  // Mimické – jen funkce (dle učebnice)
+  { s:'hlava', n:'Kruhový sval ústní', l:'musculus orbicularis oris', polozky:[{t:'f',v:'Zavírá ústa, svírá a špulí rty'}] },
+  { s:'hlava', n:'Zdvihač horního rtu', l:'musculus levator labii superioris', polozky:[{t:'f',v:'Táhne horní ret nahoru'}] },
+  { s:'hlava', n:'Velký a malý sval lícní', l:'m. zygomaticus major et minor', polozky:[{t:'f',v:'Táhnou ústní koutek nahoru a do strany'}] },
+  { s:'hlava', n:'Zdvihač ústního koutku', l:'musculus levator anguli oris', polozky:[{t:'f',v:'Táhne ústní koutek nahoru'}] },
+  { s:'hlava', n:'Sval smíchový', l:'musculus risorius', polozky:[{t:'f',v:'Táhne ústní koutek nahoru a do strany, podmiňuje důlek ve tváři'}] },
+  { s:'hlava', n:'Stahovač ústního koutku', l:'musculus depressor anguli oris', polozky:[{t:'f',v:'Táhne ústní koutek dolů'}] },
+  { s:'hlava', n:'Stahovač dolního rtu', l:'musculus depressor labii inferioris', polozky:[{t:'f',v:'Táhne dolní ret dolů'}] },
+  { s:'hlava', n:'Sval bradový', l:'musculus mentalis', polozky:[{t:'f',v:'Táhne kůži brady nahoru, podmiňuje důlek na bradě'}] },
+  { s:'hlava', n:'Sval tvářový', l:'musculus buccinator', polozky:[{t:'f',v:'Podklad tváře, rozšiřuje štěrbinu ústní při smíchu nebo pláči'}] },
+  { s:'hlava', n:'Kruhový sval oční', l:'musculus orbicularis oculi', polozky:[{t:'f',v:'Tvoří podklad očních víček, svírání víček, mrkání'}] },
+  { s:'hlava', n:'Svrašťovač obočí', l:'musculus corrugator supercilii', polozky:[{t:'f',v:'Tvoří svislé vrásky nad kořenem nosu'}] },
+  { s:'hlava', n:'Štíhlý sval nosní', l:'musculus procerus', polozky:[{t:'f',v:'Tvoří příčné vrásky nad kořenem nosu'}] },
+  { s:'hlava', n:'Sval nosní', l:'musculus nasalis', polozky:[{t:'f',v:'Mění průsvit nosních dírek'}] },
+  { s:'hlava', n:'Zdvihač horního rtu a nosního křídla', l:'m. levator labii superioris alaquae nasi', polozky:[{t:'f',v:'Táhne horní ret nahoru a rozšiřuje průsvit nosní dírky'}] },
+  { s:'hlava', n:'Sval čelní', l:'musculus frontalis', polozky:[{t:'f',v:'Tvoří příčné vrásky na čele'}] },
+  { s:'hlava', n:'Sval týlní', l:'musculus occipitalis', polozky:[{t:'f',v:'Táhne kůži hlavy dozadu'}] },
+
+  // ── SVALY KRKU ───────────────────────────────────────────────────────────
+  { s:'krk', n:'Podkožní sval krční', l:'musculus platysma', polozky:[
+    {t:'z',v:'Kůže nad dolní čelistí'},
+    {t:'u',v:'Podkožní vazivo v oblasti 2. žebra'},
+    {t:'f',v:'Napíná kůži krku'}
+  ]},
+  { s:'krk', n:'Zdvihač hlavy', l:'musculus sternocleidomastoideus', polozky:[
+    {t:'z',v:'Rukojeť kosti hrudní a vnitřní část klíční kosti'},
+    {t:'u',v:'Bradavčitý výběžek kosti spánkové'},
+    {t:'f',v:'Jednostranně: uklání hlavu na svou stranu a otáčí na opačnou; oboustranně: posunuje hlavu vpřed, provádí záklon hlavy'}
+  ]},
+  { s:'krk', n:'Svaly kloněné (přední, střední, zadní)', l:'mm. scaleni anterior, medius, posterior', polozky:[
+    {t:'z',v:'Příčné výběžky krčních obratlů'},
+    {t:'u',v:'1. žebro (přední a střední), 2. žebro (zadní)'},
+    {t:'f',v:'Jednostranně: uklání krční páteř; oboustranně: předklání krční páteř nebo zvedají 1. a 2. žebro (pomocné svaly vdechové)'}
+  ]},
+  { s:'krk', n:'Dlouhý sval krku', l:'musculus longus colli', polozky:[
+    {t:'f',v:'Jednostranně: uklání krční páteř; oboustranně: předklání krční páteř'}
+  ]},
+  { s:'krk', n:'Svaly nadjazylkové', l:'mm. suprahyoidei', polozky:[
+    {t:'f',v:'Otevírají ústa nebo zvedají jazylku'}
+  ]},
+  { s:'krk', n:'Svaly podjazylkové', l:'mm. infrahyoidei', polozky:[
+    {t:'f',v:'Pohyby jazylky'}
+  ]},
+
+  // ── SVALY HRUDNÍKU ───────────────────────────────────────────────────────
+  { s:'hrudnik', n:'Velký prsní sval', l:'musculus pectoralis major', polozky:[
+    {t:'z',v:'Vnitřní třetina klíční kosti, hrudní kost a přilehlé chrupavky 2.–7. žebra, pochva přímých břišních svalů'},
+    {t:'u',v:'Hrana pod velkým hrbolem kosti pažní'},
+    {t:'f',v:'Připažení, předpažení a vnitřní rotace v ramenním kloubu; pomocný sval nádechový'}
+  ]},
+  { s:'hrudnik', n:'Malý prsní sval', l:'musculus pectoralis minor', polozky:[
+    {t:'z',v:'3.–5. žebro'},
+    {t:'u',v:'Hákovitý výběžek lopatky'},
+    {t:'f',v:'Táhne lopatku dopředu a dolů; pomocný sval nádechový'}
+  ]},
+  { s:'hrudnik', n:'Sval podklíčkový', l:'musculus subclavius', polozky:[
+    {t:'z',v:'1. žebro'},
+    {t:'u',v:'Spodní plocha vnějšího konce klíční kosti'},
+    {t:'f',v:'Přitažení klíční kosti k 1. žebru'}
+  ]},
+  { s:'hrudnik', n:'Pilovitý sval přední', l:'musculus serratus anterior', polozky:[
+    {t:'z',v:'Osmi zuby od 1.–8. žebra'},
+    {t:'u',v:'Dolní úhel a vnitřní okraj lopatky'},
+    {t:'f',v:'Přitlačuje lopatku k hrudníku, táhne dolní úhel lopatky dolů a do strany, umožňuje upažení paže nad horizontálu'}
+  ]},
+  { s:'hrudnik', n:'Mezižeberní svaly vnější', l:'mm. intercostales externi', polozky:[
+    {t:'f',v:'Pomocné svaly nádechové – rozšiřují objem hrudníku'}
+  ]},
+  { s:'hrudnik', n:'Mezižeberní svaly vnitřní', l:'mm. intercostales interni', polozky:[
+    {t:'f',v:'Pomocné svaly výdechové – zmenšují objem hrudníku'}
+  ]},
+  { s:'hrudnik', n:'Bránice', l:'diaphragma', polozky:[
+    {t:'f',v:'Hlavní sval nádechový; při stahu se oplošťuje, čímž se zvětšuje dutina hrudní na úkor dutiny břišní'}
+  ]},
+
+  // ── BŘIŠNÍ SVALY ─────────────────────────────────────────────────────────
+  { s:'bricho', n:'Přímý sval břišní', l:'musculus rectus abdominis', polozky:[
+    {t:'z',v:'Dolní konec hrudní kosti a přilehlé chrupavky 5.–7. žebra'},
+    {t:'u',v:'Spona stydká'},
+    {t:'f',v:'Jednostranně: uklání trup; oboustranně: předklání trup, spolupracuje při břišním lisu; pomocný sval výdechový'}
+  ]},
+  { s:'bricho', n:'Zevní šikmý sval břišní', l:'musculus obliquus externus abdominis', polozky:[
+    {t:'z',v:'Zevní strana osmi posledních žeber'},
+    {t:'u',v:'Přední část hřebene kosti kyčelní, přední list pochvy přímého břišního svalu'},
+    {t:'f',v:'Jednostranně: uklání trup na svou stranu a otáčí na opačnou; oboustranně: předklání trup; pomocný sval výdechový'}
+  ]},
+  { s:'bricho', n:'Vnitřní šikmý sval břišní', l:'musculus obliquus internus abdominis', polozky:[
+    {t:'z',v:'Vnější třetina tříselného vazu, hřeben kosti kyčelní, dolní část zádové fascie'},
+    {t:'u',v:'3 poslední žebra, přední a zadní list pochvy přímého břišního svalu'},
+    {t:'f',v:'Jednostranně: uklání a otáčí trup na svou stranu; oboustranně: předklání trup; pomocný sval výdechový'}
+  ]},
+  { s:'bricho', n:'Příčný sval břišní', l:'musculus transversus abdominis', polozky:[
+    {t:'z',v:'Vnitřní plocha šesti posledních žeber, tříselný vaz, hřeben kosti kyčelní, dolní část zádové fascie'},
+    {t:'u',v:'Zadní list pochvy přímého břišního svalu'},
+    {t:'f',v:'Oboustranně: zatahuje břicho, spolupracuje při břišním lisu; pomocný sval výdechový'}
+  ]},
+  { s:'bricho', n:'Čtyřhranný sval bederní', l:'musculus quadratus lumborum', polozky:[
+    {t:'z',v:'12. žebro, 3–4 horní bederní obratle'},
+    {t:'u',v:'Příčné výběžky 3–4 dolních bederních obratlů, hřeben kosti kyčelní'},
+    {t:'f',v:'Jednostranně: uklání bederní páteř; oboustranně: zaklání bederní páteř, podílí se na vzpřímeném držení trupu'}
+  ]},
+
+  // ── ZÁDOVÉ SVALY ─────────────────────────────────────────────────────────
+  { s:'zada', n:'Sval trapézový', l:'musculus trapezius', polozky:[
+    {t:'z',v:'Kost týlní, trnové výběžky krčních a hrudních obratlů'},
+    {t:'u',v:'Vnější třetina klíční kosti, nadpažek, hřeben lopatky'},
+    {t:'f',v:'Horní část: zvedá lopatku; střední: přitahuje lopatku k páteři; dolní: stahuje lopatku dolů; jednostranně: uklání hlavu'}
+  ]},
+  { s:'zada', n:'Zdvihač lopatky', l:'musculus levator scapulae', polozky:[
+    {t:'z',v:'Příčné výběžky prvních 4 krčních obratlů'},
+    {t:'u',v:'Horní úhel lopatky'},
+    {t:'f',v:'Zvedá lopatku nahoru'}
+  ]},
+  { s:'zada', n:'Malý sval rombický', l:'musculus rhomboideus minor', polozky:[
+    {t:'z',v:'Trnové výběžky 6.–7. krčního obratle'},
+    {t:'u',v:'Vnitřní okraj lopatky (oproti nadhřebenové jámě)'},
+    {t:'f',v:'Táhne lopatku nahoru a k páteři'}
+  ]},
+  { s:'zada', n:'Velký sval rombický', l:'musculus rhomboideus major', polozky:[
+    {t:'z',v:'Trnové výběžky 1.–4. hrudního obratle'},
+    {t:'u',v:'Vnitřní okraj lopatky (oproti podhřebenové jámě)'},
+    {t:'f',v:'Táhne lopatku nahoru a k páteři'}
+  ]},
+  { s:'zada', n:'Široký sval zádový', l:'musculus latissimus dorsi', polozky:[
+    {t:'z',v:'Trnové výběžky posledních 6 hrudních a bederních obratlů, zadní část hřebene kosti kyčelní, zadní plocha kosti křížové, 3–4 poslední žebra'},
+    {t:'u',v:'Hrana pod malým hrbolem kosti pažní'},
+    {t:'f',v:'Připažení (addukce), zapažení (extenze), vnitřní rotace v ramenním kloubu; je-li tělo zavěšeno, vytahuje trup vzhůru'}
+  ]},
+  { s:'zada', n:'Zadní pilovitý sval horní', l:'musculus serratus posterior superior', polozky:[
+    {t:'z',v:'Trnové výběžky 6.–7. krčního a 1.–2. hrudního obratle'},
+    {t:'u',v:'2.–5. žebro'},
+    {t:'f',v:'Pomocný sval vdechový – zvedá žebra'}
+  ]},
+  { s:'zada', n:'Zadní pilovitý sval dolní', l:'musculus serratus posterior inferior', polozky:[
+    {t:'z',v:'Trnové výběžky 11.–12. hrudního a 1.–2. bederního obratle'},
+    {t:'u',v:'Poslední 4 žebra'},
+    {t:'f',v:'Pomocný sval výdechový – táhne žebra dolů'}
+  ]},
+  { s:'zada', n:'Vzpřimovače trupu', l:'musculus erector spinae', polozky:[
+    {t:'f',v:'Jednostranně: uklání páteř na svou stranu; oboustranně: zaklání páteř'}
+  ]},
+
+  // ── SVALY HORNÍ KONČETINY ─────────────────────────────────────────────────
+  // Ramenní kloub
+  { s:'horni', n:'Sval deltový', l:'musculus deltoideus', polozky:[
+    {t:'z',v:'Vnější třetina klíční kosti, nadpažek, hřeben lopatky'},
+    {t:'u',v:'Drsnatina kosti pažní'},
+    {t:'f',v:'Upažení (abdukce), předpažení (flexe), zapažení (extenze) v kloubu ramenním'}
+  ]},
+  { s:'horni', n:'Sval nadhřebenový', l:'musculus supraspinatus', polozky:[
+    {t:'z',v:'Jáma nadhřebenová na lopatce'},
+    {t:'u',v:'Velký hrbol kosti pažní'},
+    {t:'f',v:'Upažení (abdukce) a zevní rotace v kloubu ramenním'}
+  ]},
+  { s:'horni', n:'Sval podhřebenový', l:'musculus infraspinatus', polozky:[
+    {t:'z',v:'Jáma podhřebenová na lopatce'},
+    {t:'u',v:'Velký hrbol kosti pažní'},
+    {t:'f',v:'Připažení (addukce) a zevní rotace v kloubu ramenním'}
+  ]},
+  { s:'horni', n:'Malý sval oblý', l:'musculus teres minor', polozky:[
+    {t:'z',v:'Vnější okraj lopatky'},
+    {t:'u',v:'Velký hrbol kosti pažní'},
+    {t:'f',v:'Připažení (addukce) a zevní rotace v kloubu ramenním'}
+  ]},
+  { s:'horni', n:'Velký sval oblý', l:'musculus teres major', polozky:[
+    {t:'z',v:'Dolní úhel a vnitřní okraj lopatky'},
+    {t:'u',v:'Hrana pod malým hrbolem kosti pažní'},
+    {t:'f',v:'Připažení (addukce), zapažení (extenze) a vnitřní rotace v kloubu ramenním'}
+  ]},
+  { s:'horni', n:'Sval podlopatkový', l:'musculus subscapularis', polozky:[
+    {t:'z',v:'Přední plocha lopatky (přivrácená k žebrům)'},
+    {t:'u',v:'Malý hrbol kosti pažní'},
+    {t:'f',v:'Připažení (addukce) a vnitřní rotace v kloubu ramenním'}
+  ]},
+  // Svaly paže
+  { s:'horni', n:'Dvojhlavý sval pažní', l:'musculus biceps brachii', polozky:[
+    {t:'z',v:'Krátká hlava: hákovitý výběžek lopatky; dlouhá hlava: nad jamkou ramenního kloubu'},
+    {t:'u',v:'Drsnatina kosti vřetenní'},
+    {t:'f',v:'Ohnutí (flexe) v kloubu loketním, supinace předloktí'}
+  ]},
+  { s:'horni', n:'Sval hákový', l:'musculus coracobrachialis', polozky:[
+    {t:'z',v:'Hákovitý výběžek lopatky'},
+    {t:'u',v:'Vnitřní strana těla kosti pažní v polovině délky'},
+    {t:'f',v:'Připažení (addukce) a předpažení (flexe) v kloubu ramenním'}
+  ]},
+  { s:'horni', n:'Hluboký sval pažní', l:'musculus brachialis', polozky:[
+    {t:'z',v:'Přední strana kosti pažní pod drsnatinou svalu deltového'},
+    {t:'u',v:'Drsnatina kosti loketní'},
+    {t:'f',v:'Ohnutí (flexe) v kloubu loketním'}
+  ]},
+  { s:'horni', n:'Trojhlavý sval pažní', l:'musculus triceps brachii', polozky:[
+    {t:'z',v:'Dlouhá hlava: lopatka pod jamkou ramenního kloubu; vnější a vnitřní hlava: plochy kosti pažní'},
+    {t:'u',v:'Okovec kosti loketní'},
+    {t:'f',v:'Natažení (extenze) v kloubu loketním'}
+  ]},
+  { s:'horni', n:'Sval loketní', l:'musculus anconeus', polozky:[
+    {t:'z',v:'Vnější epikondyl kosti pažní'},
+    {t:'u',v:'Okovec kosti loketní'},
+    {t:'f',v:'Natažení (extenze) v kloubu loketním'}
+  ]},
+  // Svaly předloktí – skupiny
+  { s:'horni', n:'Skupina ohybačů předloktí (flexory)', l:'skupina svalů přední strany předloktí', polozky:[
+    {t:'f',v:'Ohybače zápěstí a prstů; začínají převážně od vnitřního epikondylu kosti pažní, upínají se na dlaňové straně záprstních kostí a článků prstů'}
+  ]},
+  { s:'horni', n:'Skupina natahovačů předloktí (extenzory)', l:'skupina svalů zadní strany předloktí', polozky:[
+    {t:'f',v:'Natahovače zápěstí a prstů; začínají od vnějšího epikondylu kosti pažní, upínají se na hřbetu ruky a článcích prstů'}
+  ]},
+  { s:'horni', n:'Pronátory předloktí', l:'skupina rotátorů – pronátory', polozky:[
+    {t:'f',v:'Provádějí vnitřní rotaci předloktí (pronaci – otočení dlaně dolů); jdou z přední strany loketní kosti ke kosti vřetenní'}
+  ]},
+  { s:'horni', n:'Supinátory předloktí', l:'skupina rotátorů – supinátory', polozky:[
+    {t:'f',v:'Provádějí zevní rotaci předloktí (supinaci – otočení dlaně nahoru); jdou od zadní strany loketní kosti, obtáčí a upínají se na kost vřetenní'}
+  ]},
+
+  // ── SVALY DOLNÍ KONČETINY ─────────────────────────────────────────────────
+  // Kyčelní kloub
+  { s:'dolni', n:'Sval bedrokyčlostehenní', l:'musculus iliopsoas', polozky:[
+    {t:'z',v:'Meziobratlové ploténky posledního hrudního a všech bederních obratlů, vnitřní plocha jámy kosti kyčelní'},
+    {t:'u',v:'Malý chocholík kosti stehenní'},
+    {t:'f',v:'Přednožení (flexe) v kloubu kyčelním, napomáhá vykročení'}
+  ]},
+  { s:'dolni', n:'Velký sval hýžďový', l:'musculus glutaeus maximus', polozky:[
+    {t:'z',v:'Zadní část vnější plochy lopaty kosti kyčelní, vnější okraj kosti křížové a kostrče'},
+    {t:'u',v:'Drsnatina pod velkým chocholíkem kosti stehenní'},
+    {t:'f',v:'Zanožení (extenze) v kloubu kyčelním'}
+  ]},
+  { s:'dolni', n:'Střední sval hýžďový', l:'musculus glutaeus medius', polozky:[
+    {t:'z',v:'Horní část vnější plochy lopaty kosti kyčelní'},
+    {t:'u',v:'Velký chocholík kosti stehenní'},
+    {t:'f',v:'Unožení (abdukce) v kloubu kyčelním'}
+  ]},
+  { s:'dolni', n:'Malý sval hýžďový', l:'musculus glutaeus minimus', polozky:[
+    {t:'z',v:'Vnější plocha lopaty kosti kyčelní'},
+    {t:'u',v:'Velký chocholík kosti stehenní'},
+    {t:'f',v:'Unožení (abdukce) v kloubu kyčelním'}
+  ]},
+  { s:'dolni', n:'Napínač povázky stehenní', l:'musculus tensor fasciae latae', polozky:[
+    {t:'z',v:'Přední horní trn kosti kyčelní, přiléhající část hřebene kosti kyčelní'},
+    {t:'u',v:'Povázka stehenní – k vnějšímu kondylu kosti holenní'},
+    {t:'f',v:'Přednožení (flexe) a unožení (abdukce) v kloubu kyčelním'}
+  ]},
+  // Svaly stehna – přední skupina
+  { s:'dolni', n:'Čtyřhlavý sval stehenní', l:'musculus quadriceps femoris', polozky:[
+    {t:'z',v:'Přední dolní trn kosti kyčelní (přímý sval), plochy těla kosti stehenní (ostatní hlavy)'},
+    {t:'u',v:'Čéška, úponová šlacha pak přechází ve vaz upínající se na drsnatinu kosti holenní'},
+    {t:'f',v:'Natažení (extenze) v kloubu kolenním; přímý sval stehenní pomáhá při přednožení (flexi) v kloubu kyčelním'}
+  ]},
+  { s:'dolni', n:'Krejčovský sval', l:'musculus sartorius', polozky:[
+    {t:'z',v:'Přední horní trn kosti kyčelní'},
+    {t:'u',v:'Vnitřní kondyl kosti holenní'},
+    {t:'f',v:'Přednožení (flexe), unožení (abdukce) a zevní rotace v kloubu kyčelním, ohnutí (flexe) v kloubu kolenním'}
+  ]},
+  // Svaly stehna – zadní skupina
+  { s:'dolni', n:'Dvojhlavý sval stehenní', l:'musculus biceps femoris', polozky:[
+    {t:'z',v:'Dlouhá hlava: sedací hrbol; krátká hlava: zadní plocha těla kosti stehenní'},
+    {t:'u',v:'Hlavička lýtkové kosti'},
+    {t:'f',v:'Ohnutí (flexe) v kloubu kolenním, zanožení (extenze) v kloubu kyčelním'}
+  ]},
+  { s:'dolni', n:'Sval pološlašitý', l:'musculus semitendinosus', polozky:[
+    {t:'z',v:'Sedací hrbol'},
+    {t:'u',v:'Vnitřní kondyl kosti holenní'},
+    {t:'f',v:'Ohnutí (flexe) v kloubu kolenním, zanožení (extenze) v kloubu kyčelním'}
+  ]},
+  { s:'dolni', n:'Sval poloblanitý', l:'musculus semimembranosus', polozky:[
+    {t:'z',v:'Sedací hrbol'},
+    {t:'u',v:'Vnitřní kondyl kosti holenní'},
+    {t:'f',v:'Ohnutí (flexe) v kloubu kolenním, zanožení (extenze) v kloubu kyčelním'}
+  ]},
+  // Svaly stehna – vnitřní skupina
+  { s:'dolni', n:'Dlouhý, krátký a velký přitahovač stehna', l:'m. adductor longus, brevis et magnus', polozky:[
+    {t:'z',v:'Kost stydká'},
+    {t:'u',v:'Vnitřní strana kosti stehenní'},
+    {t:'f',v:'Přinožení (addukce) v kloubu kyčelním'}
+  ]},
+  { s:'dolni', n:'Štíhlý sval stehenní', l:'musculus gracilis', polozky:[
+    {t:'z',v:'Kost stydká'},
+    {t:'u',v:'Vnitřní kondyl kosti holenní'},
+    {t:'f',v:'Přinožení (addukce) v kloubu kyčelním, ohnutí (flexe) v kloubu kolenním'}
+  ]},
+  // Svaly bérce
+  { s:'dolni', n:'Přední sval holenní', l:'musculus tibialis anterior', polozky:[
+    {t:'z',v:'Vnější kondyl kosti holenní'},
+    {t:'u',v:'Vnitřní kost klínová, báze 1. kosti nártní'},
+    {t:'f',v:'Zvednutí špičky (dorzální flexe), supinace v hlezenním kloubu'}
+  ]},
+  { s:'dolni', n:'Dlouhý natahovač prstů', l:'musculus extensor digitorum longus', polozky:[
+    {t:'z',v:'Horní polovina vnitřní plochy kosti lýtkové'},
+    {t:'u',v:'Čtyřmi šlachami na poslední článek 2.–5. prstu'},
+    {t:'f',v:'Dorzální flexe (extenze) prstů a nohy'}
+  ]},
+  { s:'dolni', n:'Dlouhý natahovač palce', l:'musculus extensor hallucis longus', polozky:[
+    {t:'z',v:'Dolní polovina vnitřní plochy kosti lýtkové'},
+    {t:'u',v:'Poslední článek palce'},
+    {t:'f',v:'Dorzální flexe (extenze) palce a nohy'}
+  ]},
+  { s:'dolni', n:'Trojhlavý sval lýtkový', l:'musculus triceps surae', polozky:[
+    {t:'z',v:'Dvojhlavý sval lýtkový: vnitřní a vnější epikondyl kosti stehenní; šikmý sval lýtkový: hlavička a horní třetina kosti lýtkové, zadní plocha kosti holenní'},
+    {t:'u',v:'Prostřednictvím Achillovy šlachy na hrbol kosti patní'},
+    {t:'f',v:'Propnutí špičky (plantární flexe), dvojhlavý sval lýtkový pomáhá ohnutí (flexi) v kloubu kolenním'}
+  ]},
+  { s:'dolni', n:'Sval zákolenní', l:'musculus popliteus', polozky:[
+    {t:'z',v:'Vnější epikondyl kosti stehenní'},
+    {t:'u',v:'Horní část zadní plochy kosti holenní'},
+    {t:'f',v:'Ohnutí (flexe) v kloubu kolenním'}
+  ]},
+  { s:'dolni', n:'Zadní sval holenní', l:'musculus tibialis posterior', polozky:[
+    {t:'f',v:'Plantární flexe v hlezenním kloubu'}
+  ]},
+  { s:'dolni', n:'Dlouhý ohybač prstů', l:'musculus flexor digitorum longus', polozky:[
+    {t:'f',v:'Ohnutí (flexe) prstů a plantární flexe nohy'}
+  ]},
+  { s:'dolni', n:'Dlouhý ohybač palce', l:'musculus flexor hallucis longus', polozky:[
+    {t:'f',v:'Ohnutí (flexe) palce a plantární flexe nohy'}
+  ]},
+  { s:'dolni', n:'Dlouhý sval lýtkový', l:'musculus peroneus longus', polozky:[
+    {t:'z',v:'Horní polovina vnější plochy kosti lýtkové'},
+    {t:'u',v:'Báze 1. kosti nártní (z chodidlové strany)'},
+    {t:'f',v:'Pronace a plantární flexe v hlezenním kloubu'}
+  ]},
+  { s:'dolni', n:'Krátký sval lýtkový', l:'musculus peroneus brevis', polozky:[
+    {t:'z',v:'Dolní polovina vnější plochy kosti lýtkové'},
+    {t:'u',v:'Báze 5. kosti nártní (z chodidlové strany)'},
+    {t:'f',v:'Pronace a plantární flexe v hlezenním kloubu'}
+  ]},
+];
+
+const SKUPINY = { hlava:'Svaly hlavy', krk:'Svaly krku', hrudnik:'Svaly hrudníku', bricho:'Břišní svaly', zada:'Zádové svaly', horni:'Svaly horní končetiny', dolni:'Svaly dolní končetiny' };
+const TAGS = { hlava:'tag-hlava', krk:'tag-krk', hrudnik:'tag-hrudnik', bricho:'tag-bricho', zada:'tag-zada', horni:'tag-horni', dolni:'tag-dolni' };
+
+let cards = [], current = 0, isFlipped = false;
+let countYes = 0, countNo = 0, filter = 'vse', answered = [];
+
+function setFilter(f) {
+  filter = f;
+  document.querySelectorAll('.filter button').forEach(b => {
+    const map = ['vse','hlava','krk','hrudnik','bricho','zada','horni','dolni'];
+    b.classList.toggle('active', map[Array.from(document.querySelectorAll('.filter button')).indexOf(b)] === f);
+  });
+  restart();
+}
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function restart() {
+  cards = shuffle([...ALL_CARDS].filter(c => filter === 'vse' || c.s === filter));
+  current = 0; isFlipped = false; countYes = 0; countNo = 0;
+  answered = new Array(cards.length).fill(null);
+  document.getElementById('doneScreen').style.display = 'none';
+  document.getElementById('card').style.display = '';
+  document.getElementById('resultRow').style.display = 'none';
+  document.querySelector('.nav').style.display = '';
+  showCard(); updateStats();
+}
+
+function showCard() {
+  if (!cards.length) return;
+  const c = cards[current];
+  isFlipped = false;
+  document.getElementById('card').classList.remove('flipped');
+
+  const tagLabel = SKUPINY[c.s] || c.s;
+  const tagCls = 'card-tag ' + (TAGS[c.s] || '');
+
+  document.getElementById('cardTag').textContent = tagLabel;
+  document.getElementById('cardTag').className = tagCls;
+  document.getElementById('cardTagBack').textContent = tagLabel;
+  document.getElementById('cardTagBack').className = tagCls;
+  document.getElementById('cardName').textContent = c.n;
+  document.getElementById('cardLatin').textContent = c.l;
+
+  const backRows = document.getElementById('backRows');
+  backRows.innerHTML = '';
+  c.polozky.forEach(p => {
+    const row = document.createElement('div');
+    row.className = 'back-row';
+    const labels = {z:'Začátek', u:'Úpon', f:'Funkce'};
+    const lblCls = {z:'lbl-z', u:'lbl-u', f:'lbl-f'};
+    row.innerHTML = `<span class="back-label ${lblCls[p.t]}">${labels[p.t]}</span><span class="back-val">${p.v}</span>`;
+    backRows.appendChild(row);
+  });
+
+  document.getElementById('resultRow').style.display = 'none';
+  document.getElementById('btnPrev').disabled = current === 0;
+  document.getElementById('btnNext').disabled = current === cards.length - 1;
+  updateProgress();
+}
+
+function updateProgress() {
+  const done = answered.filter(a => a !== null).length;
+  const pct = cards.length > 0 ? (done / cards.length * 100) : 0;
+  document.getElementById('progressFill').style.width = pct + '%';
+  document.getElementById('progressLabel').textContent = done + ' / ' + cards.length;
+}
+
+function flipCard() {
+  isFlipped = !isFlipped;
+  document.getElementById('card').classList.toggle('flipped', isFlipped);
+  if (isFlipped) document.getElementById('resultRow').style.display = 'flex';
+}
+
+function answer(yes) {
+  if (answered[current] === null) {
+    if (yes) countYes++; else countNo++;
+    answered[current] = yes;
+  }
+  updateStats(); updateProgress();
+  if (answered.filter(a => a !== null).length === cards.length) { showDone(); return; }
+  let next = current + 1;
+  while (next < cards.length && answered[next] !== null) next++;
+  if (next >= cards.length) { next = 0; while (next < cards.length && answered[next] !== null) next++; }
+  current = next; showCard();
+}
+
+function nextCard() { if (current < cards.length - 1) { current++; showCard(); } }
+function prevCard() { if (current > 0) { current--; showCard(); } }
+
+function updateStats() {
+  document.getElementById('statTotal').textContent = cards.length;
+  document.getElementById('statYes').textContent = countYes;
+  document.getElementById('statNo').textContent = countNo;
+}
+
+function showDone() {
+  document.getElementById('card').style.display = 'none';
+  document.getElementById('resultRow').style.display = 'none';
+  document.querySelector('.nav').style.display = 'none';
+  const pct = Math.round(countYes / cards.length * 100);
+  document.getElementById('doneScreen').style.display = 'block';
+  document.getElementById('doneTitle').textContent = pct >= 80 ? '🎉 Výborně!' : pct >= 50 ? '💪 Dobrá práce!' : '📖 Ještě trochu procvičit!';
+  document.getElementById('doneText').textContent = 'Znáš ' + countYes + ' z ' + cards.length + ' svalů (' + pct + '%). ' + (pct >= 80 ? 'Jsi připravená na zkoušku!' : 'Zkus to znovu, půjde to lépe!');
+}
+
+restart();
+</script>
+</body>
+</html>
