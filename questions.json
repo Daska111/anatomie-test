@@ -2350,166 +2350,309 @@
       "questions": [
         {
           "id": "d2h1",
-          "q": "Kde začíná m. sternocleidomastoideus?",
+          "q": "Jakou funkci má m. masseter?",
           "options": [
-            "Bradavčitý výběžek a klíční kost",
-            "Rukojeť kosti hrudní a vnitřní část klíční kosti",
-            "Trnové výběžky krčních obratlů",
-            "Kost týlní a klíční kost"
+            "Otevírá ústa",
+            "Zavírá ústa",
+            "Zavírá ústa a táhne dolní čelist dozadu",
+            "Táhne čelist na opačnou stranu"
           ],
           "answer_index": 1
         },
         {
           "id": "d2h2",
-          "q": "Kde se upíná m. sternocleidomastoideus?",
+          "q": "Jakou funkci má m. temporalis?",
           "options": [
-            "Kost týlní",
-            "Klíční kost",
-            "Bradavčitý výběžek kosti spánkové",
-            "Příčné výběžky krčních obratlů"
+            "Otevírá ústa",
+            "Zavírá ústa a táhne dolní čelist dopředu",
+            "Zavírá ústa a táhne dolní čelist dozadu",
+            "Táhne čelist na opačnou stranu"
           ],
           "answer_index": 2
         },
         {
           "id": "d2h3",
-          "q": "Kde začíná m. platysma?",
+          "q": "Jakou funkci má m. pterygoideus medialis?",
           "options": [
-            "Rukojeť kosti hrudní",
-            "Kůže nad dolní čelistí",
-            "Bradavčitý výběžek kosti spánkové",
-            "Klíční kost"
+            "Zavírá ústa a táhne dolní čelist dozadu",
+            "Otevírá ústa",
+            "Zavírá ústa, táhne čelist na opačnou stranu",
+            "Napíná kůži krku"
           ],
-          "answer_index": 1
+          "answer_index": 2
         },
         {
           "id": "d2h4",
-          "q": "Kde se upíná m. platysma?",
+          "q": "Jakou funkci má m. pterygoideus lateralis?",
           "options": [
-            "1. žebro",
-            "Bradavčitý výběžek kosti spánkové",
-            "Klíční kost",
-            "Podkožní vazivo v oblasti 2. žebra"
+            "Zavírá ústa a táhne dolní čelist dozadu",
+            "Otevírá ústa",
+            "Napíná kůži krku",
+            "Zavírá ústa, táhne čelist na opačnou stranu"
           ],
           "answer_index": 3
         },
         {
           "id": "d2h5",
-          "q": "Kde začínají mm. scaleni?",
+          "q": "Který žvýkací sval táhne dolní čelist DOZADU?",
           "options": [
-            "Trnové výběžky krčních obratlů",
-            "Příčné výběžky krčních obratlů",
-            "Kost týlní",
-            "Rukojeť kosti hrudní"
+            "M. masseter",
+            "M. pterygoideus medialis",
+            "M. temporalis",
+            "M. pterygoideus lateralis"
           ],
-          "answer_index": 1
+          "answer_index": 2
         },
         {
           "id": "d2h6",
-          "q": "Kde se upíná sval kloněný přední a střední?",
+          "q": "Který ze žvýkacích svalů NEJEN zavírá ústa, ale také táhne čelist na opačnou stranu?",
           "options": [
-            "2. žebro",
-            "Klíční kost",
-            "1. žebro",
-            "Bradavčitý výběžek"
+            "M. masseter",
+            "M. temporalis",
+            "M. pterygoideus medialis i lateralis",
+            "Pouze m. pterygoideus lateralis"
           ],
           "answer_index": 2
         },
         {
           "id": "d2h7",
-          "q": "Kde se upíná sval kloněný zadní?",
+          "q": "Jakou funkci má m. orbicularis oris?",
           "options": [
-            "1. žebro",
-            "Klíční kost",
-            "2. žebro",
-            "Bradavčitý výběžek"
+            "Táhne ústní koutek nahoru",
+            "Táhne dolní ret dolů",
+            "Zavírá ústa, svírá a špulí rty",
+            "Podmiňuje důlek ve tváři"
           ],
           "answer_index": 2
         },
         {
           "id": "d2h8",
-          "q": "Kde začíná m. longus colli?",
+          "q": "Jakou funkci má m. risorius?",
           "options": [
-            "Kost týlní a klíční kost",
-            "Spojuje krční a hrudní obratle z přední strany",
-            "Příčné výběžky krčních obratlů",
-            "Rukojeť kosti hrudní"
+            "Zavírá ústa",
+            "Táhne ústní koutek dolů a do strany",
+            "Táhne ústní koutek nahoru a do strany, podmiňuje důlek ve tváři",
+            "Táhne kůži brady nahoru"
           ],
-          "answer_index": 1
+          "answer_index": 2
         },
         {
           "id": "d2h9",
-          "q": "Co spojují mm. suprahyoidei?",
+          "q": "Jakou funkci má m. depressor anguli oris?",
           "options": [
-            "Jazylku s kostí hrudní",
-            "Dolní čelist s jazylkou",
-            "Jazylku s hrtanem",
-            "Dolní čelist s hrudní kostí"
+            "Táhne ústní koutek nahoru",
+            "Táhne ústní koutek dolů",
+            "Zavírá ústa",
+            "Táhne horní ret nahoru"
           ],
           "answer_index": 1
         },
         {
           "id": "d2h10",
-          "q": "Co spojují mm. infrahyoidei?",
+          "q": "Jakou funkci má m. depressor labii inferioris?",
           "options": [
-            "Dolní čelist s jazylkou",
-            "Jazylku s kostí hrudní, lopatkou nebo hrtanem",
-            "Jazylku s kostí křížovou",
-            "Dolní čelist s hrtanem"
+            "Táhne ústní koutek dolů",
+            "Táhne dolní ret dolů",
+            "Táhne kůži brady nahoru",
+            "Táhne horní ret nahoru"
           ],
           "answer_index": 1
         },
         {
           "id": "d2h11",
-          "q": "Kde se upíná m. platysma – záměna s jiným svalem?",
+          "q": "Jakou funkci má m. mentalis?",
           "options": [
-            "Bradavčitý výběžek kosti spánkové (jako m. sternocleidomastoideus)",
-            "Podkožní vazivo v oblasti 2. žebra",
-            "1. žebro (jako mm. scaleni)",
-            "Rukojeť kosti hrudní (jako m. sternocleidomastoideus)"
+            "Táhne ústní koutek dolů",
+            "Táhne dolní ret dolů",
+            "Táhne kůži brady nahoru, podmiňuje důlek na bradě",
+            "Zavírá ústa"
           ],
-          "answer_index": 1
+          "answer_index": 2
         },
         {
           "id": "d2h12",
-          "q": "Který sval začíná NA RUKOJETI kosti hrudní a VNITŘNÍ části klíční kosti?",
+          "q": "Jakou funkci má m. buccinator?",
           "options": [
-            "M. platysma",
-            "M. longus colli",
-            "M. sternocleidomastoideus",
-            "Mm. scaleni"
+            "Táhne ústní koutek nahoru",
+            "Táhne ústní koutek dolů",
+            "Podklad tváře, rozšiřuje štěrbinu ústní při smíchu nebo pláči",
+            "Svírá rty"
           ],
           "answer_index": 2
         },
         {
           "id": "d2h13",
-          "q": "Který sval se upíná na BRADAVČITÝ VÝBĚŽEK kosti spánkové?",
+          "q": "Jakou funkci má m. orbicularis oculi?",
           "options": [
-            "M. platysma",
-            "Mm. scaleni",
-            "M. longus colli",
-            "M. sternocleidomastoideus"
+            "Tvoří příčné vrásky na čele",
+            "Tvoří svislé vrásky nad kořenem nosu",
+            "Tvoří podklad očních víček, svírání víček, mrkání",
+            "Táhne kůži hlavy dozadu"
           ],
-          "answer_index": 3
+          "answer_index": 2
         },
         {
           "id": "d2h14",
-          "q": "Kde začíná m. platysma – záměna se sternocleidomastoideus?",
+          "q": "Jakou funkci má m. corrugator supercilii?",
           "options": [
-            "Rukojeť kosti hrudní",
-            "Kůže nad dolní čelistí",
-            "Bradavčitý výběžek kosti spánkové",
-            "Klíční kost"
+            "Tvoří příčné vrásky nad kořenem nosu",
+            "Tvoří svislé vrásky nad kořenem nosu",
+            "Tvoří příčné vrásky na čele",
+            "Táhne kůži hlavy dozadu"
           ],
           "answer_index": 1
         },
         {
           "id": "d2h15",
-          "q": "Který sval se upíná na 2. žebro?",
+          "q": "Jakou funkci má m. procerus?",
           "options": [
-            "Sval kloněný přední",
-            "Sval kloněný střední",
-            "Sval kloněný zadní",
-            "M. sternocleidomastoideus"
+            "Tvoří svislé vrásky nad kořenem nosu",
+            "Tvoří příčné vrásky nad kořenem nosu",
+            "Tvoří příčné vrásky na čele",
+            "Mění průsvit nosních dírek"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2h16",
+          "q": "Jakou funkci má m. frontalis?",
+          "options": [
+            "Táhne kůži hlavy dozadu",
+            "Tvoří svislé vrásky na čele",
+            "Tvoří příčné vrásky na čele",
+            "Tvoří svislé vrásky nad kořenem nosu"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2h17",
+          "q": "Jakou funkci má m. occipitalis?",
+          "options": [
+            "Tvoří příčné vrásky na čele",
+            "Táhne kůži hlavy dozadu",
+            "Tvoří svislé vrásky na záhlaví",
+            "Táhne kůži hlavy dopředu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2h18",
+          "q": "Jakou funkci má m. nasalis?",
+          "options": [
+            "Tvoří příčné vrásky nad nosem",
+            "Táhne horní ret nahoru",
+            "Mění průsvit nosních dírek",
+            "Rozšiřuje nosní dírky a táhne horní ret nahoru"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2h19",
+          "q": "Jakou funkci má m. levator labii superioris alaquae nasi?",
+          "options": [
+            "Táhne horní ret dolů a zužuje nosní dírky",
+            "Táhne horní ret nahoru a rozšiřuje průsvit nosní dírky",
+            "Táhne dolní ret dolů",
+            "Tvoří příčné vrásky nad nosem"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2h20",
+          "q": "Záměna funkcí: který sval tvoří příčné vrásky na ČELE (ne nad kořenem nosu)?",
+          "options": [
+            "M. procerus",
+            "M. corrugator supercilii",
+            "M. frontalis",
+            "M. occipitalis"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2h21",
+          "q": "Záměna funkcí: který sval tvoří SVISLÉ vrásky nad kořenem nosu (ne příčné)?",
+          "options": [
+            "M. procerus",
+            "M. corrugator supercilii",
+            "M. frontalis",
+            "M. nasalis"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2h22",
+          "q": "Který mimický sval podmiňuje důlek NA BRADĚ?",
+          "options": [
+            "M. risorius",
+            "M. depressor anguli oris",
+            "M. mentalis",
+            "M. buccinator"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2h23",
+          "q": "Který mimický sval podmiňuje důlek VE TVÁŘI?",
+          "options": [
+            "M. mentalis",
+            "M. buccinator",
+            "M. risorius",
+            "M. depressor anguli oris"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2h24",
+          "q": "Záměna: m. risorius a m. depressor anguli oris – oba táhnou ústní koutek dolů?",
+          "options": [
+            "Ano, oba táhnou dolů",
+            "Ne – m. risorius táhne nahoru a do strany, m. depressor anguli oris táhne dolů",
+            "Ne – oba táhnou nahoru",
+            "Ne – m. risorius táhne dolů, m. depressor anguli oris nahoru"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2h25",
+          "q": "Který sval NEPATŘÍ mezi svaly žvýkací?",
+          "options": [
+            "M. masseter",
+            "M. temporalis",
+            "M. levator labii superioris",
+            "M. pterygoideus medialis"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2h26",
+          "q": "Který sval NEPATŘÍ mezi mimické svaly?",
+          "options": [
+            "M. orbicularis oris",
+            "M. buccinator",
+            "M. masseter",
+            "M. frontalis"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2h27",
+          "q": "Jakou funkci má m. levator labii superioris?",
+          "options": [
+            "Táhne dolní ret dolů",
+            "Táhne horní ret nahoru",
+            "Táhne ústní koutek nahoru a do strany",
+            "Táhne ústní koutek dolů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2h28",
+          "q": "Jakou funkci má m. zygomaticus major et minor?",
+          "options": [
+            "Táhnou ústní koutek dolů",
+            "Táhnou dolní ret dolů",
+            "Táhnou ústní koutek nahoru a do strany",
+            "Zavírají ústa"
           ],
           "answer_index": 2
         }
@@ -2739,6 +2882,116 @@
             "Hřeben lopatky"
           ],
           "answer_index": 2
+        },
+        {
+          "id": "d2hh_f1",
+          "q": "Jakou funkci má m. pectoralis major?",
+          "options": [
+            "Táhne lopatku dopředu a dolů; pomocný sval nádechový",
+            "Připažení, předpažení a vnitřní rotace v ramenním kloubu; pomocný sval nádechový",
+            "Upažení a zevní rotace; pomocný sval nádechový",
+            "Připažení a zapažení; pomocný sval výdechový"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hh_f2",
+          "q": "Jakou funkci má m. pectoralis minor?",
+          "options": [
+            "Připažení a vnitřní rotace v ramenním kloubu",
+            "Táhne lopatku dozadu a nahoru; pomocný sval nádechový",
+            "Táhne lopatku dopředu a dolů; pomocný sval nádechový",
+            "Upažení paže nad horizontálu"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2hh_f3",
+          "q": "Jakou funkci má m. subclavius?",
+          "options": [
+            "Táhne lopatku dopředu",
+            "Připažení v ramenním kloubu",
+            "Přitažení klíční kosti k 1. žebru",
+            "Pomocný sval nádechový"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2hh_f4",
+          "q": "Jakou funkci má m. serratus anterior?",
+          "options": [
+            "Táhne lopatku dozadu a nahoru",
+            "Přitlačuje lopatku k hrudníku, umožňuje upažení paže nad horizontálu",
+            "Připažení v ramenním kloubu; pomocný sval výdechový",
+            "Táhne lopatku dolů a dozadu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hh_f5",
+          "q": "M. pectoralis major je pomocný sval:",
+          "options": [
+            "Výdechový",
+            "Nádechový",
+            "Bez respirační funkce",
+            "Výdechový i nádechový"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hh_f6",
+          "q": "Mm. intercostales externi jsou:",
+          "options": [
+            "Pomocné svaly výdechové – zmenšují objem hrudníku",
+            "Pomocné svaly nádechové – rozšiřují objem hrudníku",
+            "Hlavní svaly nádechové",
+            "Bez respirační funkce"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hh_f7",
+          "q": "Mm. intercostales interni jsou:",
+          "options": [
+            "Pomocné svaly nádechové – rozšiřují objem hrudníku",
+            "Hlavní svaly výdechové",
+            "Pomocné svaly výdechové – zmenšují objem hrudníku",
+            "Bez respirační funkce"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2hh_f8",
+          "q": "Jakou funkci má bránice (diaphragma)?",
+          "options": [
+            "Pomocný sval výdechový; při stahu se klenutí zvyšuje",
+            "Hlavní sval nádechový; při stahu se oplošťuje a zvětšuje dutinu hrudní",
+            "Pomocný sval nádechový; nemění tvar",
+            "Bez respirační funkce"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hh_f9",
+          "q": "Záměna: m. pectoralis major a m. serratus anterior jsou oba pomocné svaly nádechové. Pravda nebo lež?",
+          "options": [
+            "Lež – m. serratus anterior není sval nádechový",
+            "Pravda",
+            "Lež – m. pectoralis major je výdechový",
+            "Lež – ani jeden není respirační sval"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hh_f10",
+          "q": "Který sval umožňuje upažení paže NAD horizontálu?",
+          "options": [
+            "M. pectoralis major",
+            "M. pectoralis minor",
+            "M. serratus anterior",
+            "M. subclavius"
+          ],
+          "answer_index": 2
         }
       ]
     },
@@ -2966,6 +3219,116 @@
             "3.–6. žebro"
           ],
           "answer_index": 2
+        },
+        {
+          "id": "d2z_f1",
+          "q": "Co provádí HORNÍ část m. trapezius?",
+          "options": [
+            "Stahuje lopatku dolů",
+            "Přitahuje lopatku k páteři",
+            "Zvedá lopatku",
+            "Táhne lopatku dopředu"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2z_f2",
+          "q": "Co provádí STŘEDNÍ část m. trapezius?",
+          "options": [
+            "Zvedá lopatku",
+            "Přitahuje lopatku k páteři",
+            "Stahuje lopatku dolů",
+            "Táhne lopatku dopředu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2z_f3",
+          "q": "Co provádí DOLNÍ část m. trapezius?",
+          "options": [
+            "Zvedá lopatku",
+            "Přitahuje lopatku k páteři",
+            "Stahuje lopatku dolů",
+            "Otáčí lopatku"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2z_f4",
+          "q": "Jakou funkci má m. levator scapulae?",
+          "options": [
+            "Stahuje lopatku dolů",
+            "Táhne lopatku k páteři",
+            "Zvedá lopatku nahoru",
+            "Otáčí lopatku"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2z_f5",
+          "q": "Jakou funkci mají oba svaly rombické?",
+          "options": [
+            "Stahují lopatku dolů a od páteře",
+            "Zvedají lopatku nahoru a táhnou ji k páteři",
+            "Přitlačují lopatku k hrudníku",
+            "Otáčejí lopatku"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2z_f6",
+          "q": "Jakou funkci má m. latissimus dorsi?",
+          "options": [
+            "Upažení, předpažení a zevní rotace; vytahuje trup vzhůru",
+            "Připažení, zapažení, vnitřní rotace; je-li tělo zavěšeno, vytahuje trup vzhůru",
+            "Pouze připažení a zapažení",
+            "Zvedá lopatku a táhne ji k páteři"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2z_f7",
+          "q": "Jakou funkci má m. serratus posterior superior?",
+          "options": [
+            "Pomocný sval výdechový – táhne žebra dolů",
+            "Pomocný sval nádechový – zvedá žebra",
+            "Hlavní sval nádechový",
+            "Bez respirační funkce"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2z_f8",
+          "q": "Jakou funkci má m. serratus posterior inferior?",
+          "options": [
+            "Pomocný sval nádechový – zvedá žebra",
+            "Pomocný sval výdechový – táhne žebra dolů",
+            "Hlavní sval výdechový",
+            "Bez respirační funkce"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2z_f9",
+          "q": "Vzpřimovače trupu při OBOUSTRANNÉ akci:",
+          "options": [
+            "Předklání páteř",
+            "Uklání páteř",
+            "Zaklání páteř",
+            "Otáčejí páteř"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2z_f10",
+          "q": "Vzpřimovače trupu při JEDNOSTRANNÉ akci:",
+          "options": [
+            "Zaklání páteř",
+            "Uklání páteř na svou stranu",
+            "Předklání páteř",
+            "Otáčejí páteř"
+          ],
+          "answer_index": 1
         }
       ]
     },
@@ -3303,6 +3666,138 @@
             "Vnější epikondyl"
           ],
           "answer_index": 2
+        },
+        {
+          "id": "d2hk_f1",
+          "q": "Jakou funkci má m. supraspinatus?",
+          "options": [
+            "Připažení a zevní rotace",
+            "Upažení (abdukce) a zevní rotace v ramenním kloubu",
+            "Vnitřní rotace a zapažení",
+            "Předpažení a vnitřní rotace"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hk_f2",
+          "q": "Jakou funkci má m. infraspinatus?",
+          "options": [
+            "Upažení a vnitřní rotace",
+            "Připažení (addukce) a zevní rotace v ramenním kloubu",
+            "Předpažení",
+            "Zapažení a vnitřní rotace"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hk_f3",
+          "q": "Jakou funkci má m. teres minor?",
+          "options": [
+            "Upažení a zevní rotace",
+            "Připažení a vnitřní rotace",
+            "Připažení (addukce) a zevní rotace",
+            "Zapažení a vnitřní rotace"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2hk_f4",
+          "q": "Jakou funkci má m. teres major?",
+          "options": [
+            "Upažení a zevní rotace",
+            "Připažení a zevní rotace",
+            "Připažení (addukce), zapažení (extenze) a vnitřní rotace",
+            "Pouze zapažení"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2hk_f5",
+          "q": "Jakou funkci má m. subscapularis?",
+          "options": [
+            "Upažení a zevní rotace",
+            "Připažení (addukce) a vnitřní rotace v ramenním kloubu",
+            "Připažení a zevní rotace",
+            "Zapažení a zevní rotace"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hk_f6",
+          "q": "Záměna funkcí: m. infraspinatus a m. teres minor mají stejnou funkci?",
+          "options": [
+            "Ne – m. infraspinatus zevní rotace, m. teres minor vnitřní rotace",
+            "Ano – oba připažení a zevní rotace",
+            "Ne – m. infraspinatus vnitřní rotace, m. teres minor zevní rotace",
+            "Ne – m. infraspinatus upažení, m. teres minor připažení"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hk_f7",
+          "q": "Záměna: m. subscapularis a m. teres major – oba dělají vnitřní rotaci?",
+          "options": [
+            "Ne – m. teres major dělá zevní rotaci",
+            "Ano – oba připažení a vnitřní rotace",
+            "Ne – m. subscapularis dělá zevní rotaci",
+            "Ne – oba dělají zevní rotaci"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hk_f8",
+          "q": "Jakou funkci má m. biceps brachii?",
+          "options": [
+            "Extenze v loketním kloubu a pronace předloktí",
+            "Flexe v loketním kloubu a supinace předloktí",
+            "Pouze flexe v loketním kloubu",
+            "Supinace předloktí a připažení"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hk_f9",
+          "q": "Jakou funkci má m. triceps brachii?",
+          "options": [
+            "Flexe v loketním kloubu",
+            "Supinace předloktí",
+            "Extenze v loketním kloubu",
+            "Připažení v ramenním kloubu"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2hk_f10",
+          "q": "Jakou funkci má m. brachialis?",
+          "options": [
+            "Extenze v loketním kloubu",
+            "Supinace předloktí",
+            "Flexe v loketním kloubu",
+            "Připažení v ramenním kloubu"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2hk_f11",
+          "q": "Záměna: m. biceps brachii provádí supinaci. Provádí m. triceps brachii pronaci?",
+          "options": [
+            "Ano – m. triceps provádí pronaci",
+            "Ne – m. triceps provádí extenzi v loketním kloubu",
+            "Ano – m. triceps provádí supinaci i pronaci",
+            "Ne – m. triceps neprovádí žádný rotační pohyb"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2hk_f12",
+          "q": "Jakou funkci má m. coracobrachialis?",
+          "options": [
+            "Extenze v loketním kloubu",
+            "Supinace předloktí",
+            "Připažení (addukce) a předpažení (flexe) v ramenním kloubu",
+            "Pronace předloktí"
+          ],
+          "answer_index": 2
         }
       ]
     },
@@ -3583,6 +4078,138 @@
             "Pravda",
             "Lež – m. gracilis na sedací hrbol",
             "Lež – oba na velký chocholík"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2dk_f1",
+          "q": "Jakou funkci má m. iliopsoas?",
+          "options": [
+            "Zanožení (extenze) v kloubu kyčelním",
+            "Přednožení (flexe) v kloubu kyčelním, napomáhá vykročení",
+            "Unožení (abdukce)",
+            "Přinožení (addukce)"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2dk_f2",
+          "q": "Jakou funkci má m. glutaeus maximus?",
+          "options": [
+            "Přednožení v kloubu kyčelním",
+            "Unožení v kloubu kyčelním",
+            "Zanožení (extenze) v kloubu kyčelním",
+            "Přinožení v kloubu kyčelním"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2dk_f3",
+          "q": "Jakou funkci mají m. glutaeus medius a minimus?",
+          "options": [
+            "Zanožení v kloubu kyčelním",
+            "Přednožení v kloubu kyčelním",
+            "Unožení (abdukce) v kloubu kyčelním",
+            "Přinožení v kloubu kyčelním"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2dk_f4",
+          "q": "Jakou funkci má m. tensor fasciae latae?",
+          "options": [
+            "Zanožení a unožení",
+            "Přednožení (flexe) a unožení (abdukce) v kloubu kyčelním",
+            "Přinožení a zevní rotace",
+            "Zanožení a přinožení"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2dk_f5",
+          "q": "Jakou funkci má m. quadriceps femoris?",
+          "options": [
+            "Flexe v kloubu kolenním",
+            "Extenze v kloubu kolenním; přímý sval pomáhá při přednožení",
+            "Přinožení v kloubu kyčelním",
+            "Zanožení v kloubu kyčelním"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2dk_f6",
+          "q": "Jakou funkci má m. sartorius?",
+          "options": [
+            "Zanožení, přinožení a vnitřní rotace",
+            "Přednožení, unožení a zevní rotace v kyčelním kloubu + flexe v kolenním kloubu",
+            "Natažení v kloubu kolenním",
+            "Přinožení a zanožení"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2dk_f7",
+          "q": "Jakou funkci mají m. biceps femoris, m. semitendinosus a m. semimembranosus?",
+          "options": [
+            "Extenze v kloubu kolenním, přednožení v kloubu kyčelním",
+            "Flexe v kloubu kolenním, zanožení (extenze) v kloubu kyčelním",
+            "Přinožení v kloubu kyčelním",
+            "Unožení v kloubu kyčelním"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2dk_f8",
+          "q": "Jakou funkci mají adduktory stehna?",
+          "options": [
+            "Unožení (abdukce) v kloubu kyčelním",
+            "Přinožení (addukce) v kloubu kyčelním",
+            "Zanožení v kloubu kyčelním",
+            "Přednožení v kloubu kyčelním"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2dk_f9",
+          "q": "Jakou funkci má m. tibialis anterior?",
+          "options": [
+            "Plantární flexe a pronace",
+            "Propnutí špičky",
+            "Dorzální flexe (zvednutí špičky) a supinace",
+            "Ohnutí prstů"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2dk_f10",
+          "q": "Jakou funkci má m. triceps surae?",
+          "options": [
+            "Dorzální flexe a supinace",
+            "Propnutí špičky (plantární flexe); dvojhlavý sval lýtkový pomáhá flexi v kolenním kloubu",
+            "Pronace a plantární flexe",
+            "Natažení prstů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2dk_f11",
+          "q": "Jakou funkci mají m. peroneus longus a brevis?",
+          "options": [
+            "Supinace a dorzální flexe",
+            "Pronace a plantární flexe v hlezenním kloubu",
+            "Natažení prstů",
+            "Flexe v kloubu kolenním"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d2dk_f12",
+          "q": "Záměna: m. tibialis anterior provádí supinaci. M. peroneus longus provádí pronaci. Pravda nebo lež?",
+          "options": [
+            "Lež – oba provádí supinaci",
+            "Pravda",
+            "Lež – oba provádí pronaci",
+            "Lež – m. tibialis anterior provádí pronaci"
           ],
           "answer_index": 1
         }
