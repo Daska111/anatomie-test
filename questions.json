@@ -2344,79 +2344,13 @@
       ]
     },
     {
-      "id": "test_svaly_hlavy_zvy",
-      "title": "TEST – Svaly hlavy: žvýkací",
+      "id": "detail_svaly_hlavy",
+      "title": "DETAILNÍ TEST – Svaly hlavy",
       "type": "mcq",
       "questions": [
         {
-          "id": "tsz1",
-          "q": "Jakou funkci má zevní sval žvýkací (m. masseter)?",
-          "options": [
-            "Otevírá ústa",
-            "Zavírá ústa",
-            "Táhne dolní čelist dopředu",
-            "Táhne čelist na opačnou stranu"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsz2",
-          "q": "Jakou funkci má sval spánkový (m. temporalis)?",
-          "options": [
-            "Otevírá ústa",
-            "Zavírá ústa a táhne dolní čelist dopředu",
-            "Zavírá ústa a táhne dolní čelist dozadu",
-            "Táhne čelist na opačnou stranu"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsz3",
-          "q": "Jakou funkci má sval křídlový vnitřní (m. pterygoideus medialis)?",
-          "options": [
-            "Otevírá ústa",
-            "Táhne dolní čelist dozadu",
-            "Zavírá ústa, táhne čelist na opačnou stranu",
-            "Napíná kůži krku"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsz4",
-          "q": "Jakou funkci má sval křídlový vnější (m. pterygoideus lateralis)?",
-          "options": [
-            "Otevírá ústa",
-            "Táhne dolní čelist dozadu",
-            "Zavírá ústa, táhne čelist na opačnou stranu",
-            "Napíná kůži krku"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsz5",
-          "q": "Který sval zavírá ústa A táhne dolní čelist dozadu?",
-          "options": [
-            "M. masseter",
-            "M. pterygoideus medialis",
-            "M. temporalis",
-            "M. pterygoideus lateralis"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsz6",
-          "q": "Kolik žvýkacích svalů rozlišujeme?",
-          "options": [
-            "2",
-            "3",
-            "4",
-            "5"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsz7",
-          "q": "Který z těchto svalů NENÍ žvýkací?",
+          "id": "dsh1",
+          "q": "Který sval NEPATŘÍ mezi žvýkací svaly?",
           "options": [
             "M. masseter",
             "M. temporalis",
@@ -2426,124 +2360,227 @@
           "answer_index": 2
         },
         {
-          "id": "tsz8",
-          "q": "Latinský název zevního svalu žvýkacího je:",
+          "id": "dsh2",
+          "q": "Který sval NEPATŘÍ mezi mimické svaly?",
           "options": [
+            "M. orbicularis oris",
+            "M. buccinator",
             "M. temporalis",
-            "M. masseter",
-            "M. pterygoideus lateralis",
-            "M. buccinator"
+            "M. frontalis"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsh3",
+          "q": "Jakou funkci má m. masseter?",
+          "options": [
+            "Zavírá ústa, táhne dolní čelist dozadu",
+            "Zavírá ústa",
+            "Zavírá ústa, táhne čelist na opačnou stranu",
+            "Otevírá ústa, táhne čelist dopředu"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsz9",
-          "q": "Latinský název svalu spánkového je:",
+          "id": "dsh4",
+          "q": "Jakou funkci má m. temporalis?",
           "options": [
-            "M. masseter",
-            "M. pterygoideus medialis",
-            "M. temporalis",
-            "M. buccinator"
-          ],
-          "answer_index": 2
-        }
-      ]
-    },
-    {
-      "id": "test_svaly_hlavy_mim",
-      "title": "TEST – Svaly hlavy: mimické",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "tsm1",
-          "q": "Jakou funkci má kruhový sval ústní (m. orbicularis oris)?",
-          "options": [
-            "Táhne ústní koutek nahoru",
-            "Táhne dolní ret dolů",
-            "Zavírá ústa, svírá a špulí rty",
-            "Podmiňuje důlek ve tváři"
+            "Zavírá ústa",
+            "Zavírá ústa a táhne dolní čelist dopředu",
+            "Zavírá ústa a táhne dolní čelist dozadu",
+            "Táhne čelist na opačnou stranu"
           ],
           "answer_index": 2
         },
         {
-          "id": "tsm2",
-          "q": "Jakou funkci má sval smíchový (m. risorius)?",
+          "id": "dsh5",
+          "q": "Jakou funkci má m. pterygoideus medialis?",
           "options": [
-            "Zavírá ústa",
+            "Zavírá ústa, táhne dolní čelist dozadu",
+            "Zavírá ústa, táhne čelist na svou stranu",
+            "Zavírá ústa, táhne čelist na opačnou stranu",
+            "Otevírá ústa"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsh6",
+          "q": "Jakou funkci má m. pterygoideus lateralis?",
+          "options": [
+            "Zavírá ústa, táhne dolní čelist dozadu",
+            "Zavírá ústa, táhne čelist na opačnou stranu",
+            "Otevírá ústa",
+            "Táhne dolní čelist dopředu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsh7",
+          "q": "Který ze žvýkacích svalů táhne dolní čelist dozadu?",
+          "options": [
+            "M. masseter",
+            "M. pterygoideus medialis",
+            "M. temporalis",
+            "M. pterygoideus lateralis"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsh8",
+          "q": "Jakou funkci má m. orbicularis oris?",
+          "options": [
+            "Táhne ústní koutek nahoru",
             "Táhne ústní koutek dolů",
+            "Zavírá ústa, svírá a špulí rty",
+            "Táhne horní ret nahoru"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsh9",
+          "q": "Jakou funkci má m. levator labii superioris?",
+          "options": [
+            "Táhne horní ret nahoru",
+            "Táhne dolní ret dolů",
+            "Táhne ústní koutek nahoru a do strany",
+            "Táhne ústní koutek dolů"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "dsh10",
+          "q": "Jakou funkci má m. zygomaticus major et minor?",
+          "options": [
+            "Táhnou dolní ret dolů",
+            "Táhnou ústní koutek dolů",
+            "Táhnou ústní koutek nahoru a do strany",
+            "Zavírají ústa"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsh11",
+          "q": "Jakou funkci má m. risorius?",
+          "options": [
+            "Táhne ústní koutek dolů a do strany",
             "Táhne ústní koutek nahoru a do strany, podmiňuje důlek ve tváři",
+            "Táhne horní ret nahoru",
+            "Zavírá ústa"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsh12",
+          "q": "Jakou funkci má m. depressor anguli oris?",
+          "options": [
+            "Táhne ústní koutek nahoru",
+            "Táhne dolní ret dolů",
+            "Táhne ústní koutek dolů",
             "Táhne kůži brady nahoru"
           ],
           "answer_index": 2
         },
         {
-          "id": "tsm3",
-          "q": "Jakou funkci má stahovač ústního koutku (m. depressor anguli oris)?",
+          "id": "dsh13",
+          "q": "Jakou funkci má m. depressor labii inferioris?",
           "options": [
-            "Táhne ústní koutek nahoru",
-            "Táhne ústní koutek dolů",
-            "Zavírá ústa",
-            "Táhne horní ret nahoru"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsm4",
-          "q": "Jakou funkci má sval bradový (m. mentalis)?",
-          "options": [
-            "Táhne kůži brady nahoru, podmiňuje důlek na bradě",
             "Táhne dolní ret dolů",
-            "Táhne ústní koutek nahoru",
-            "Zavírá oční víčka"
+            "Táhne ústní koutek dolů",
+            "Táhne kůži brady nahoru",
+            "Táhne horní ret nahoru"
           ],
           "answer_index": 0
         },
         {
-          "id": "tsm5",
-          "q": "Jakou funkci má sval tvářový (m. buccinator)?",
+          "id": "dsh14",
+          "q": "Jakou funkci má m. mentalis?",
           "options": [
             "Táhne ústní koutek dolů",
-            "Táhne kůži brady nahoru",
+            "Táhne dolní ret dolů",
+            "Táhne kůži brady nahoru, podmiňuje důlek na bradě",
+            "Zavírá ústa"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsh15",
+          "q": "Jakou funkci má m. buccinator?",
+          "options": [
+            "Táhne ústní koutek nahoru",
+            "Táhne ústní koutek dolů",
             "Podklad tváře, rozšiřuje štěrbinu ústní při smíchu nebo pláči",
             "Svírá rty"
           ],
           "answer_index": 2
         },
         {
-          "id": "tsm6",
-          "q": "Jakou funkci má kruhový sval oční (m. orbicularis oculi)?",
+          "id": "dsh16",
+          "q": "Jakou funkci má m. orbicularis oculi?",
           "options": [
             "Tvoří příčné vrásky na čele",
-            "Tvoří podklad očních víček, svírání víček, mrkání",
-            "Táhne kůži hlavy dozadu",
-            "Tvoří svislé vrásky nad kořenem nosu"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsm7",
-          "q": "Jakou funkci má sval čelní (m. frontalis)?",
-          "options": [
-            "Táhne kůži hlavy dozadu",
             "Tvoří svislé vrásky nad kořenem nosu",
-            "Tvoří příčné vrásky na čele",
-            "Mění průsvit nosních dírek"
+            "Tvoří podklad očních víček, svírání víček, mrkání",
+            "Táhne kůži hlavy dozadu"
           ],
           "answer_index": 2
         },
         {
-          "id": "tsm8",
-          "q": "Jakou funkci má sval týlní (m. occipitalis)?",
+          "id": "dsh17",
+          "q": "Jakou funkci má m. corrugator supercilii?",
           "options": [
+            "Tvoří příčné vrásky nad kořenem nosu",
+            "Tvoří svislé vrásky nad kořenem nosu",
             "Tvoří příčné vrásky na čele",
-            "Táhne kůži hlavy dozadu",
-            "Táhne obočí dolů",
+            "Táhne kůži hlavy dozadu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsh18",
+          "q": "Jakou funkci má m. procerus?",
+          "options": [
+            "Tvoří svislé vrásky nad kořenem nosu",
+            "Tvoří příčné vrásky nad kořenem nosu",
+            "Tvoří příčné vrásky na čele",
             "Mění průsvit nosních dírek"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsm9",
+          "id": "dsh19",
+          "q": "Jakou funkci má m. frontalis?",
+          "options": [
+            "Táhne kůži hlavy dozadu",
+            "Tvoří svislé vrásky na čele",
+            "Tvoří příčné vrásky na čele",
+            "Tvoří svislé vrásky nad kořenem nosu"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsh20",
+          "q": "Jakou funkci má m. occipitalis?",
+          "options": [
+            "Tvoří příčné vrásky na čele",
+            "Tvoří svislé vrásky na záhlaví",
+            "Táhne kůži hlavy dozadu",
+            "Táhne kůži hlavy dopředu"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsh21",
+          "q": "Který sval tvoří příčné vrásky na čele?",
+          "options": [
+            "M. occipitalis",
+            "M. corrugator supercilii",
+            "M. procerus",
+            "M. frontalis"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "dsh22",
           "q": "Který sval tvoří svislé vrásky nad kořenem nosu?",
           "options": [
             "M. procerus",
@@ -2554,26 +2591,81 @@
           "answer_index": 2
         },
         {
-          "id": "tsm10",
-          "q": "Mimické svaly jsou charakteristické tím, že:",
+          "id": "dsh23",
+          "q": "Který sval mění průsvit nosních dírek?",
           "options": [
-            "Jsou připojeny na obou koncích ke kostem",
-            "Jedním koncem jsou přichyceny ke kosti, druhým končí v kůži",
-            "Jsou uloženy pouze na klenbě lebeční",
-            "Ovládají pohyby očních bulv"
+            "M. procerus",
+            "M. corrugator supercilii",
+            "M. levator labii superioris alaquae nasi",
+            "M. nasalis"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "dsh24",
+          "q": "M. levator labii superioris alaquae nasi:",
+          "options": [
+            "Táhne horní ret dolů a zužuje nosní dírky",
+            "Táhne horní ret nahoru a rozšiřuje průsvit nosní dírky",
+            "Táhne dolní ret dolů",
+            "Tvoří příčné vrásky nad nosem"
           ],
           "answer_index": 1
+        },
+        {
+          "id": "dsh25",
+          "q": "Mimické svaly jsou charakteristické tím, že:",
+          "options": [
+            "Jsou připojeny na obou koncích ke kostem lebky",
+            "Jedním koncem jsou přichyceny ke kosti, druhým končí v kůži",
+            "Jsou uloženy pouze na klenbě lebeční",
+            "Nemají šlachy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsh26",
+          "q": "Který sval podmiňuje důlek ve tváři při smíchu?",
+          "options": [
+            "M. zygomaticus major",
+            "M. depressor anguli oris",
+            "M. risorius",
+            "M. buccinator"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsh27",
+          "q": "Který sval podmiňuje důlek na bradě?",
+          "options": [
+            "M. depressor labii inferioris",
+            "M. depressor anguli oris",
+            "M. mentalis",
+            "M. buccinator"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsh28",
+          "q": "Jakou funkci má m. levator anguli oris?",
+          "options": [
+            "Táhne ústní koutek dolů",
+            "Táhne dolní ret dolů",
+            "Táhne ústní koutek nahoru",
+            "Táhne horní ret nahoru"
+          ],
+          "answer_index": 2
         }
       ]
     },
     {
-      "id": "test_svaly_krku",
-      "title": "TEST – Svaly krku",
+      "id": "detail_svaly_krku",
+      "title": "DETAILNÍ TEST – Svaly krku",
       "type": "mcq",
       "questions": [
         {
-          "id": "tsk1",
-          "q": "Kde začíná podkožní sval krční (m. platysma)?",
+          "id": "dsk1",
+          "q": "Kde začíná m. platysma?",
           "options": [
             "Rukojeť kosti hrudní",
             "Bradavčitý výběžek kosti spánkové",
@@ -2583,8 +2675,8 @@
           "answer_index": 2
         },
         {
-          "id": "tsk2",
-          "q": "Kde se upíná podkožní sval krční (m. platysma)?",
+          "id": "dsk2",
+          "q": "Kde se upíná m. platysma?",
           "options": [
             "Bradavčitý výběžek kosti spánkové",
             "Podkožní vazivo v oblasti 2. žebra",
@@ -2594,19 +2686,19 @@
           "answer_index": 1
         },
         {
-          "id": "tsk3",
-          "q": "Jakou funkci má podkožní sval krční (m. platysma)?",
+          "id": "dsk3",
+          "q": "Jakou funkci má m. platysma?",
           "options": [
-            "Uklání hlavu",
+            "Uklání hlavu na stranu",
             "Předklání krční páteř",
             "Napíná kůži krku",
-            "Zvedá jazylku"
+            "Zvedá 1. žebro"
           ],
           "answer_index": 2
         },
         {
-          "id": "tsk4",
-          "q": "Kde začíná zdvihač hlavy (m. sternocleidomastoideus)?",
+          "id": "dsk4",
+          "q": "Kde začíná m. sternocleidomastoideus?",
           "options": [
             "Bradavčitý výběžek kosti spánkové",
             "Rukojeť kosti hrudní a vnitřní část klíční kosti",
@@ -2616,8 +2708,8 @@
           "answer_index": 1
         },
         {
-          "id": "tsk5",
-          "q": "Kde se upíná zdvihač hlavy (m. sternocleidomastoideus)?",
+          "id": "dsk5",
+          "q": "Kde se upíná m. sternocleidomastoideus?",
           "options": [
             "Klíční kost",
             "1. žebro",
@@ -2627,8 +2719,8 @@
           "answer_index": 2
         },
         {
-          "id": "tsk6",
-          "q": "Co provádí zdvihač hlavy při JEDNOSTRANNÉ akci?",
+          "id": "dsk6",
+          "q": "Co provádí m. sternocleidomastoideus při JEDNOSTRANNÉ akci?",
           "options": [
             "Předklání hlavu",
             "Zaklání hlavu",
@@ -2638,19 +2730,19 @@
           "answer_index": 2
         },
         {
-          "id": "tsk7",
-          "q": "Co provádí zdvihač hlavy při OBOUSTRANNÉ akci?",
+          "id": "dsk7",
+          "q": "Co provádí m. sternocleidomastoideus při OBOUSTRANNÉ akci?",
           "options": [
-            "Uklání hlavu",
-            "Posunuje hlavu vpřed a provádí záklon hlavy",
+            "Uklání hlavu na stranu",
+            "Posunuje hlavu vpřed v horizontální rovině a provádí záklon hlavy",
             "Otáčí hlavu",
             "Předklání krční páteř"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsk8",
-          "q": "Kde začínají svaly kloněné (mm. scaleni)?",
+          "id": "dsk8",
+          "q": "Kde začínají mm. scaleni?",
           "options": [
             "Kost týlní",
             "Rukojeť kosti hrudní",
@@ -2660,8 +2752,8 @@
           "answer_index": 2
         },
         {
-          "id": "tsk9",
-          "q": "Kde se upíná sval kloněný přední a střední?",
+          "id": "dsk9",
+          "q": "Kde se upíná sval kloněný PŘEDNÍ a STŘEDNÍ?",
           "options": [
             "2. žebro",
             "Klíční kost",
@@ -2671,19 +2763,63 @@
           "answer_index": 2
         },
         {
-          "id": "tsk10",
-          "q": "Jakou funkci mají svaly kloněné při oboustranné akci?",
+          "id": "dsk10",
+          "q": "Kde se upíná sval kloněný ZADNÍ?",
+          "options": [
+            "1. žebro",
+            "Klíční kost",
+            "2. žebro",
+            "Bradavčitý výběžek"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsk11",
+          "q": "Co provádí mm. scaleni při JEDNOSTRANNÉ akci?",
           "options": [
             "Zaklání krční páteř",
-            "Předklání krční páteř nebo zvedají 1. a 2. žebro (pomocné svaly vdechové)",
-            "Otáčejí hlavu",
+            "Uklání krční páteř",
+            "Otáčejí krční páteř",
             "Zvedají jazylku"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsk11",
-          "q": "Jakou funkci mají svaly nadjazylkové (mm. suprahyoidei)?",
+          "id": "dsk12",
+          "q": "Co provádí mm. scaleni při OBOUSTRANNÉ akci?",
+          "options": [
+            "Zaklání krční páteř",
+            "Otáčejí hlavu",
+            "Předklání krční páteř nebo zvedají 1. a 2. žebro",
+            "Uklání krční páteř"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsk13",
+          "q": "Jakou funkci má m. longus colli při OBOUSTRANNÉ akci?",
+          "options": [
+            "Zaklání krční páteř",
+            "Otáčí krční páteř",
+            "Předklání krční páteř",
+            "Zvedá 1. žebro"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsk14",
+          "q": "Co spojují svaly nadjazylkové (mm. suprahyoidei)?",
+          "options": [
+            "Jazylku s kostí hrudní",
+            "Dolní čelist s jazylkou",
+            "Jazylku s hrtanem",
+            "Dolní čelist s hrudní kostí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsk15",
+          "q": "Jakou funkci mají mm. suprahyoidei?",
           "options": [
             "Pohyby jazylky dolů",
             "Otevírají ústa nebo zvedají jazylku",
@@ -2693,7 +2829,7 @@
           "answer_index": 1
         },
         {
-          "id": "tsk12",
+          "id": "dsk16",
           "q": "Co spojují svaly podjazylkové (mm. infrahyoidei)?",
           "options": [
             "Dolní čelist s jazylkou",
@@ -2702,50 +2838,94 @@
             "Dolní čelist s hrudní kostí"
           ],
           "answer_index": 1
+        },
+        {
+          "id": "dsk17",
+          "q": "Jakou funkci mají mm. infrahyoidei?",
+          "options": [
+            "Otevírají ústa",
+            "Zvedají jazylku",
+            "Pohyby jazylky",
+            "Napínají kůži krku"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsk18",
+          "q": "Který sval krku je pomocný sval vdechový?",
+          "options": [
+            "M. platysma",
+            "M. sternocleidomastoideus",
+            "M. longus colli",
+            "Mm. scaleni"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "dsk19",
+          "q": "Který sval NEPATŘÍ mezi svaly krku?",
+          "options": [
+            "M. platysma",
+            "M. sternocleidomastoideus",
+            "M. serratus anterior",
+            "Mm. scaleni"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsk20",
+          "q": "M. sternocleidomastoideus začíná na:",
+          "options": [
+            "Bradavčitém výběžku a klíční kosti",
+            "Rukojeti kosti hrudní a vnitřní části klíční kosti",
+            "Trnových výběžcích krčních obratlů",
+            "Kosti týlní a klíční kosti"
+          ],
+          "answer_index": 1
         }
       ]
     },
     {
-      "id": "test_svaly_hrudniku",
-      "title": "TEST – Svaly hrudníku",
+      "id": "detail_svaly_hrudniku",
+      "title": "DETAILNÍ TEST – Svaly hrudníku",
       "type": "mcq",
       "questions": [
         {
-          "id": "tsh1",
-          "q": "Kde začíná velký prsní sval (m. pectoralis major)?",
+          "id": "dshh1",
+          "q": "Kde začíná m. pectoralis major?",
           "options": [
             "3.–5. žebro",
-            "1. žebro",
-            "Vnitřní třetina klíční kosti, hrudní kost a přilehlé chrupavky 2.–7. žebra",
+            "1. žebro a klíční kost",
+            "Vnitřní třetina klíční kosti, hrudní kost a chrupavky 2.–7. žebra",
             "Osmi zuby od 1.–8. žebra"
           ],
           "answer_index": 2
         },
         {
-          "id": "tsh2",
-          "q": "Kde se upíná velký prsní sval (m. pectoralis major)?",
+          "id": "dshh2",
+          "q": "Kde se upíná m. pectoralis major?",
           "options": [
             "Hákovitý výběžek lopatky",
             "Hrana pod velkým hrbolem kosti pažní",
             "Drsnatina kosti pažní",
-            "Spodní plocha klíční kosti"
+            "Malý hrbol kosti pažní"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsh3",
-          "q": "Jakou funkci má velký prsní sval (m. pectoralis major)?",
+          "id": "dshh3",
+          "q": "Jakou funkci má m. pectoralis major?",
           "options": [
-            "Táhne lopatku dopředu a dolů",
+            "Táhne lopatku dopředu a dolů; pomocný sval nádechový",
             "Připažení, předpažení a vnitřní rotace v ramenním kloubu; pomocný sval nádechový",
-            "Zvedá žebra",
-            "Přitahuje klíční kost k 1. žebru"
+            "Upažení a zevní rotace; pomocný sval nádechový",
+            "Připažení a zapažení; pomocný sval výdechový"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsh4",
-          "q": "Kde začíná malý prsní sval (m. pectoralis minor)?",
+          "id": "dshh4",
+          "q": "Kde začíná m. pectoralis minor?",
           "options": [
             "Vnitřní třetina klíční kosti",
             "1. žebro",
@@ -2755,30 +2935,30 @@
           "answer_index": 2
         },
         {
-          "id": "tsh5",
-          "q": "Kde se upíná malý prsní sval (m. pectoralis minor)?",
+          "id": "dshh5",
+          "q": "Kde se upíná m. pectoralis minor?",
           "options": [
             "Hrana pod velkým hrbolem kosti pažní",
+            "Nadpažek lopatky",
             "Hákovitý výběžek lopatky",
-            "Drsnatina kosti pažní",
-            "Nadpažek lopatky"
+            "Dolní úhel lopatky"
           ],
-          "answer_index": 1
+          "answer_index": 2
         },
         {
-          "id": "tsh6",
-          "q": "Jakou funkci má malý prsní sval (m. pectoralis minor)?",
+          "id": "dshh6",
+          "q": "Jakou funkci má m. pectoralis minor?",
           "options": [
-            "Připažení a vnitřní rotace",
+            "Připažení a vnitřní rotace v ramenním kloubu",
+            "Táhne lopatku dozadu a nahoru; pomocný sval nádechový",
             "Táhne lopatku dopředu a dolů; pomocný sval nádechový",
-            "Zvedá žebra",
-            "Přitahuje klíční kost"
+            "Upažení paže nad horizontálu"
           ],
-          "answer_index": 1
+          "answer_index": 2
         },
         {
-          "id": "tsh7",
-          "q": "Kde začíná sval podklíčkový (m. subclavius)?",
+          "id": "dshh7",
+          "q": "Kde začíná m. subclavius?",
           "options": [
             "3.–5. žebro",
             "Hrudní kost",
@@ -2788,8 +2968,19 @@
           "answer_index": 2
         },
         {
-          "id": "tsh8",
-          "q": "Jakou funkci má sval podklíčkový (m. subclavius)?",
+          "id": "dshh8",
+          "q": "Kde se upíná m. subclavius?",
+          "options": [
+            "Hrana pod velkým hrbolem kosti pažní",
+            "Spodní plocha vnějšího konce klíční kosti",
+            "Nadpažek lopatky",
+            "Hákovitý výběžek lopatky"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dshh9",
+          "q": "Jakou funkci má m. subclavius?",
           "options": [
             "Táhne lopatku dopředu",
             "Připažení v ramenním kloubu",
@@ -2799,8 +2990,8 @@
           "answer_index": 2
         },
         {
-          "id": "tsh9",
-          "q": "Kde začíná pilovitý sval přední (m. serratus anterior)?",
+          "id": "dshh10",
+          "q": "Kde začíná m. serratus anterior?",
           "options": [
             "Trnové výběžky hrudních obratlů",
             "Osmi zuby od 1.–8. žebra",
@@ -2810,8 +3001,8 @@
           "answer_index": 1
         },
         {
-          "id": "tsh10",
-          "q": "Kde se upíná pilovitý sval přední (m. serratus anterior)?",
+          "id": "dshh11",
+          "q": "Kde se upíná m. serratus anterior?",
           "options": [
             "Hrana pod malým hrbolem kosti pažní",
             "Nadpažek lopatky",
@@ -2821,198 +3012,125 @@
           "answer_index": 2
         },
         {
-          "id": "tsh11",
-          "q": "Jakou funkci má pilovitý sval přední?",
+          "id": "dshh12",
+          "q": "Jakou funkci má m. serratus anterior?",
           "options": [
-            "Táhne lopatku dozadu",
-            "Přitlačuje lopatku k hrudníku, umožňuje upažení paže nad horizontálu",
-            "Připažení v ramenním kloubu",
-            "Pomocný sval výdechový"
+            "Táhne lopatku dozadu a nahoru",
+            "Přitlačuje lopatku k hrudníku a umožňuje upažení paže nad horizontálu",
+            "Připažení v ramenním kloubu; pomocný sval výdechový",
+            "Táhne lopatku dolů a dozadu"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsh12",
-          "q": "Mezižeberní svaly VNĚJŠÍ jsou:",
+          "id": "dshh13",
+          "q": "Mm. intercostales externi jsou:",
           "options": [
-            "Pomocné svaly výdechové",
+            "Pomocné svaly výdechové – zmenšují objem hrudníku",
             "Hlavní svaly nádechové",
             "Pomocné svaly nádechové – rozšiřují objem hrudníku",
-            "Bez respirační funkce"
+            "Svaly bez respirační funkce"
           ],
           "answer_index": 2
         },
         {
-          "id": "tsh13",
-          "q": "Mezižeberní svaly VNITŘNÍ jsou:",
+          "id": "dshh14",
+          "q": "Mm. intercostales interni jsou:",
           "options": [
-            "Pomocné svaly nádechové",
+            "Pomocné svaly nádechové – rozšiřují objem hrudníku",
             "Pomocné svaly výdechové – zmenšují objem hrudníku",
             "Hlavní svaly výdechové",
-            "Bez respirační funkce"
+            "Svaly bez respirační funkce"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsh14",
-          "q": "Bránice (diaphragma) je:",
+          "id": "dshh15",
+          "q": "Jakou funkci má bránice (diaphragma)?",
           "options": [
-            "Pomocný sval výdechový",
+            "Pomocný sval výdechový; při stahu se klenutí zvyšuje",
             "Hlavní sval nádechový; při stahu se oplošťuje a zvětšuje dutinu hrudní",
-            "Sval bez respirační funkce",
-            "Mezižeberní sval"
+            "Pomocný sval nádechový; nemění tvar",
+            "Sval bez respirační funkce"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsh15",
-          "q": "Patří velký prsní sval do skupiny svalů hrudníku?",
+          "id": "dshh16",
+          "q": "Který sval NEPATŘÍ mezi povrchové svaly hrudníku?",
           "options": [
-            "Ne, patří ke svalům zad",
-            "Ano, patří mezi povrchové svaly hrudníku",
-            "Ne, patří ke svalům ramenního kloubu",
-            "Ano, ale jen jako hluboký sval"
+            "M. pectoralis major",
+            "M. pectoralis minor",
+            "M. serratus anterior",
+            "Mm. intercostales externi"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "dshh17",
+          "q": "Který sval umožňuje upažení paže nad horizontálu?",
+          "options": [
+            "M. pectoralis major",
+            "M. pectoralis minor",
+            "M. serratus anterior",
+            "M. subclavius"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dshh18",
+          "q": "Kde se upíná m. pectoralis major a m. latissimus dorsi – co mají společného?",
+          "options": [
+            "Oba se upínají na velký hrbol kosti pažní",
+            "Oba se upínají na oblast pod hrboly kosti pažní, ale na různé hrany",
+            "Oba se upínají na drsnatinu kosti pažní",
+            "Oba se upínají na malý hrbol kosti pažní"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dshh19",
+          "q": "Který ze svalů hrudníku začíná na 1. žebru?",
+          "options": [
+            "M. pectoralis minor",
+            "M. serratus anterior",
+            "M. subclavius",
+            "M. intercostalis externus"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dshh20",
+          "q": "M. pectoralis major je pomocný sval:",
+          "options": [
+            "Výdechový",
+            "Nádechový",
+            "Nemá respirační funkci",
+            "Výdechový i nádechový"
           ],
           "answer_index": 1
         }
       ]
     },
     {
-      "id": "test_svaly_bricha",
-      "title": "TEST – Břišní svaly",
+      "id": "detail_svaly_zad",
+      "title": "DETAILNÍ TEST – Zádové svaly",
       "type": "mcq",
       "questions": [
         {
-          "id": "tsb1",
-          "q": "Kde začíná přímý sval břišní (m. rectus abdominis)?",
+          "id": "dsz1",
+          "q": "Kde začíná m. trapezius?",
           "options": [
-            "Hřeben kosti kyčelní",
-            "Spona stydká",
-            "Dolní konec hrudní kosti a přilehlé chrupavky 5.–7. žebra",
-            "Tříselný vaz"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsb2",
-          "q": "Kde se upíná přímý sval břišní (m. rectus abdominis)?",
-          "options": [
-            "Hřeben kosti kyčelní",
-            "Spona stydká",
-            "3 poslední žebra",
-            "Páteř"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsb3",
-          "q": "Jakou funkci má přímý sval břišní při oboustranné akci?",
-          "options": [
-            "Uklání trup na stranu",
-            "Předklání trup, spolupracuje při břišním lisu; pomocný sval výdechový",
-            "Otáčí trup na opačnou stranu",
-            "Zaklání bederní páteř"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsb4",
-          "q": "Jakou funkci má zevní šikmý sval břišní při JEDNOSTRANNÉ akci?",
-          "options": [
-            "Předklání trup",
-            "Uklání trup na svou stranu a otáčí na opačnou",
-            "Otáčí trup na svou stranu",
-            "Zaklání trup"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsb5",
-          "q": "Kde začíná zevní šikmý sval břišní?",
-          "options": [
-            "Hřeben kosti kyčelní",
-            "Tříselný vaz",
-            "Zevní strana osmi posledních žeber",
-            "Vnitřní plocha žeber"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsb6",
-          "q": "Jakou funkci má vnitřní šikmý sval břišní při JEDNOSTRANNÉ akci?",
-          "options": [
-            "Uklání a otáčí trup na opačnou stranu",
-            "Uklání a otáčí trup na svou stranu",
-            "Pouze předklání trup",
-            "Zaklání bederní páteř"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsb7",
-          "q": "Jakou funkci má příčný sval břišní (m. transversus abdominis) při oboustranné akci?",
-          "options": [
-            "Uklání trup",
-            "Předklání trup",
-            "Zatahuje břicho, spolupracuje při břišním lisu; pomocný sval výdechový",
-            "Zaklání páteř"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsb8",
-          "q": "Kde začíná čtyřhranný sval bederní (m. quadratus lumborum)?",
-          "options": [
-            "Spona stydká",
-            "12. žebro a 3–4 horní bederní obratle",
-            "Hřeben kosti kyčelní",
-            "Tříselný vaz"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsb9",
-          "q": "Jakou funkci má čtyřhranný sval bederní při oboustranné akci?",
-          "options": [
-            "Předklání trup",
-            "Uklání bederní páteř",
-            "Zaklání bederní páteř, podílí se na vzpřímeném držení trupu",
-            "Otáčí trup"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsb10",
-          "q": "Do které skupiny břišních svalů patří přímý sval břišní?",
-          "options": [
-            "Zadní skupina",
-            "Boční skupina",
-            "Přední skupina",
-            "Hluboká skupina"
-          ],
-          "answer_index": 2
-        }
-      ]
-    },
-    {
-      "id": "test_svaly_zad",
-      "title": "TEST – Zádové svaly",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "tsz_1",
-          "q": "Kde začíná sval trapézový (m. trapezius)?",
-          "options": [
-            "Příčné výběžky krčních obratlů",
+            "Příčné výběžky krčních obratlů a klíční kost",
             "Kost týlní, trnové výběžky krčních a hrudních obratlů",
-            "Trnové výběžky bederních obratlů",
-            "Hřeben kosti kyčelní"
+            "Trnové výběžky bederních obratlů a kost křížová",
+            "Hřeben kosti kyčelní a kost křížová"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsz_2",
-          "q": "Kde se upíná sval trapézový (m. trapezius)?",
+          "id": "dsz2",
+          "q": "Kde se upíná m. trapezius?",
           "options": [
             "Drsnatina kosti pažní",
             "Hrana pod malým hrbolem kosti pažní",
@@ -3022,8 +3140,8 @@
           "answer_index": 2
         },
         {
-          "id": "tsz_3",
-          "q": "Co provádí HORNÍ část trapézového svalu?",
+          "id": "dsz3",
+          "q": "Co provádí HORNÍ část m. trapezius?",
           "options": [
             "Stahuje lopatku dolů",
             "Přitahuje lopatku k páteři",
@@ -3033,8 +3151,30 @@
           "answer_index": 2
         },
         {
-          "id": "tsz_4",
-          "q": "Kde začíná zdvihač lopatky (m. levator scapulae)?",
+          "id": "dsz4",
+          "q": "Co provádí STŘEDNÍ část m. trapezius?",
+          "options": [
+            "Zvedá lopatku",
+            "Přitahuje lopatku k páteři",
+            "Stahuje lopatku dolů",
+            "Táhne lopatku dopředu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsz5",
+          "q": "Co provádí DOLNÍ část m. trapezius?",
+          "options": [
+            "Zvedá lopatku",
+            "Přitahuje lopatku k páteři",
+            "Stahuje lopatku dolů",
+            "Otáčí lopatku"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsz6",
+          "q": "Kde začíná m. levator scapulae?",
           "options": [
             "Trnové výběžky hrudních obratlů",
             "Kost týlní",
@@ -3044,8 +3184,8 @@
           "answer_index": 2
         },
         {
-          "id": "tsz_5",
-          "q": "Kde se upíná zdvihač lopatky (m. levator scapulae)?",
+          "id": "dsz7",
+          "q": "Kde se upíná m. levator scapulae?",
           "options": [
             "Nadpažek lopatky",
             "Horní úhel lopatky",
@@ -3055,19 +3195,19 @@
           "answer_index": 1
         },
         {
-          "id": "tsz_6",
-          "q": "Jakou funkci má zdvihač lopatky?",
+          "id": "dsz8",
+          "q": "Kde začíná m. rhomboideus minor?",
           "options": [
-            "Stahuje lopatku dolů",
-            "Táhne lopatku k páteři",
-            "Zvedá lopatku nahoru",
-            "Otáčí lopatku"
+            "Trnové výběžky 1.–4. hrudního obratle",
+            "Trnové výběžky 6.–7. krčního obratle",
+            "Kost týlní",
+            "Příčné výběžky krčních obratlů"
           ],
-          "answer_index": 2
+          "answer_index": 1
         },
         {
-          "id": "tsz_7",
-          "q": "Kde začíná velký sval rombický (m. rhomboideus major)?",
+          "id": "dsz9",
+          "q": "Kde začíná m. rhomboideus major?",
           "options": [
             "Trnové výběžky 6.–7. krčního obratle",
             "Trnové výběžky 1.–4. hrudního obratle",
@@ -3077,19 +3217,52 @@
           "answer_index": 1
         },
         {
-          "id": "tsz_8",
-          "q": "Jakou funkci mají svaly rombické?",
+          "id": "dsz10",
+          "q": "Kde se upíná m. rhomboideus minor?",
+          "options": [
+            "Vnitřní okraj lopatky oproti podhřebenové jámě",
+            "Vnitřní okraj lopatky oproti nadhřebenové jámě",
+            "Dolní úhel lopatky",
+            "Nadpažek lopatky"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsz11",
+          "q": "Kde se upíná m. rhomboideus major?",
+          "options": [
+            "Vnitřní okraj lopatky oproti nadhřebenové jámě",
+            "Vnitřní okraj lopatky oproti podhřebenové jámě",
+            "Dolní úhel lopatky",
+            "Horní úhel lopatky"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsz12",
+          "q": "Jakou funkci mají oba svaly rombické?",
           "options": [
             "Zvedají lopatku nahoru a táhnou ji k páteři",
-            "Stahují lopatku dolů",
+            "Stahují lopatku dolů a od páteře",
             "Přitlačují lopatku k hrudníku",
             "Otáčejí lopatku"
           ],
           "answer_index": 0
         },
         {
-          "id": "tsz_9",
-          "q": "Kde se upíná široký sval zádový (m. latissimus dorsi)?",
+          "id": "dsz13",
+          "q": "Kde začíná m. latissimus dorsi?",
+          "options": [
+            "Trnové výběžky krčních a hrudních obratlů",
+            "Trnové výběžky posledních 6 hrudních a bederních obratlů, hřeben kosti kyčelní, kost křížová, 3–4 poslední žebra",
+            "Příčné výběžky bederních obratlů",
+            "Kost křížová a kostrč"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsz14",
+          "q": "Kde se upíná m. latissimus dorsi?",
           "options": [
             "Hrana pod velkým hrbolem kosti pažní",
             "Hrana pod malým hrbolem kosti pažní",
@@ -3099,48 +3272,125 @@
           "answer_index": 1
         },
         {
-          "id": "tsz_10",
-          "q": "Jakou funkci má široký sval zádový (m. latissimus dorsi)?",
+          "id": "dsz15",
+          "q": "Jakou funkci má m. latissimus dorsi?",
           "options": [
-            "Upažení, předpažení a zevní rotace",
+            "Upažení, předpažení a zevní rotace; je-li tělo zavěšeno, vytahuje trup vzhůru",
             "Připažení, zapažení, vnitřní rotace; je-li tělo zavěšeno, vytahuje trup vzhůru",
-            "Pouze připažení",
-            "Zvedá lopatku"
+            "Pouze připažení a zapažení",
+            "Zvedá lopatku a táhne ji k páteři"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsz_11",
-          "q": "Jakou funkci mají vzpřimovače trupu (m. erector spinae) při oboustranné akci?",
+          "id": "dsz16",
+          "q": "Jakou funkci má m. serratus posterior superior?",
+          "options": [
+            "Pomocný sval výdechový – táhne žebra dolů",
+            "Pomocný sval nádechový – zvedá žebra",
+            "Hlavní sval nádechový",
+            "Bez respirační funkce"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsz17",
+          "q": "Jakou funkci má m. serratus posterior inferior?",
+          "options": [
+            "Pomocný sval nádechový – zvedá žebra",
+            "Pomocný sval výdechový – táhne žebra dolů",
+            "Hlavní sval výdechový",
+            "Bez respirační funkce"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsz18",
+          "q": "Jakou funkci mají vzpřimovače trupu (m. erector spinae) při JEDNOSTRANNÉ akci?",
+          "options": [
+            "Zaklání páteř",
+            "Uklání páteř na svou stranu",
+            "Předklání páteř",
+            "Otáčejí páteř"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dsz19",
+          "q": "Jakou funkci mají vzpřimovače trupu (m. erector spinae) při OBOUSTRANNÉ akci?",
           "options": [
             "Předklání páteř",
+            "Uklání páteř",
             "Zaklání páteř",
-            "Otáčejí páteř",
-            "Uklání páteř"
+            "Otáčejí páteř"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsz20",
+          "q": "Který sval NEPATŘÍ mezi povrchové svaly zádové?",
+          "options": [
+            "M. trapezius",
+            "M. latissimus dorsi",
+            "M. erector spinae",
+            "M. rhomboideus major"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsz21",
+          "q": "Který sval se upíná na hřeben lopatky, nadpažek i klíční kost?",
+          "options": [
+            "M. latissimus dorsi",
+            "M. levator scapulae",
+            "M. trapezius",
+            "M. rhomboideus major"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsz22",
+          "q": "Který sval táhne lopatku nahoru a k páteři?",
+          "options": [
+            "M. trapezius – dolní část",
+            "M. serratus anterior",
+            "M. rhomboideus minor i major",
+            "M. latissimus dorsi"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dsz23",
+          "q": "Kde začíná m. serratus posterior superior?",
+          "options": [
+            "Trnové výběžky 11.–12. hrudního a 1.–2. bederního obratle",
+            "Trnové výběžky 6.–7. krčního a 1.–2. hrudního obratle",
+            "Kost týlní",
+            "Příčné výběžky krčních obratlů"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsz_12",
-          "q": "Patří zadní pilovitý sval horní mezi svaly nádechové nebo výdechové?",
+          "id": "dsz24",
+          "q": "Kde se upíná m. serratus posterior superior?",
           "options": [
-            "Výdechové – táhne žebra dolů",
-            "Nádechové – zvedá žebra",
-            "Nemá respirační funkci",
-            "Obojí"
+            "Poslední 4 žebra",
+            "2.–5. žebro",
+            "1.–3. žebro",
+            "3.–6. žebro"
           ],
           "answer_index": 1
         }
       ]
     },
     {
-      "id": "test_svaly_rameno",
-      "title": "TEST – Svaly ramenního kloubu",
+      "id": "detail_svaly_horni",
+      "title": "DETAILNÍ TEST – Svaly horní končetiny",
       "type": "mcq",
       "questions": [
         {
-          "id": "tsr1",
-          "q": "Kde začíná sval deltový (m. deltoideus)?",
+          "id": "dshk1",
+          "q": "Kde začíná m. deltoideus?",
           "options": [
             "Jáma nadhřebenová na lopatce",
             "Přední plocha lopatky",
@@ -3150,8 +3400,8 @@
           "answer_index": 2
         },
         {
-          "id": "tsr2",
-          "q": "Kde se upíná sval deltový (m. deltoideus)?",
+          "id": "dshk2",
+          "q": "Kde se upíná m. deltoideus?",
           "options": [
             "Velký hrbol kosti pažní",
             "Drsnatina kosti pažní",
@@ -3161,41 +3411,96 @@
           "answer_index": 1
         },
         {
-          "id": "tsr3",
-          "q": "Jakou funkci má sval deltový?",
+          "id": "dshk3",
+          "q": "Jakou funkci má m. deltoideus?",
           "options": [
-            "Připažení a vnitřní rotace",
-            "Upažení (abdukce), předpažení (flexe), zapažení (extenze)",
-            "Pouze upažení",
+            "Připažení a vnitřní rotace v ramenním kloubu",
+            "Upažení (abdukce), předpažení (flexe), zapažení (extenze) v ramenním kloubu",
+            "Pouze upažení (abdukce)",
             "Zevní rotace a zapažení"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsr4",
-          "q": "Jakou funkci má sval nadhřebenový (m. supraspinatus)?",
+          "id": "dshk4",
+          "q": "Kde začíná m. supraspinatus?",
+          "options": [
+            "Jáma podhřebenová na lopatce",
+            "Jáma nadhřebenová na lopatce",
+            "Vnější okraj lopatky",
+            "Dolní úhel lopatky"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dshk5",
+          "q": "Kde se upíná m. supraspinatus?",
+          "options": [
+            "Malý hrbol kosti pažní",
+            "Velký hrbol kosti pažní",
+            "Drsnatina kosti pažní",
+            "Okovec kosti loketní"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dshk6",
+          "q": "Jakou funkci má m. supraspinatus?",
           "options": [
             "Připažení a zevní rotace",
-            "Upažení (abdukce) a zevní rotace v kloubu ramenním",
-            "Vnitřní rotace",
-            "Předpažení"
+            "Upažení (abdukce) a zevní rotace v ramenním kloubu",
+            "Vnitřní rotace a zapažení",
+            "Předpažení a vnitřní rotace"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsr5",
-          "q": "Jakou funkci má sval podhřebenový (m. infraspinatus)?",
+          "id": "dshk7",
+          "q": "Kde začíná m. infraspinatus?",
           "options": [
-            "Upažení a vnitřní rotace",
-            "Připažení (addukce) a zevní rotace v kloubu ramenním",
-            "Předpažení",
+            "Jáma nadhřebenová na lopatce",
+            "Vnější okraj lopatky",
+            "Jáma podhřebenová na lopatce",
+            "Dolní úhel lopatky"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dshk8",
+          "q": "Jakou funkci má m. infraspinatus?",
+          "options": [
+            "Upažení a zevní rotace",
+            "Připažení (addukce) a zevní rotace v ramenním kloubu",
+            "Připažení a vnitřní rotace",
+            "Předpažení a zevní rotace"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dshk9",
+          "q": "Kde začíná m. teres minor?",
+          "options": [
+            "Dolní úhel lopatky",
+            "Jáma podhřebenová",
+            "Vnější okraj lopatky",
+            "Jáma nadhřebenová"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dshk10",
+          "q": "Jakou funkci má m. teres minor?",
+          "options": [
+            "Připažení a vnitřní rotace",
+            "Upažení a zevní rotace",
+            "Připažení (addukce) a zevní rotace",
             "Zapažení a vnitřní rotace"
           ],
-          "answer_index": 1
+          "answer_index": 2
         },
         {
-          "id": "tsr6",
-          "q": "Kde začíná velký sval oblý (m. teres major)?",
+          "id": "dshk11",
+          "q": "Kde začíná m. teres major?",
           "options": [
             "Jáma nadhřebenová",
             "Vnější okraj lopatky",
@@ -3205,19 +3510,30 @@
           "answer_index": 2
         },
         {
-          "id": "tsr7",
-          "q": "Jakou funkci má velký sval oblý (m. teres major)?",
+          "id": "dshk12",
+          "q": "Kde se upíná m. teres major?",
           "options": [
-            "Upažení a zevní rotace",
-            "Připažení (addukce), zapažení (extenze) a vnitřní rotace",
-            "Pouze předpažení",
-            "Zevní rotace"
+            "Velký hrbol kosti pažní",
+            "Drsnatina kosti pažní",
+            "Hrana pod malým hrbolem kosti pažní",
+            "Okovec kosti loketní"
           ],
-          "answer_index": 1
+          "answer_index": 2
         },
         {
-          "id": "tsr8",
-          "q": "Kde začíná sval podlopatkový (m. subscapularis)?",
+          "id": "dshk13",
+          "q": "Jakou funkci má m. teres major?",
+          "options": [
+            "Upažení a zevní rotace",
+            "Připažení a zevní rotace",
+            "Připažení (addukce), zapažení (extenze) a vnitřní rotace",
+            "Pouze zapažení"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dshk14",
+          "q": "Kde začíná m. subscapularis?",
           "options": [
             "Zadní plocha lopatky",
             "Přední plocha lopatky (přivrácená k žebrům)",
@@ -3227,8 +3543,8 @@
           "answer_index": 1
         },
         {
-          "id": "tsr9",
-          "q": "Kde se upíná sval podlopatkový (m. subscapularis)?",
+          "id": "dshk15",
+          "q": "Kde se upíná m. subscapularis?",
           "options": [
             "Velký hrbol kosti pažní",
             "Drsnatina kosti pažní",
@@ -3238,26 +3554,19 @@
           "answer_index": 2
         },
         {
-          "id": "tsr10",
-          "q": "Jakou funkci má sval podlopatkový?",
+          "id": "dshk16",
+          "q": "Jakou funkci má m. subscapularis?",
           "options": [
             "Upažení a zevní rotace",
-            "Připažení (addukce) a vnitřní rotace v kloubu ramenním",
-            "Předpažení a zevní rotace",
-            "Zapažení"
+            "Připažení (addukce) a vnitřní rotace v ramenním kloubu",
+            "Připažení a zevní rotace",
+            "Zapažení a zevní rotace"
           ],
           "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "test_svaly_paze",
-      "title": "TEST – Svaly paže",
-      "type": "mcq",
-      "questions": [
+        },
         {
-          "id": "tsp1",
-          "q": "Kde se upíná dvojhlavý sval pažní (m. biceps brachii)?",
+          "id": "dshk17",
+          "q": "Kde se upíná m. biceps brachii?",
           "options": [
             "Drsnatina kosti loketní",
             "Okovec kosti loketní",
@@ -3267,19 +3576,19 @@
           "answer_index": 2
         },
         {
-          "id": "tsp2",
-          "q": "Jakou funkci má dvojhlavý sval pažní (m. biceps brachii)?",
+          "id": "dshk18",
+          "q": "Jakou funkci má m. biceps brachii?",
           "options": [
-            "Extenze v loketním kloubu",
+            "Extenze v loketním kloubu a pronace předloktí",
             "Flexe v loketním kloubu a supinace předloktí",
-            "Pronace předloktí",
-            "Připažení v ramenním kloubu"
+            "Pouze flexe v loketním kloubu",
+            "Supinace předloktí a připažení"
           ],
           "answer_index": 1
         },
         {
-          "id": "tsp3",
-          "q": "Kde začíná hluboký sval pažní (m. brachialis)?",
+          "id": "dshk19",
+          "q": "Kde začíná m. brachialis?",
           "options": [
             "Hákovitý výběžek lopatky",
             "Nad jamkou ramenního kloubu",
@@ -3289,8 +3598,19 @@
           "answer_index": 2
         },
         {
-          "id": "tsp4",
-          "q": "Jakou funkci má hluboký sval pažní (m. brachialis)?",
+          "id": "dshk20",
+          "q": "Kde se upíná m. brachialis?",
+          "options": [
+            "Drsnatina kosti vřetenní",
+            "Drsnatina kosti loketní",
+            "Okovec kosti loketní",
+            "Vnější epikondyl"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dshk21",
+          "q": "Jakou funkci má m. brachialis?",
           "options": [
             "Extenze v loketním kloubu",
             "Supinace předloktí",
@@ -3300,8 +3620,8 @@
           "answer_index": 2
         },
         {
-          "id": "tsp5",
-          "q": "Kde se upíná trojhlavý sval pažní (m. triceps brachii)?",
+          "id": "dshk22",
+          "q": "Kde se upíná m. triceps brachii?",
           "options": [
             "Drsnatina kosti vřetenní",
             "Drsnatina kosti loketní",
@@ -3311,19 +3631,19 @@
           "answer_index": 2
         },
         {
-          "id": "tsp6",
-          "q": "Jakou funkci má trojhlavý sval pažní (m. triceps brachii)?",
+          "id": "dshk23",
+          "q": "Jakou funkci má m. triceps brachii?",
           "options": [
             "Flexe v loketním kloubu",
             "Supinace předloktí",
             "Extenze v loketním kloubu",
-            "Připažení"
+            "Připažení v ramenním kloubu"
           ],
           "answer_index": 2
         },
         {
-          "id": "tsp7",
-          "q": "Jakou funkci má sval hákový (m. coracobrachialis)?",
+          "id": "dshk24",
+          "q": "Jakou funkci má m. coracobrachialis?",
           "options": [
             "Extenze v loketním kloubu",
             "Supinace předloktí",
@@ -3333,269 +3653,101 @@
           "answer_index": 2
         },
         {
-          "id": "tsp8",
-          "q": "Sval loketní (m. anconeus) má stejnou funkci jako:",
+          "id": "dshk25",
+          "q": "Který sval provádí SUPINACI předloktí (otočení dlaně nahoru)?",
           "options": [
+            "Pronátory",
+            "Extenzory",
+            "Supinátory",
+            "Flexory"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dshk26",
+          "q": "Který sval provádí PRONACI předloktí (otočení dlaně dolů)?",
+          "options": [
+            "Supinátory",
+            "Extenzory",
+            "Pronátory",
+            "Flexory"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dshk27",
+          "q": "Skupina ohybačů (flexorů) předloktí leží na:",
+          "options": [
+            "Zadní straně předloktí, začíná od vnějšího epikondylu",
+            "Přední straně předloktí, začíná převážně od vnitřního epikondylu",
+            "Vnitřní straně předloktí, začíná od nadpažku",
+            "Vnější straně předloktí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dshk28",
+          "q": "Skupina natahovačů (extenzorů) předloktí leží na:",
+          "options": [
+            "Přední straně předloktí, začíná od vnitřního epikondylu",
+            "Zadní straně předloktí, začíná převážně od vnějšího epikondylu",
+            "Vnitřní straně předloktí",
+            "Vnější straně předloktí, začíná od nadpažku"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dshk29",
+          "q": "Který sval NEPATŘÍ mezi svaly ramenního kloubu?",
+          "options": [
+            "M. supraspinatus",
+            "M. infraspinatus",
             "M. biceps brachii",
-            "M. brachialis",
-            "M. triceps brachii",
-            "M. coracobrachialis"
-          ],
-          "answer_index": 2
-        }
-      ]
-    },
-    {
-      "id": "test_svaly_kycle",
-      "title": "TEST – Svaly kyčelního kloubu a stehna",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "tskk1",
-          "q": "Kde se upíná sval bedrokyčlostehenní (m. iliopsoas)?",
-          "options": [
-            "Velký chocholík kosti stehenní",
-            "Malý chocholík kosti stehenní",
-            "Drsnatina pod velkým chocholíkem",
-            "Vnitřní kondyl kosti holenní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tskk2",
-          "q": "Jakou funkci má sval bedrokyčlostehenní (m. iliopsoas)?",
-          "options": [
-            "Zanožení (extenze) v kloubu kyčelním",
-            "Přednožení (flexe) v kloubu kyčelním, napomáhá vykročení",
-            "Unožení (abdukce)",
-            "Přinožení (addukce)"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tskk3",
-          "q": "Jakou funkci má velký sval hýžďový (m. glutaeus maximus)?",
-          "options": [
-            "Přednožení v kloubu kyčelním",
-            "Unožení v kloubu kyčelním",
-            "Zanožení (extenze) v kloubu kyčelním",
-            "Přinožení v kloubu kyčelním"
+            "M. subscapularis"
           ],
           "answer_index": 2
         },
         {
-          "id": "tskk4",
-          "q": "Jakou funkci má střední sval hýžďový (m. glutaeus medius)?",
+          "id": "dshk30",
+          "q": "Které dva svaly mají STEJNOU funkci – připažení a zevní rotaci?",
           "options": [
-            "Zanožení v kloubu kyčelním",
-            "Přednožení v kloubu kyčelním",
-            "Unožení (abdukce) v kloubu kyčelním",
-            "Přinožení v kloubu kyčelním"
+            "M. teres major a m. subscapularis",
+            "M. infraspinatus a m. teres minor",
+            "M. supraspinatus a m. infraspinatus",
+            "M. teres major a m. teres minor"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dshk31",
+          "q": "Který sval má funkci VNITŘNÍ rotace v ramenním kloubu – kromě m. teres major?",
+          "options": [
+            "M. infraspinatus",
+            "M. supraspinatus",
+            "M. subscapularis",
+            "M. teres minor"
           ],
           "answer_index": 2
         },
         {
-          "id": "tskk5",
-          "q": "Čtyřhlavý sval stehenní (m. quadriceps femoris) je:",
+          "id": "dshk32",
+          "q": "Kde začíná m. biceps brachii – dlouhá hlava?",
           "options": [
-            "Nejdelší sval v těle",
-            "Nejmohutnější sval v lidském těle",
-            "Nejhlubší sval stehna",
-            "Nejpohyblivější sval"
+            "Hákovitý výběžek lopatky",
+            "Nad jamkou ramenního kloubu, prochází dutinou ramenního kloubu",
+            "Přední plocha lopatky",
+            "Vnější okraj lopatky"
           ],
           "answer_index": 1
         },
         {
-          "id": "tskk6",
-          "q": "Jakou funkci má čtyřhlavý sval stehenní?",
+          "id": "dshk33",
+          "q": "Kde začíná m. biceps brachii – krátká hlava?",
           "options": [
-            "Flexe v kloubu kolenním",
-            "Extenze v kloubu kolenním; přímý sval pomáhá při přednožení",
-            "Přinožení v kloubu kyčelním",
-            "Zanožení v kloubu kyčelním"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tskk7",
-          "q": "Krejčovský sval (m. sartorius) je:",
-          "options": [
-            "Nejmohutnější sval v těle",
-            "Nejdelší sval v těle",
-            "Nejširší sval stehna",
-            "Nejkratší sval dolní končetiny"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tskk8",
-          "q": "Kde začíná krejčovský sval (m. sartorius)?",
-          "options": [
-            "Sedací hrbol",
-            "Přední horní trn kosti kyčelní",
-            "Velký chocholík",
-            "Vnitřní kondyl kosti stehenní"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tskk9",
-          "q": "Kde se upíná dvojhlavý sval stehenní (m. biceps femoris)?",
-          "options": [
-            "Vnitřní kondyl kosti holenní",
-            "Sedací hrbol",
-            "Hlavička lýtkové kosti",
-            "Drsnatina kosti holenní"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tskk10",
-          "q": "Jakou funkci mají přitahovače stehna (adduktory)?",
-          "options": [
-            "Unožení (abdukce) v kloubu kyčelním",
-            "Přinožení (addukce) v kloubu kyčelním",
-            "Zanožení v kloubu kyčelním",
-            "Přednožení v kloubu kyčelním"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tskk11",
-          "q": "Jakou funkci má štíhlý sval stehenní (m. gracilis)?",
-          "options": [
-            "Unožení v kloubu kyčelním",
-            "Přinožení (addukce) v kloubu kyčelním a flexe v kloubu kolenním",
-            "Zanožení a unožení",
-            "Extenze v kloubu kolenním"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tskk12",
-          "q": "Svaly pološlašitý a poloblanitý mají začátek na:",
-          "options": [
-            "Přední horní trn kosti kyčelní",
-            "Sedacím hrbolu",
-            "Vnitřním kondylu kosti stehenní",
-            "Hlavičce lýtkové kosti"
-          ],
-          "answer_index": 1
-        }
-      ]
-    },
-    {
-      "id": "test_svaly_berce",
-      "title": "TEST – Svaly bérce",
-      "type": "mcq",
-      "questions": [
-        {
-          "id": "tsbe1",
-          "q": "Jakou funkci má přední sval holenní (m. tibialis anterior)?",
-          "options": [
-            "Plantární flexe a pronace",
-            "Propnutí špičky",
-            "Dorzální flexe (zvednutí špičky) a supinace v hlezenním kloubu",
-            "Ohnutí prstů"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsbe2",
-          "q": "Kde se upíná přední sval holenní (m. tibialis anterior)?",
-          "options": [
-            "Hrbol kosti patní",
-            "Báze 5. kosti nártní",
-            "Vnitřní kost klínová, báze 1. kosti nártní",
-            "Drsnatina kosti holenní"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsbe3",
-          "q": "Z čeho se skládá trojhlavý sval lýtkový (m. triceps surae)?",
-          "options": [
-            "Ze tří samostatných svalů",
-            "Z dvojhlavého svalu lýtkového a šikmého svalu lýtkového",
-            "Z přímého a šikmého svalu lýtkového",
-            "Ze čtyř hlav"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsbe4",
-          "q": "Kde se upíná trojhlavý sval lýtkový?",
-          "options": [
-            "Drsnatina kosti holenní",
-            "Hlavička kosti lýtkové",
-            "Prostřednictvím Achillovy šlachy na hrbol kosti patní",
-            "Vnitřní kotník"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsbe5",
-          "q": "Jakou funkci má trojhlavý sval lýtkový?",
-          "options": [
-            "Dorzální flexe a supinace",
-            "Propnutí špičky (plantární flexe); dvojhlavý sval lýtkový pomáhá flexi v kloubu kolenním",
-            "Pronace a plantární flexe",
-            "Natažení prstů"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsbe6",
-          "q": "Jakou funkci má sval zákolenní (m. popliteus)?",
-          "options": [
-            "Plantární flexe",
-            "Extenze v kloubu kolenním",
-            "Flexe v kloubu kolenním",
-            "Pronace"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsbe7",
-          "q": "Jakou funkci má dlouhý sval lýtkový (m. peroneus longus)?",
-          "options": [
-            "Dorzální flexe a supinace",
-            "Pronace a plantární flexe v hlezenním kloubu",
-            "Natažení prstů",
-            "Flexe v kloubu kolenním"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsbe8",
-          "q": "Kde se upíná dlouhý sval lýtkový (m. peroneus longus)?",
-          "options": [
-            "Báze 5. kosti nártní",
-            "Hrbol kosti patní",
-            "Báze 1. kosti nártní (z chodidlové strany)",
-            "Drsnatina kosti holenní"
-          ],
-          "answer_index": 2
-        },
-        {
-          "id": "tsbe9",
-          "q": "Kde se upíná krátký sval lýtkový (m. peroneus brevis)?",
-          "options": [
-            "Báze 1. kosti nártní",
-            "Báze 5. kosti nártní (z chodidlové strany)",
-            "Hrbol kosti patní",
-            "Vnitřní kotník"
-          ],
-          "answer_index": 1
-        },
-        {
-          "id": "tsbe10",
-          "q": "Svaly bérce dělíme do skupin:",
-          "options": [
-            "Povrchové a hluboké",
-            "Přední (natahovače), zadní (ohybače) a vnější (pronátory)",
-            "Vnitřní, vnější a přední",
-            "Flexory, extenzory a rotátory"
+            "Nad jamkou ramenního kloubu",
+            "Hákovitý výběžek lopatky",
+            "Přední plocha lopatky",
+            "Dolní úhel lopatky"
           ],
           "answer_index": 1
         }
