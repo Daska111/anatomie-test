@@ -4214,6 +4214,1423 @@
           "answer_index": 1
         }
       ]
+    },
+    {
+      "id": "derm_obecne",
+      "title": "Dermatologie – obecná charakteristika kůže",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "d1",
+          "q": "Kůže představuje kolik procent celkové hmotnosti dospělého člověka?",
+          "options": [
+            "3 %",
+            "5 %",
+            "7 %",
+            "10 %"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d2",
+          "q": "Jakou plochu zaujímá kůže dospělého člověka?",
+          "options": [
+            "Asi 0,75 m²",
+            "Asi 1,75 m²",
+            "Asi 2,5 m²",
+            "Asi 3 m²"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d3",
+          "q": "Z jakého hlediska lze kůži pokládat za největší orgán lidského těla?",
+          "options": [
+            "Protože obsahuje nejvíce buněk",
+            "Protože plní řadu funkcí a zaujímá velkou plochu",
+            "Protože je nejtěžší",
+            "Protože obsahuje nejvíce nervů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d4",
+          "q": "Jaká je tloušťka zdravé kůže?",
+          "options": [
+            "0,1 až 1 mm",
+            "0,5 až 4 mm",
+            "1 až 6 mm",
+            "2 až 8 mm"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d5",
+          "q": "Na které části těla je kůže nejsilnější?",
+          "options": [
+            "Na obličeji a krku",
+            "Na hrudníku a zádech – přední strana",
+            "Plosky nohou a dlaně – místa vystavená tlaku",
+            "Na břiše"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d6",
+          "q": "Na čem závisí barva kůže?",
+          "options": [
+            "Pouze na množství pigmentu",
+            "Na množství pigmentu, prokrvení a tloušťce kůže",
+            "Pouze na prokrvení",
+            "Pouze na tloušťce kůže"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d7",
+          "q": "Kde je v dospělosti kůže téměř bez pigmentu?",
+          "options": [
+            "Na zádech",
+            "Na obličeji",
+            "Na chodidlech a dlaních",
+            "Na hrudníku"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d8",
+          "q": "Co kůže tvoří jako specifické látky důležité pro ochranu?",
+          "options": [
+            "Insulin a glukagon",
+            "Keratin a kožní maz",
+            "Kolagen a elastin",
+            "Melanin a hemoglobin"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "d9",
+          "q": "Na čem závisí kvalita kůže a její vzhled především?",
+          "options": [
+            "Na pohlaví",
+            "Na stravování",
+            "Na věku jedince",
+            "Na klimatu"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "d10",
+          "q": "Kůže se podílí na procesech metabolických – například:",
+          "options": [
+            "Trávení tuků",
+            "Tvorba vitaminu D",
+            "Tvorba inzulinu",
+            "Vstřebávání živin ze střeva"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "derm_stavba",
+      "title": "Dermatologie – stavba kůže",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "ds1",
+          "q": "Z kolika vrstev se skládá kůže?",
+          "options": [
+            "Dvou (pokožka a škára)",
+            "Tří (pokožka, škára a podkožní tukové vazivo)",
+            "Čtyř (pokožka, škára, podkožní tuk a fascie)",
+            "Jedné (epidermis)"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds2",
+          "q": "Co jsou kožní přívěsky (adnexa)?",
+          "options": [
+            "Pouze mazové žlázy",
+            "Vlasy, chlupy, nehty, potní a mazové žlázy",
+            "Pouze potní žlázy",
+            "Pouze nehty a vlasy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds3",
+          "q": "Jaký je rozdíl mezi rohovatějícími a nerohovatějícími adnexy?",
+          "options": [
+            "Rohovatějící jsou vlasy a nehty, nerohovatějící jsou potní a mazové žlázy",
+            "Rohovatějící jsou potní žlázy, nerohovatějící jsou vlasy",
+            "Všechny adnexy jsou rohovatějící",
+            "Neexistuje žádný rozdíl"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "ds4",
+          "q": "Pokožka (epidermis) je:",
+          "options": [
+            "Tkáň bohatá na cévy",
+            "Mnohovrstvá tkáň bez cév, výživa zajišťována ze škáry",
+            "Jednovrstvá tkáň s četnými cévami",
+            "Část kůže tvořená tukovými buňkami"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds5",
+          "q": "Jak dlouho trvá celý proces rohovatění buněk pokožky?",
+          "options": [
+            "3–5 dní",
+            "10–14 dní",
+            "26–28 dní",
+            "60–90 dní"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ds6",
+          "q": "Co je keratin?",
+          "options": [
+            "Pigment zodpovědný za barvu kůže",
+            "Bílkovina v cytoplazmě rohovatějících buněk, nerozpustná ve vodě, odolná vůči dráždění",
+            "Tuková látka chránící kůži",
+            "Enzym rozkládající mikroby"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds7",
+          "q": "Jak dlouho trvá regenerace rohové vrstvy?",
+          "options": [
+            "1–2 dny",
+            "5–7 dní",
+            "14–21 dní",
+            "28–30 dní"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds8",
+          "q": "Co je kožní bariéra?",
+          "options": [
+            "Vrstva tukových buněk v podkoží",
+            "Ochranná vrstva tvořená rohovinou a tukovými látkami, která zabraňuje průniku mikrobů",
+            "Síť kolagenních vláken ve škáře",
+            "Pigmentová vrstva melanocytů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds9",
+          "q": "Při jaké relativní vlhkosti vzduchu přijímáme vlhkost přes kožní bariéru?",
+          "options": [
+            "Nad 30 %",
+            "Nad 45 %",
+            "Nad 60 %",
+            "Nad 80 %"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ds10",
+          "q": "Co narušuje přirozenou funkci kožní bariéry?",
+          "options": [
+            "Slunečné záření",
+            "Dlouhodobé působení saponátů a pracích prostředků (tenzidů)",
+            "Fyzická aktivita",
+            "Zdravá strava"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds11",
+          "q": "Co jsou melanocyty?",
+          "options": [
+            "Buňky produkující keratin",
+            "Buňky pigmentové v epidermis, které vytváří pigment melanin",
+            "Buňky zodpovědné za imunitní reakce kůže",
+            "Buňky produkující kožní maz"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds12",
+          "q": "Za ochranu kolika rohovatějících buněk zodpovídá jedna pigmentová buňka?",
+          "options": [
+            "5–10",
+            "10–15",
+            "25–30",
+            "50–60"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ds13",
+          "q": "Jakou funkci má pigment melanin?",
+          "options": [
+            "Zajišťuje pružnost kůže",
+            "Zadržuje a pohlcuje složky slunečního záření, zvláště UV",
+            "Produkuje vitamin D",
+            "Chrání kůži před bakteriemi"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds14",
+          "q": "Kolik vrstev má epidermis?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ds15",
+          "q": "Která vrstva epidermis je nejhlouběji uložena?",
+          "options": [
+            "Vrstva rohová (stratum corneum)",
+            "Vrstva lesklá a světlá (stratum lucidum)",
+            "Vrstva základní (stratum basale)",
+            "Vrstva zrnitá (stratum granulosum)"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ds16",
+          "q": "Která vrstva epidermis je na povrchu?",
+          "options": [
+            "Vrstva základní (stratum basale)",
+            "Vrstva ostnitá (stratum spinosum)",
+            "Vrstva rohová (stratum corneum)",
+            "Vrstva zrnitá (stratum granulosum)"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ds17",
+          "q": "Škára (corium) je:",
+          "options": [
+            "Nejsvrchnější vrstva kůže bez cév",
+            "Střední část kůže s výrazným podílem vaziva",
+            "Nejspodnější vrstva kůže tvořená tukem",
+            "Vrstva epidermis"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds18",
+          "q": "Jak se nazývají výběžky škáry do epidermis?",
+          "options": [
+            "Papily",
+            "Melanocyty",
+            "Fibroblasty",
+            "Histiocyty"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "ds19",
+          "q": "Kolik procent škáry tvoří kolagenní vlákna?",
+          "options": [
+            "30 %",
+            "50 %",
+            "70 %",
+            "90 %"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ds20",
+          "q": "Jakou funkci mají kolagenní vlákna ve škáře?",
+          "options": [
+            "Produkují kožní maz",
+            "Zajišťují pevnost kůže a podmíňují štěpitelnost kůže",
+            "Zajišťují pružnost kůže",
+            "Chrání kůži před UV zářením"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds21",
+          "q": "Jakou funkci mají elastická vlákna ve škáře?",
+          "options": [
+            "Zajišťují pevnost kůže",
+            "Mají význam pro pevnost, především pro pružnost kůže",
+            "Produkují melanin",
+            "Tvoří kožní bariéru"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds22",
+          "q": "Co je kožní turgor?",
+          "options": [
+            "Barva kůže daná pigmentem",
+            "Napětí kůže dané obsahem vody a iontů",
+            "Tloušťka rohové vrstvy",
+            "Množství mazových žláz"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds23",
+          "q": "Co je podkoží (tela subcutanea)?",
+          "options": [
+            "Vrstva epidermis bez cév",
+            "Nejsvrchnější vrstva kůže",
+            "Část kůže tvořená tukovou a vazivovou tkání, bohatě prokrvená",
+            "Vrstva obsahující melanocyty"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ds24",
+          "q": "Jakou funkci plní podkoží?",
+          "options": [
+            "Produkce keratinu",
+            "Termoregulace jako tepelný izolátor, tlumení úderů, zásobárna vody a energie",
+            "Ochrana před UV zářením",
+            "Tvorba vitaminu D"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ds25",
+          "q": "Proč je stařecká kůže ochablá?",
+          "options": [
+            "Ubývá melanocytů",
+            "Ve stáří ubývá tuku v podkožním vazivu a degenerují elastická vlákna",
+            "Rohová vrstva se ztenčuje",
+            "Klesá produkce keratinu"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "derm_zlazyprivesky",
+      "title": "Dermatologie – kožní přívěsky a žlázy",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "dz1",
+          "q": "Kde jsou uloženy mazové žlázy?",
+          "options": [
+            "V podkoží, nezávisle na vlasech",
+            "Ve škáře, vázány na vlasový folikul",
+            "V epidermis, na povrchu kůže",
+            "Pouze na dlaních a ploskách"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz2",
+          "q": "Kde mazové žlázy chybí?",
+          "options": [
+            "Na obličeji a zádech",
+            "Na vlasaté části hlavy",
+            "Na dlaních a ploskách",
+            "Na hrudníku"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dz3",
+          "q": "Kdy se mazové žlázy aktivují?",
+          "options": [
+            "V dětství",
+            "V pubertě vlivem hormonů",
+            "Ve stáří",
+            "Od narození"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz4",
+          "q": "Jaké je pH kyselého ochranného mazového pláště?",
+          "options": [
+            "2,5–3,5",
+            "4,5–5,5",
+            "6,5–7,0",
+            "7,5–8,0"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz5",
+          "q": "Jaká je reakce kožního povrchu v zapářkové oblasti (podpaží, třísla)?",
+          "options": [
+            "Silně kyselá",
+            "Kyselá (pH 4,5–5,5)",
+            "Neutrální nebo slabě zásaditá",
+            "Silně zásaditá"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dz6",
+          "q": "Jakou funkci má kyselý kožní film?",
+          "options": [
+            "Zvyšuje produkci keratinu",
+            "Snižuje množství mikroorganismů a umožňuje přežití pouze kožnímu stafylokokovi",
+            "Chrání kůži před UV zářením",
+            "Zajišťuje pružnost kůže"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz7",
+          "q": "Co neutralizuje kyselý mazový plášť?",
+          "options": [
+            "Čistá voda",
+            "Alkalické prostředky (mýdla) a chemická drážidla",
+            "Slunečního záření",
+            "Fyzická aktivita"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz8",
+          "q": "Jak dělíme potní žlázy?",
+          "options": [
+            "Na vnější a vnitřní",
+            "Na velké (apokrinní) a malé (ekkrinní)",
+            "Na povrchové a hluboké",
+            "Na kyselé a zásadité"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz9",
+          "q": "Kdy se vyvíjejí velké potní žlázy (apokrinní)?",
+          "options": [
+            "Již v prenatálním vývoji",
+            "V dětství do 5 let",
+            "Až v pubertě",
+            "Ve stáří"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dz10",
+          "q": "Kde jsou uloženy velké potní žlázy (apokrinní)?",
+          "options": [
+            "Rovnoměrně po celém těle",
+            "V podpaží, kolem genitálu a prsních bradavek",
+            "Pouze na dlaních a ploskách",
+            "Na obličeji"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz11",
+          "q": "Kolik malých potních žláz (ekkrinních) má člověk?",
+          "options": [
+            "Asi 100 000",
+            "Asi 500 000",
+            "Asi 3 miliony",
+            "Asi 10 milionů"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dz12",
+          "q": "Kolik litrů potu mohou malé potní žlázy produkovat za den maximálně?",
+          "options": [
+            "1–2 litry",
+            "5 litrů",
+            "10 litrů",
+            "20 litrů"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dz13",
+          "q": "Jakou funkci hrají malé potní žlázy kromě termoregulace?",
+          "options": [
+            "Produkce keratinu",
+            "Usnadňují úchop předmětů do rukou a podílejí se na vylučování látek (alkohol)",
+            "Chrání kůži před UV",
+            "Tvorba vitaminu D"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz14",
+          "q": "Kde je nejvíce malých potních žláz?",
+          "options": [
+            "Na zádech",
+            "Na obličeji",
+            "Na dlaních a ploskách",
+            "Na hrudníku"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dz15",
+          "q": "Z čeho se skládá vlastní vlas?",
+          "options": [
+            "Pouze z keratinu",
+            "Ze dřeně, kůry a kutikuly",
+            "Z melaninu a kolagenu",
+            "Z elastinu a keratinu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz16",
+          "q": "Čím je určena barva vlasu?",
+          "options": [
+            "Keratinovým obsahem",
+            "Přítomným melaninem v kůře vlasu",
+            "Tloušťkou vlasu",
+            "Cévním zásobením vlasové papily"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz17",
+          "q": "Odkud vyrůstá vlas?",
+          "options": [
+            "Z povrchu epidermis",
+            "Z vlasového míšku (folikulu), což je vchlípenina epidermis do hlubších vrstev",
+            "Z mazové žlázy",
+            "Z podkožního tuku"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz18",
+          "q": "Co je vzpřimovač vlasu?",
+          "options": [
+            "Sval zajišťující růst vlasu",
+            "Malý hladký sval napojený na vlasový míšek, jehož smrštěním vzniká husí kůže",
+            "Nervové zakončení ve vlasové cibulce",
+            "Část mazové žlázy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz19",
+          "q": "Kolik vlasů denně vypadne jako normální jev?",
+          "options": [
+            "5–10",
+            "20–30",
+            "70–100",
+            "200–300"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dz20",
+          "q": "Jak dlouho průměrně roste vlas?",
+          "options": [
+            "6 měsíců",
+            "1 rok",
+            "3 roky",
+            "10 let"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dz21",
+          "q": "Jaká je základní funkce nehtu?",
+          "options": [
+            "Produkce keratinu",
+            "Ochrana citlivé části bříška prstů a pevná opěrka při úchopu",
+            "Regulace teploty prstů",
+            "Tvorba melaninu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz22",
+          "q": "Jak silná je nehtová ploténka?",
+          "options": [
+            "0,05–0,1 mm",
+            "0,3–0,5 mm",
+            "1–2 mm",
+            "3–5 mm"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz23",
+          "q": "Jak rychle roste nehet?",
+          "options": [
+            "0,01 mm za 24 hodin",
+            "0,1 mm za 24 hodin",
+            "1 mm za 24 hodin",
+            "5 mm za 24 hodin"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dz24",
+          "q": "Co je lunula?",
+          "options": [
+            "Zárodečná hmota nehtu",
+            "Prosvětlení měsíčkovitého tvaru vybíhající pod nehtovou destičku ze zadního nehtového valu",
+            "Volný okraj nehtu",
+            "Postranní nehtový val"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "derm_funkce",
+      "title": "Dermatologie – funkce kůže",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "df1",
+          "q": "Které funkce kůže patří mezi ochranné?",
+          "options": [
+            "Pouze ochrana před UV zářením",
+            "Ochrana před mechanickým poškozením, UV zářením, fyzikálními a chemickými vlivy, mikrobům",
+            "Pouze termoregulace",
+            "Pouze tvorba vitaminu D"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df2",
+          "q": "Jak kůže chrání před UV zářením?",
+          "options": [
+            "Rohovou vrstvou (odráží záření) a pigmentem melaninem (pohlcuje záření)",
+            "Pouze mazovým filmem",
+            "Pouze elastickými vlákny",
+            "Pouze potními žlázami"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "df3",
+          "q": "Jak se kůže podílí na termoregulaci?",
+          "options": [
+            "Pouze produkcí potu",
+            "Cévním řečištěm (rozšiřování/zužování cév) a odpařováním potu",
+            "Pouze zužováním cév",
+            "Pouze tukovou vrstvou"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df4",
+          "q": "Jak kůže chrání před chemickými vlivy?",
+          "options": [
+            "Díky elastickým vláknům",
+            "Díky keratinu, potu, mazu a pevnosti kožního krytu",
+            "Díky melaninu",
+            "Díky nervoým zakončením"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df5",
+          "q": "Jak je zajištěna ochrana kůže vůči mikrobům?",
+          "options": [
+            "Pouze rohovou vrstvou",
+            "Kyselým kožním pláštěm, neporušenou rohovou vrstvou a kolonizací kožního stafylokoka",
+            "Pouze mazovými žlázami",
+            "Pouze potními žlázami"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df6",
+          "q": "Co je detoxikační funkce kůže?",
+          "options": [
+            "Kůže vstřebává toxické látky",
+            "Potními žlázami se vylučuje alkohol a některé léky (barbituráty)",
+            "Kůže produkuje protilátky",
+            "Kůže filtruje krev"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df7",
+          "q": "Zásobárnou čeho je kůže?",
+          "options": [
+            "Bílkovin a tuků",
+            "Vody, některých prvků (sodík, draslík) a energie (podkožní tuk)",
+            "Cukrů a vitamínů",
+            "Pouze vody"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df8",
+          "q": "Co je senzorická funkce kůže?",
+          "options": [
+            "Kůže produkuje smyslové hormony",
+            "Kůže obsahuje nervová zakončení a slouží k vnímání smyslových podnětů zpracovávaných CNS",
+            "Kůže vytváří reflexní oblouky",
+            "Kůže reguluje spánek"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df9",
+          "q": "Jak vzniká vitamin D v kůži?",
+          "options": [
+            "Mazovými žlázami za tmy",
+            "Působením slunečního světla na předchůdce vitaminu D v kůži",
+            "Potními žlázami při fyzické zátěži",
+            "Melanocyty při UV záření"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df10",
+          "q": "K čemu je nezbytná aktivní forma vitaminu D?",
+          "options": [
+            "K tvorbě keratinu",
+            "Pro metabolismus vápníku a fosforu v těle",
+            "K produkci melaninu",
+            "K regulaci tělesné teploty"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df11",
+          "q": "Co je resorpční funkce kůže?",
+          "options": [
+            "Kůže vylučuje metabolické produkty",
+            "Kůže je schopna resorbovat různé látky ze zevního prostředí – využívá se při léčbě mastmi",
+            "Kůže vstřebává kyslík",
+            "Kůže produkuje hormony"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df12",
+          "q": "Která nervová tělíska vnímají tlak?",
+          "options": [
+            "Meissnerova tělíska",
+            "Ruffiniho tělíska",
+            "Vater-Paccininiho tělíska",
+            "Krauseho tělíska"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "df13",
+          "q": "Která nervová tělíska vnímají hmat?",
+          "options": [
+            "Vater-Paccininiho tělíska",
+            "Meissnerova tělíska",
+            "Ruffiniho tělíska",
+            "Krauseho tělíska"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "df14",
+          "q": "Která nervová tělíska vnímají teplo?",
+          "options": [
+            "Meissnerova tělíska",
+            "Krauseho tělíska",
+            "Vater-Paccininiho tělíska",
+            "Ruffiniho tělíska"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "df15",
+          "q": "Která nervová tělíska vnímají chlad?",
+          "options": [
+            "Ruffiniho tělíska",
+            "Meissnerova tělíska",
+            "Krauseho tělíska",
+            "Vater-Paccininiho tělíska"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "df16",
+          "q": "Kde v kůži jsou volná nervová zakončení?",
+          "options": [
+            "Pouze v podkoží",
+            "V epidermis – vnímají jemné tlakové pocity, a ve škáře – vnímají bolest",
+            "Pouze ve škáře",
+            "Pouze v mazových žlázách"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "derm_morfy",
+      "title": "Dermatologie – chorobné změny na kůži (morfy)",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "dm1",
+          "q": "Jak se nazývají projevy kožních chorob?",
+          "options": [
+            "Erytémy",
+            "Morfy (výkvětky)",
+            "Papuly",
+            "Pustuly"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm2",
+          "q": "Jak dělíme morfy?",
+          "options": [
+            "Na infekční a neinfekční",
+            "Na primární, sekundární a výsledné stavy",
+            "Na akutní a chronické",
+            "Na povrchové a hluboké"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm3",
+          "q": "Co je skvrna (makula)?",
+          "options": [
+            "Ohraničené vyvýšení kožního povrchu",
+            "Ohraničená změna barvy kůže, která nemá změněný povrch ani neprominuje nad okolí",
+            "Dutina vyplněná tkáňovým mokem",
+            "Zaschlý tkáňový mok"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm4",
+          "q": "Jakým příkladem je piha?",
+          "options": [
+            "Puchýře",
+            "Skvrny (makuly)",
+            "Pupínky (papuly)",
+            "Vředů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm5",
+          "q": "Co je pupínek (papula)?",
+          "options": [
+            "Dutina vyplněná hnisem",
+            "Ohraničené vyvýšení kožního povrchu způsobené otokem nebo zmnožením buněk v epidermis",
+            "Zaschlý tkáňový mok",
+            "Plošné ztenčení epidermis"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm6",
+          "q": "Jakým příkladem primární morfy je ekzém a lupénka?",
+          "options": [
+            "Skvrny",
+            "Puchýře",
+            "Pupínky (papuly)",
+            "Kopřivkové pupeny"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dm7",
+          "q": "Co je puchýř (vesicula)?",
+          "options": [
+            "Dutina vyplněná hnisem",
+            "Dutina vyplněná tkáňovým mokem, lokalizovaná v epidermis nebo pod epidermis",
+            "Plošné ztenčení kůže",
+            "Vyvýšení způsobené otokem ve škáře"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm8",
+          "q": "Jakým příkladem primární morfy je opar?",
+          "options": [
+            "Skvrna (makula)",
+            "Pupínek (papula)",
+            "Puchýř (vesicula)",
+            "Neštovička (pustula)"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dm9",
+          "q": "Co je neštovička (pustula)?",
+          "options": [
+            "Dutina vyplněná tkáňovým mokem",
+            "Dutinka vyplněná hnisem",
+            "Ohraničená změna barvy kůže",
+            "Zaschlý tkáňový mok"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm10",
+          "q": "Jaké jsou příklady neštovičky (pustuly)?",
+          "options": [
+            "Opar a puchýřnatka",
+            "Piha a hyperpigmentace",
+            "Folikulitida a akné",
+            "Lupénka a ekzém"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dm11",
+          "q": "Co je kopřivkový pupen (pomphus)?",
+          "options": [
+            "Dutinka vyplněná hnisem",
+            "Plošné ohraničené vyvýšení způsobené otokem ve škáře, může se vyvinout puchýřek v centru",
+            "Zaschlý tkáňový mok",
+            "Trhlina v epidermis"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm12",
+          "q": "Jakým příkladem primární morfy je kopřivka?",
+          "options": [
+            "Skvrna (makula)",
+            "Puchýř (vesicula)",
+            "Kopřivkový pupen (pomphus)",
+            "Hrbol (tuber)"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dm13",
+          "q": "Co je hrbol (tuber)?",
+          "options": [
+            "Dutinka vyplněná hnisem",
+            "Ohraničená změna barvy kůže",
+            "Větší ohraničené vyvýšení nad povrch kůže způsobené zmnožením buněk nebo zánětem",
+            "Zaschlý tkáňový mok"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dm14",
+          "q": "Jakým příkladem hrbolu (tuber) jsou?",
+          "options": [
+            "Pihy a ekzémy",
+            "Tumory a furunkl",
+            "Opary a kopřivka",
+            "Jizvy a atrofie"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm15",
+          "q": "Co jsou morfy sekundární?",
+          "options": [
+            "Prvotní projevy kožní nemoci",
+            "Projevy, které se vytváří v průběhu vývoje onemocnění z projevů primárních",
+            "Trvalé změny po odhojení",
+            "Výsledné stavy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm16",
+          "q": "Co je šupina (squama)?",
+          "options": [
+            "Zaschlý tkáňový mok",
+            "Odlučující se lamela povrchní rohoviny",
+            "Dutinka vyplněná hnisem",
+            "Plošný defekt kůže"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm17",
+          "q": "Co je stroupek (crusta)?",
+          "options": [
+            "Odlučující se rohovinka",
+            "Zaschlý tkáňový mok, event. s příměsí krve nebo hnisu; po odloučení nevzniká jizva",
+            "Trhlina v epidermis",
+            "Plošné ztenčení kůže"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm18",
+          "q": "Co je příškvár (eschara) a jak se hojí?",
+          "options": [
+            "Povrchní defekt epidermis, hojí se bez jizvy",
+            "Ohraničená nekróza zasahující epidermis, škáru i podkoží, hojí se vždy jizvou",
+            "Zaschlý tkáňový mok, hojí se bez jizvy",
+            "Trhlina v epidermis, hojí se většinou bez jizvy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm19",
+          "q": "Jaké jsou příklady příškvaru (eschary)?",
+          "options": [
+            "Ekzém a impetigo",
+            "Furunkl a akné",
+            "Popálení, poleptání, diabetická gangréna",
+            "Opar a kopřivka"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dm20",
+          "q": "Co je eroze (erosio) a jak se hojí?",
+          "options": [
+            "Hluboký defekt hojící se vždy jizvou",
+            "Povrchní defekt epidermis vzniklý odloučením krytu puchýře nebo neštovičky, hojí se bez jizvy",
+            "Nekróza postihující i podkoží",
+            "Štěrbinovitý defekt hojící se s pigmentací"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm21",
+          "q": "Co je oděrka (exkoriatio)?",
+          "options": [
+            "Hluboký defekt postihující podkoží",
+            "Povrchní narušení epidermis způsobené mechanickým sedřením, hojí se bez jizvy",
+            "Dutinka vyplněná hnisem",
+            "Zaschlý tkáňový mok"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm22",
+          "q": "Co je trhlina (ragáda)?",
+          "options": [
+            "Dutina vyplněná tkáňovým mokem",
+            "Zaschlý tkáňový mok",
+            "Štěrbinovitý defekt v epidermis nebo zasahující do škáry, hojí se většinou bez jizvy",
+            "Plošný defekt postihující podkoží"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dm23",
+          "q": "Co je vřed (ulcus) a jak se hojí?",
+          "options": [
+            "Povrchní defekt epidermis, hojí se bez jizvy",
+            "Plošný defekt kůže postihující epidermis, škáru a někdy podkoží, hojí se vždy jizvou",
+            "Zaschlý tkáňový mok, nevzniká jizva",
+            "Trhlina v epidermis, hojí se bez jizvy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm24",
+          "q": "Jaký je příklad vředu (ulcus)?",
+          "options": [
+            "Opar a kopřivka",
+            "Bércový vřed, vřed po rozpadlém nádoru",
+            "Piha a ekzém",
+            "Furunkl a akné"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm25",
+          "q": "Co jsou výsledné stavy?",
+          "options": [
+            "Prvotní projevy kožní nemoci",
+            "Projevy, které se vytváří z primárních morfů",
+            "Projevy na kůži přetrvávající po odhojení onemocnění",
+            "Výkvětky vzniklé infekcí"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dm26",
+          "q": "Co je atrofie kůže?",
+          "options": [
+            "Hypertrofická jizva",
+            "Plošné ztenčení epidermis či celé kůže včetně adnex",
+            "Zesílení rohové vrstvy",
+            "Hyperpigmentace"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm27",
+          "q": "Jaké druhy jizev rozlišujeme?",
+          "options": [
+            "Primární a sekundární",
+            "Hypertrofické (keloidní, vyvýšené) a atrofické (vkleslé)",
+            "Povrchní a hluboké",
+            "Infekční a sterilní"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dm28",
+          "q": "Co je hyperpigmentace?",
+          "options": [
+            "Vyblednutí kůže po odhojení",
+            "Zvýšená pigmentace v místě zhojených kožních projevů",
+            "Ztenčení epidermis",
+            "Vznik keloidní jizvy"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "derm_predilekce",
+      "title": "Dermatologie – predilekční místa a léčba",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "dp1",
+          "q": "Co jsou predilekční místa?",
+          "options": [
+            "Místa na těle bez pigmentu",
+            "Místa, kde se některá kožní onemocnění typicky vyskytují",
+            "Místa s nejvíce mazovými žlázami",
+            "Místa nejsilnější kůže"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp2",
+          "q": "Co jsou predilekce intertriginosní?",
+          "options": [
+            "Místa s četnými mazovými žlázami",
+            "Vlhké zapářky – místa, kde se dvě kožní plochy naléhají (podpaží, třísla, pod prsy)",
+            "Místa typická pro lupénku",
+            "Místa pro projevy akné"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp3",
+          "q": "Kde se typicky vyskytuje predilekce seboroická?",
+          "options": [
+            "Meziprstní prostory, přední strana předloktí",
+            "Vlasatá část hlavy, obličej, okolí nosu, brada, hrudník, záda mezi lopatkami",
+            "Lokty, kolena, křížová oblast",
+            "Postranní strany hrudníku"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp4",
+          "q": "Pro které onemocnění je typická predilekce aknosní?",
+          "options": [
+            "Lupénka",
+            "Svrab",
+            "Akné – projevy vázané na mazové žlázy, obličej, horní část trupu, ramena",
+            "Ekzém"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "dp5",
+          "q": "Kde se typicky vyskytuje lupénka (predilekce psoriatická)?",
+          "options": [
+            "Podpaží, třísla, pod prsy",
+            "Vlasatá část hlavy, okolí loktů, kolen a křížová oblast",
+            "Celý obličej, záda",
+            "Meziprstní prostory, přední strana předloktí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp6",
+          "q": "Kde se typicky tvoří svrabové chodby (predilekce svrabová)?",
+          "options": [
+            "Vlasatá část hlavy",
+            "Meziprstní prostory, přední strana předloktí, boční strany hrudníku",
+            "Lokty a kolena",
+            "Obličej a záda"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp7",
+          "q": "Jaké jsou způsoby léčby kožních chorob?",
+          "options": [
+            "Pouze zevní léčba",
+            "Zevní, celková a fyzikální",
+            "Pouze antibiotika a chirurgie",
+            "Pouze fyzikální terapie"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp8",
+          "q": "Co patří do celkové léčby kožních chorob?",
+          "options": [
+            "Masti, krémy a pasty",
+            "Antibiotika, chemoterapeutika, antihistaminika, steroidní hormony, imunosupresiva, léčba dietou",
+            "Kryoterapie a dermabraze",
+            "Pouze UV záření"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp9",
+          "q": "Co jsou základy zevních léků?",
+          "options": [
+            "Pouze tukové základy",
+            "Tekuté, pevné a tukové základy",
+            "Pouze krémy a masti",
+            "Pouze aerosoly"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp10",
+          "q": "Jaký je účinek tekutých základů (voda, alkohol) v zevní terapii?",
+          "options": [
+            "Omezují odpařování vody, zahřívají",
+            "Chladivý, protizánětlivý účinek, omezují mokváni, snižují resorpci",
+            "Zvyšují odpařování vody",
+            "Mají masný krytí účinek"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp11",
+          "q": "Co jsou masti v zevní terapii?",
+          "options": [
+            "Emulze masťových základů s vodou",
+            "Směsi masťových základů s účinnými látkami; omezují odpařování vody; podávají se u chronických zánětů",
+            "Tekuté emulze pro akutní záněty",
+            "Prachové anorganické látky"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp12",
+          "q": "Co jsou krémy?",
+          "options": [
+            "Čisté tukové základy",
+            "Emulze masťových základů s vodou (obsahují až 40 % vody)",
+            "Prachové látky smíchané s tukem",
+            "Aerosoly pro vlasy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp13",
+          "q": "Co je emulze v/o (voda v oleji)?",
+          "options": [
+            "Suchý hydratační krém, voda se rychle vstřebává",
+            "Mastný krém, který odpuzuje vodu, omezuje odpařování, neproniká do hloubky, má krycí účinky",
+            "Gel s vysokým obsahem vody",
+            "Pasta s pudry"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp14",
+          "q": "Co jsou pasty v zevní terapii?",
+          "options": [
+            "Tekuté emulze pro akutní záněty",
+            "Masťové základy obsahující 30–50 % pudrů; mají chladivé účinky; používají se na chronické záněty",
+            "Aerosoly vypuzované tlakem",
+            "Gely s vysokým obsahem vody"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp15",
+          "q": "Co jsou lipozomy?",
+          "options": [
+            "Druh steroidních hormonů",
+            "Mikroměchýřky s obalem z tukové dvojvrstvy, které rychle pronikají přes kůži do hlubších vrstev",
+            "Silně alkalická mýdla",
+            "Typ pudru pro zevní terapii"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp16",
+          "q": "K čemu se používá kryoterapie (léčba chladem)?",
+          "options": [
+            "Léčba chronických ekzémů",
+            "Odstraňování bradavic a některých kožních nádorů tekutým dusíkem či suchým sněhem CO₂",
+            "Léčba akné",
+            "Hojení jizev"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp17",
+          "q": "Co je dermabraze?",
+          "options": [
+            "Léčba UV zářením",
+            "Snesení povrchních epidermálních vrstev vysokoobrátkovou frézou; kosmetické úpravy jizev, vrásek, tetováže",
+            "Aplikace steroidních hormonů",
+            "Kryoterapie pomocí tekutého dusíku"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp18",
+          "q": "Jaké jsou 3 vlnové rozsahy UV záření?",
+          "options": [
+            "UVA 100–200 nm, UVB 200–280 nm, UVC 280–320 nm",
+            "UVC 220–280 nm, UVB 280–320 nm, UVA 320–400 nm",
+            "UVA 400–500 nm, UVB 300–400 nm, UVC 200–300 nm",
+            "UVA 200–300 nm, UVB 300–400 nm, UVC 400–500 nm"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp19",
+          "q": "U jakých onemocnění se využívá léčba světlem (UV záření)?",
+          "options": [
+            "Akné a folikulitida",
+            "Lupénka, vitiliga, atopický ekzém",
+            "Svrab a plísňová onemocnění",
+            "Bércové vředy a diabetická gangréna"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp20",
+          "q": "Jakou funkci má kyselina salicylová v zevní terapii?",
+          "options": [
+            "Protizánětlivý účinek",
+            "Schopnost odstraňovat ztvrdlou kůži (keratolytický účinek)",
+            "Antibakteriální účinek",
+            "Hydratační účinek"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp21",
+          "q": "Co jsou steroidní hormony v dermatologii a jaké jsou jejich nežádoucí účinky?",
+          "options": [
+            "Látky s keratolytickým účinkem; nežádoucí: podráždění kůže",
+            "Látky s výrazným protizánětlivým účinkem; nežádoucí: atrofie pokožky, snížení obranyschopnosti",
+            "Antibiotika pro zevní použití; nežádoucí: alergie",
+            "Látky s hydratačním účinkem; bez nežádoucích účinků"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "dp22",
+          "q": "Co je erytrodermie?",
+          "options": [
+            "Lokální zarudnutí na obličeji",
+            "Difúzní zarudnutí po celém těle, které může vzniknout generalizací kožního onemocnění",
+            "Specifický typ jizvy",
+            "Primární morfa – skvrna"
+          ],
+          "answer_index": 1
+        }
+      ]
     }
   ]
 }
