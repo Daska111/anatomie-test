@@ -5631,6 +5631,1419 @@
           "answer_index": 1
         }
       ]
+    },
+    {
+      "id": "fyzio_obehova",
+      "title": "Fyziologie – oběhová soustava a krev",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "fo1",
+          "q": "Co je hlavní funkcí oběhové soustavy?",
+          "options": [
+            "Trávení živin",
+            "Rozvod látek po těle prostřednictvím krve",
+            "Tvorba hormonů",
+            "Odstraňování oxidu uhličitého z plic"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fo2",
+          "q": "Krev je:",
+          "options": [
+            "Pevná tkáň",
+            "Tekutá tkáň",
+            "Pojivová tkáň bez buněk",
+            "Svalová tkáň"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fo3",
+          "q": "Z čeho se skládá krev?",
+          "options": [
+            "Pouze z krevní plazmy",
+            "Pouze z červených krvinek",
+            "Z krevních tělísek v kapalné krevní plazmě",
+            "Z bílkovin a tuků"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo4",
+          "q": "Kde vznikají krevní tělíska?",
+          "options": [
+            "V játrech",
+            "V kostní dřeni",
+            "Ve slezině",
+            "V ledvinách"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fo5",
+          "q": "Jak dlouho žijí červené krvinky?",
+          "options": [
+            "7–14 dní",
+            "30–60 dní",
+            "90–120 dní",
+            "1–2 roky"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo6",
+          "q": "Jakou funkci mají červené krvinky?",
+          "options": [
+            "Zajišťují imunitu",
+            "Přenášejí kyslík díky hemoglobinu",
+            "Srážejí krev",
+            "Produkují protilátky"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fo7",
+          "q": "Z čeho je tvořen hemoglobin?",
+          "options": [
+            "Z tuků a cukrů",
+            "Z bílkoviny, molekul hemu a atomů železa",
+            "Z keratinu a melaninu",
+            "Z kolagenu a elastinu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fo8",
+          "q": "Jaká by měla být saturace krve kyslíkem (SpO₂) u zdravého jedince?",
+          "options": [
+            "Kolem 70 %",
+            "Kolem 80 %",
+            "Blízko 100 %",
+            "Kolem 50 %"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo9",
+          "q": "Jakou funkci mají bílé krvinky (leukocyty)?",
+          "options": [
+            "Přenášejí kyslík",
+            "Zajišťují obranyschopnost organismu (imunitu)",
+            "Srážejí krev",
+            "Přenášejí oxid uhličitý"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fo10",
+          "q": "Jakou funkci mají krevní destičky (trombocyty)?",
+          "options": [
+            "Přenášejí kyslík",
+            "Zajišťují imunitu",
+            "Podílejí se na srážení krve a zastavování krvácení",
+            "Produkují hemoglobin"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo11",
+          "q": "Jaký protein mění krevní destičky v ráně na síťovitý fibrin?",
+          "options": [
+            "Albumin",
+            "Globulin",
+            "Fibrinogen",
+            "Hemoglobin"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo12",
+          "q": "Kdo je univerzální dárce červených krvinek?",
+          "options": [
+            "Krevní skupina AB+",
+            "Krevní skupina A+",
+            "Krevní skupina 0−",
+            "Krevní skupina B−"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo13",
+          "q": "Kdo je univerzální příjemce červených krvinek?",
+          "options": [
+            "Krevní skupina 0−",
+            "Krevní skupina A+",
+            "Krevní skupina B+",
+            "Krevní skupina AB+"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "fo14",
+          "q": "Co je hemofilie?",
+          "options": [
+            "Nekontrolovatelné dělení bílých krvinek",
+            "Chudokrevnost",
+            "Chorobná krvácivost",
+            "Přenos infekčních nemocí krví"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo15",
+          "q": "Co je leukémie?",
+          "options": [
+            "Chorobná krvácivost",
+            "Nekontrolovatelné dělení bílých krvinek",
+            "Chudokrevnost",
+            "Srdeční infarkt"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fo16",
+          "q": "Co je anémie?",
+          "options": [
+            "Zvýšený počet bílých krvinek",
+            "Chorobná krvácivost",
+            "Chudokrevnost",
+            "Zánět cév"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo17",
+          "q": "Krevní plazma je tvořena převážně:",
+          "options": [
+            "Bílkovinami",
+            "Tuky",
+            "Vodou",
+            "Minerálními látkami"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo18",
+          "q": "Kolik litrů krve má dospělý člověk přibližně?",
+          "options": [
+            "1–2 litry",
+            "2–3 litry",
+            "5,5–6 litrů (muži), 4,5–5 litrů (ženy)",
+            "8–10 litrů"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo19",
+          "q": "Kolik procent vody obsahuje krevní plazma?",
+          "options": [
+            "50–60 %",
+            "70–80 %",
+            "91–93 %",
+            "99 %"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fo20",
+          "q": "Jaká je nejdůležitější bílkovina krevní plazmy podílející se na srážení krve?",
+          "options": [
+            "Albumin",
+            "Globulin",
+            "Fibrinogen",
+            "Hemoglobin"
+          ],
+          "answer_index": 2
+        }
+      ]
+    },
+    {
+      "id": "fyzio_srdce_cevy",
+      "title": "Fyziologie – srdce a cévy",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "fsc1",
+          "q": "Jaká je normální hodnota krevního tlaku?",
+          "options": [
+            "80/40 mmHg",
+            "100/60 mmHg",
+            "120/80 mmHg",
+            "160/100 mmHg"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fsc2",
+          "q": "Čím se měří krevní tlak?",
+          "options": [
+            "EKG",
+            "Spirometrií",
+            "Tonometrem",
+            "Sonografií"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fsc3",
+          "q": "Co je systolický tlak?",
+          "options": [
+            "Tlak při uvolnění komor",
+            "Tlak při stahu komor",
+            "Průměrný krevní tlak",
+            "Tlak v žilách"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc4",
+          "q": "Co je diastolický tlak?",
+          "options": [
+            "Tlak při stahu komor",
+            "Tlak při uvolnění komor",
+            "Tlak v tepnách",
+            "Tlak v kapilárách"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc5",
+          "q": "Co je hypertenze?",
+          "options": [
+            "Snížený krevní tlak",
+            "Zvýšený krevní tlak",
+            "Porucha srdeční chlopně",
+            "Zánět srdečního svalu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc6",
+          "q": "Kolikrát za minutu se srdce stáhne v klidu?",
+          "options": [
+            "Asi 30×",
+            "Asi 50×",
+            "Asi 70×",
+            "Asi 100×"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fsc7",
+          "q": "Jaká tepna zásobuje srdce krví?",
+          "options": [
+            "Plicnice",
+            "Aorta",
+            "Věnčité (koronární) cévy",
+            "Dolní dutá žíla"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fsc8",
+          "q": "Co je infarkt myokardu?",
+          "options": [
+            "Zánět osrdečníku",
+            "Ucpání koronární tepny způsobující odumření části srdečního svalu",
+            "Porucha srdečního rytmu",
+            "Selhání pravé komory"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc9",
+          "q": "Jaká chlopeň je mezi pravou předsíní a pravou komorou?",
+          "options": [
+            "Dvojcípá (mitrální)",
+            "Trojcípá (trikuspidální)",
+            "Poloměsíčitá aortální",
+            "Poloměsíčitá pulmonální"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc10",
+          "q": "Jaká chlopeň je mezi levou předsíní a levou komorou?",
+          "options": [
+            "Trojcípá (trikuspidální)",
+            "Dvojcípá (mitrální/bikuspidální)",
+            "Poloměsíčitá aortální",
+            "Poloměsíčitá pulmonální"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc11",
+          "q": "Co je malý (plicní) krevní oběh?",
+          "options": [
+            "Rozvádí krev po celém těle",
+            "Slouží k výměně plynů mezi krví a zevním prostředím v plicích",
+            "Zásobuje koronární tepny",
+            "Odvádí mízu do žilního systému"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc12",
+          "q": "Co je velký (tělní) krevní oběh?",
+          "options": [
+            "Slouží k výměně plynů v plicích",
+            "Zásobuje pouze srdce",
+            "Rozvádí krev po celém těle",
+            "Zásobuje pouze mozek"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fsc13",
+          "q": "Tepny vedou krev:",
+          "options": [
+            "Do srdce",
+            "Ze srdce",
+            "Z plic do srdce",
+            "Z tkání do kapilár"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc14",
+          "q": "Žíly vedou krev:",
+          "options": [
+            "Ze srdce",
+            "Do srdce",
+            "Ze srdce do plic",
+            "Z kapilár do tkání"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc15",
+          "q": "Jakou funkci mají vlásečnice (kapiláry)?",
+          "options": [
+            "Vedou krev ze srdce",
+            "Vedou krev do srdce",
+            "Zajišťují výměnu dýchacích plynů a látek mezi krví a tkáněmi",
+            "Zásobují koronární tepny"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fsc16",
+          "q": "Kde jsou uloženy chlopně v žilách dolních končetin?",
+          "options": [
+            "Na stěnách tepnách",
+            "Na stěnách žil dolních končetin – umožňují jednosměrný průtok krve k srdci",
+            "V kapilárách",
+            "V srdci"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc17",
+          "q": "Z čeho se skládá srdeční stěna (3 vrstvy)?",
+          "options": [
+            "Endokard, myokard, epikard",
+            "Epikard, perikard, myokard",
+            "Endokard, perikard, epikard",
+            "Myokard, fibrokard, endokard"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "fsc18",
+          "q": "Co je perikard?",
+          "options": [
+            "Vnitřní vrstva srdeční stěny",
+            "Střední vrstva srdeční stěny",
+            "Silná vazivová blána (osrdečník) obalující srdce",
+            "Zevní vrstva srdeční stěny"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fsc19",
+          "q": "Co vystupuje z levé komory srdce?",
+          "options": [
+            "Plicnice",
+            "Dolní dutá žíla",
+            "Aorta (srdečnice)",
+            "Horní dutá žíla"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fsc20",
+          "q": "Co vstupuje do pravé předsíně srdce?",
+          "options": [
+            "Plicní žíly",
+            "Aorta",
+            "Horní a dolní dutá žíla",
+            "Plicnice"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fsc21",
+          "q": "Co je systola?",
+          "options": [
+            "Ochabnutí srdce",
+            "Smrštění (stah) předsíní a komor",
+            "Fáze plnění srdce",
+            "Klidová fáze srdečního cyklu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc22",
+          "q": "Jak lze vyšetřit elektrickou aktivitu srdce?",
+          "options": [
+            "Spirometrií",
+            "Tonometrií",
+            "Elektrokardiografií (EKG)",
+            "Sonografií ledvin"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fsc23",
+          "q": "Masáž má vliv na krevní oběh – jak?",
+          "options": [
+            "Zpomaluje průtok krve v tepnách",
+            "Podporuje žilní návrat a lymfatický tok, zlepšuje prokrvení tkání",
+            "Zvyšuje krevní tlak",
+            "Snižuje počet červených krvinek"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fsc24",
+          "q": "Proč je zvýšený krevní tlak (hypertenze) kontraindikací některých masážních technik?",
+          "options": [
+            "Protože masáž může snížit počet krevních destiček",
+            "Protože intenzivní masáž může dále zvyšovat tlak a zatěžovat kardiovaskulární systém",
+            "Protože masáž způsobuje anémii",
+            "Protože masáž blokuje koronární cévy"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "fyzio_dychaci",
+      "title": "Fyziologie – dýchací soustava",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "fd1",
+          "q": "Jaká je hlavní funkce dýchací soustavy?",
+          "options": [
+            "Trávení potravy",
+            "Příjem kyslíku a odvádění oxidu uhličitého z organismu",
+            "Filtrování krve",
+            "Tvorba hormonu erytropoetinu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd2",
+          "q": "Kým je dýchání primárně řízeno?",
+          "options": [
+            "Somatickým nervovým systémem",
+            "Autonomním nervovým systémem (mimovolně)",
+            "Vědomím",
+            "Hormony štítné žlázy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd3",
+          "q": "Co jsou horní cesty dýchací?",
+          "options": [
+            "Hrtan, průdušnice, hlavní průdušky",
+            "Nos, dutina nosní, vedlejší dutiny nosní",
+            "Průdušky a plicní sklípky",
+            "Průdušnice a průdušky"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd4",
+          "q": "Co jsou dolní cesty dýchací?",
+          "options": [
+            "Nos, dutina nosní, vedlejší dutiny",
+            "Hltan a jícen",
+            "Hrtan, průdušnice, hlavní průdušky",
+            "Plicní sklípky (alveoly)"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fd5",
+          "q": "Jaké funkce plní nos při dýchání?",
+          "options": [
+            "Pouze průchod vzduchu",
+            "Filtruje, čistí, ohřívá a zvlhčuje vzduch",
+            "Pouze zvlhčení vzduchu",
+            "Zajišťuje výměnu plynů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd6",
+          "q": "Co jsou řasinky v dýchacích cestách?",
+          "options": [
+            "Nervy přenášející čichové vjemy",
+            "Drobné chloupky přenášející hlen k hltanu – chrání před mikroby",
+            "Buňky produkující hlen",
+            "Smyslová tělíska pro tlak"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd7",
+          "q": "Kolik laloků má pravá plíce?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fd8",
+          "q": "Kolik laloků má levá plíce?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd9",
+          "q": "Proč má levá plíce méně laloků než pravá?",
+          "options": [
+            "Protože je menší z důvodu srdeční záře",
+            "Protože je výše uložena",
+            "Protože má kratší průdušku",
+            "Protože je více prokrvená"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "fd10",
+          "q": "Jaký je hlavní dýchací sval?",
+          "options": [
+            "Velký prsní sval",
+            "Bránice (diaphragma)",
+            "Svaly kloněné",
+            "Trapézový sval"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd11",
+          "q": "Co se děje s bránicí při nádechu?",
+          "options": [
+            "Pohybuje se nahoru",
+            "Pohybuje se aktivně dolů k břichu",
+            "Zůstává v klidu",
+            "Stahuje se do stran"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd12",
+          "q": "Jaké svaly se uplatňují při usilovném nádechu?",
+          "options": [
+            "Pouze bránice",
+            "Svaly kloněné, zdvihač hlavy, vzpřimovač páteře, velký a malý sval prsní",
+            "Pouze břišní svaly",
+            "Pouze mezižeberní svaly"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd13",
+          "q": "Jaké svaly se uplatňují při usilovném výdechu?",
+          "options": [
+            "Svaly kloněné",
+            "Bránice",
+            "Břišní svaly",
+            "Vzpřimovače páteře"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fd14",
+          "q": "Co jsou plicní sklípky (alveoly)?",
+          "options": [
+            "Průdušky vedoucí vzduch do plic",
+            "Malé vzduchové váčky, kde probíhá výměna plynů mezi vzduchem a krví",
+            "Ochranná blána plic",
+            "Cévy v plicích"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd15",
+          "q": "Jak se nazývá blána pokrývající plíce?",
+          "options": [
+            "Perikard",
+            "Pohrudnice (pleura)",
+            "Pobřišnice",
+            "Epikard"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd16",
+          "q": "Co je astma?",
+          "options": [
+            "Chronická obstrukční plicní nemoc",
+            "Zánět stěny dýchacích cest a jejich zúžení, provázené dušností a sípáním",
+            "Přerušení dýchání během spánku",
+            "Rakovina plic"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd17",
+          "q": "Co je CHOPN (chronická obstrukční plicní nemoc)?",
+          "options": [
+            "Přerušení dýchání během spánku",
+            "Zánět a zhrubnění dýchacích cest v plicích, snížení proudění kyslíku",
+            "Zánět pohrudnice",
+            "Astma u dětí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd18",
+          "q": "Co je spánková apnoe?",
+          "options": [
+            "Chronické onemocnění průdušek",
+            "Porucha způsobující opakované přerušení dýchání během spánku (pauzy 10–30 sekund)",
+            "Zánět průdušek",
+            "Snížená funkce plicních sklípků"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd19",
+          "q": "Jaké jsou příznaky spánkové apnoe?",
+          "options": [
+            "Dušnost při zátěži, sípání",
+            "Denní ospalost, hlasité chrápání, lapání po dechu, dušení během spánku",
+            "Kašel, horečka, bolest na hrudi",
+            "Otoky nohou a únava"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd20",
+          "q": "Jaký přístroj se používá při léčbě spánkové apnoe?",
+          "options": [
+            "EKG",
+            "Spirometr",
+            "CPAP (přístroj pro kontinuální pozitivní tlak v dýchacích cestách)",
+            "Tonometr"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fd21",
+          "q": "Jaký test měří funkci plic (objem a rychlost vzduchu)?",
+          "options": [
+            "EKG",
+            "Tonometrie",
+            "Spirometrie",
+            "Sonografie"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fd22",
+          "q": "Jaký vliv mají dechová cvičení na autonomní nervový systém?",
+          "options": [
+            "Aktivují sympatikus (bojová reakce)",
+            "Aktivují parasympatikus (odpočinek), snižují stres a hypertenzi",
+            "Blokují autonomní nervový systém",
+            "Nemají vliv na nervový systém"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd23",
+          "q": "Jak může masáž ovlivnit dýchání?",
+          "options": [
+            "Zrychluje a prohlubuje dechovou frekvenci",
+            "Podporuje relaxaci, aktivuje parasympatikus, zpomaluje a prohlubuje dech",
+            "Blokuje průchodnost dýchacích cest",
+            "Nemá vliv na dýchání"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fd24",
+          "q": "Jaký je největší rizikový faktor chronických respiračních onemocnění?",
+          "options": [
+            "Nedostatek pohybu",
+            "Tabákový kouř a kvalita ovzduší",
+            "Nedostatek vitaminu C",
+            "Stres"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "fyzio_travici",
+      "title": "Fyziologie – trávicí soustava",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "ft1",
+          "q": "Jaká je funkce trávicí soustavy?",
+          "options": [
+            "Filtrování krve",
+            "Přijímá, zpracovává a vstřebává živé látky",
+            "Tvorba hormonů",
+            "Zásobování tkání kyslíkem"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ft2",
+          "q": "Která část trávicí soustavy jako první zpracovává potravu?",
+          "options": [
+            "Žaludek",
+            "Jícen",
+            "Dutina ústní (rty, zuby, jazyk, slinné žlázy)",
+            "Tenké střevo"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ft3",
+          "q": "Kde dochází k hlavnímu štěpení a vstřebávání živin?",
+          "options": [
+            "V žaludku",
+            "V tenkém střevě",
+            "V tlustém střevě",
+            "V jícnu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ft4",
+          "q": "Které části tvoří tenké střevo?",
+          "options": [
+            "Slepé střevo, tračník, konečník",
+            "Dvanáctník, lačník a kyčelník",
+            "Jícen, žaludek, dvanáctník",
+            "Tračník příčný a sestupný"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ft5",
+          "q": "Jaké velké žlázy se podílejí na trávení?",
+          "options": [
+            "Ledviny a nadledviny",
+            "Játra a slinivka břišní",
+            "Štítná žláza a příštítná tělíska",
+            "Mandle a brzlík"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ft6",
+          "q": "Co se tvoří v tlustém střevě?",
+          "options": [
+            "Žluč",
+            "Enzymy pro trávení bílkovin",
+            "Stolice ze zahuštěných nestravitelných zbytků",
+            "Inzulin"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ft7",
+          "q": "Jakou funkci mají slinné žlázy?",
+          "options": [
+            "Produkují žluč",
+            "Produkují sliny obsahující enzymy začínající trávení sacharidů",
+            "Vstřebávají živiny",
+            "Produkují inzulin"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ft8",
+          "q": "Jaké jsou části tlustého střeva?",
+          "options": [
+            "Dvanáctník, lačník, kyčelník",
+            "Slepé střevo s červovitým přívěskem, tračník vzestupný, příčný, sestupný, esovitý, konečník",
+            "Hltan, jícen, žaludek",
+            "Játra, slinivka, slezina"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ft9",
+          "q": "Co je apendix (červovitý přívěsek)?",
+          "options": [
+            "Část tenkého střeva",
+            "Přívěsek slepého střeva",
+            "Část tlustého tračníku",
+            "Žlázová část slinivky"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ft10",
+          "q": "Jak masáž ovlivňuje trávicí soustavu?",
+          "options": [
+            "Masáž zastavuje střevní peristaltiku",
+            "Masáž břicha může podpořit střevní peristaltiku a zmírnit zácpu",
+            "Masáž zrychluje vstřebávání živin",
+            "Masáž nemá vliv na trávicí soustavu"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "fyzio_ledviny",
+      "title": "Fyziologie – urogenitální systém",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "fl1",
+          "q": "Z čeho se skládá urogenitální systém?",
+          "options": [
+            "Ze srdce a cév",
+            "Z dýchacích cest a plic",
+            "Z močového ústrojí a pohlavního ústrojí",
+            "Z nervového systému a žláz"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fl2",
+          "q": "Jaká je základní funkce ledvin?",
+          "options": [
+            "Tvorba červených krvinek",
+            "Odstraňování odpadních látek z krve tvorbou moče",
+            "Tvorba inzulinu",
+            "Regulace tělesné teploty"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fl3",
+          "q": "Jaký je denní objem přefiltrované plazmy v ledvinách?",
+          "options": [
+            "Asi 10 litrů",
+            "Asi 50 litrů",
+            "Asi 180 litrů",
+            "Asi 500 litrů"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fl4",
+          "q": "Kolik procent přefiltrované tekutiny se vrátí zpět do krve?",
+          "options": [
+            "Asi 50 %",
+            "Asi 75 %",
+            "Více než 99 %",
+            "Asi 90 %"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fl5",
+          "q": "Jaké je denní množství moče?",
+          "options": [
+            "0,1–0,5 litru",
+            "1–1,5 litru",
+            "3–4 litry",
+            "5–6 litrů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fl6",
+          "q": "Jaká je základní stavební a funkční jednotka ledviny?",
+          "options": [
+            "Glomerulus",
+            "Nefron (skládá se z cévního klubíčka a ledvinových kanálků)",
+            "Pánvička ledvinná",
+            "Kalich"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fl7",
+          "q": "Kolik nefronů je přibližně v každé ledvině?",
+          "options": [
+            "Asi 10 000",
+            "Asi 100 000",
+            "Asi 1 milion",
+            "Asi 10 milionů"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fl8",
+          "q": "Co je erytropoetin (EPO)?",
+          "options": [
+            "Enzym trávicí soustavy",
+            "Hormon ledvin podporující tvorbu červených krvinek v kostní dřeni",
+            "Odpadní látka vylučovaná močí",
+            "Složka hemoglobinu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fl9",
+          "q": "Proč je EPO zneužíván ve sportu?",
+          "options": [
+            "Protože zvyšuje svalovou sílu",
+            "Protože zvyšuje fyzickou výkonnost zvýšením počtu červených krvinek",
+            "Protože snižuje bolest",
+            "Protože urychluje hojení"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fl10",
+          "q": "Kde je uložen močový měchýř?",
+          "options": [
+            "V dutině hrudní",
+            "V dutině břišní za žaludkem",
+            "V malé pánvi za stydkou kostí",
+            "V retroperitoneálním prostoru"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fl11",
+          "q": "Jak dlouhá je močová trubice u ženy?",
+          "options": [
+            "1–2 cm",
+            "4–5 cm",
+            "10–15 cm",
+            "25 cm"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fl12",
+          "q": "Jaké složení má moč?",
+          "options": [
+            "95 % bílkovin, 5 % vody",
+            "95 % vody, organické (močovina) a anorganické látky (chlorid sodný)",
+            "50 % vody, 50 % minerálních látek",
+            "Čistá voda bez dalších látek"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fl13",
+          "q": "Proč je přítomnost dopingu zjistitelná z moče?",
+          "options": [
+            "Protože doping mění barvu moče",
+            "Protože ledviny vylučují toxické látky (drogy, doping) do moče",
+            "Protože doping zvyšuje objem moče",
+            "Protože doping mění pH moče"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fl14",
+          "q": "Jak masáž ovlivňuje ledviny a vylučování?",
+          "options": [
+            "Masáž poškozuje ledviny",
+            "Masáž může podpořit vylučování metabolitů zvýšením průtoku lymfy a krve",
+            "Masáž zastavuje tvorbu moče",
+            "Masáž nemá žádný vliv na vylučování"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "fyzio_mizni",
+      "title": "Fyziologie – mízní systém",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "fm1",
+          "q": "Z čeho se skládá mízní systém?",
+          "options": [
+            "Z krve, srdce a cév",
+            "Z mízy, mízních cév, mízních uzlin a sleziny",
+            "Z nervů, svalů a šlach",
+            "Z ledvin a močového měchýře"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fm2",
+          "q": "Co je míza (lymfa)?",
+          "options": [
+            "Žlutá vazká tekutina bohatá na tuky",
+            "Čirá nebo mírně zakalená tekutina odvádějící metabolity z tkání, podobná krevní plazmě",
+            "Krev bez červených krvinek",
+            "Moč před vstupem do ledvin"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fm3",
+          "q": "Co jsou mízní uzliny a jakou mají funkci?",
+          "options": [
+            "Jsou to cévy odvádějící mízu ze tkání",
+            "Jsou to orgány vsunuté do průběhu mízních cév – míza jimi prochází jako filtrem",
+            "Jsou to orgány produkující červené krvinky",
+            "Jsou to nervy mízního systému"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fm4",
+          "q": "Kde se nejčastěji nacházejí mízní uzliny?",
+          "options": [
+            "Pouze v břiše",
+            "Za a před boltcem, po celé délce krkavice, při dolním okraji dolní čelisti, v podpaží, v tříslech",
+            "Pouze v podpaží",
+            "Pouze v tříslech"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fm5",
+          "q": "Co jsou mízní vlásečnice a kde začínají?",
+          "options": [
+            "Začínají slepě ve tkáních a odvádějí tkáňový mok a zpodiny látkové přeměny",
+            "Začínají v srdci a rozvádějí mízu po těle",
+            "Jsou součástí krevního oběhu",
+            "Jsou to kapiláry v plicích"
+          ],
+          "answer_index": 0
+        },
+        {
+          "id": "fm6",
+          "q": "Jakými mechanismy se pohybuje míza?",
+          "options": [
+            "Pouze srdečními stahy",
+            "Stahy hladkého svalstva mízních cév, stahy okolních svalů, dýchacími pohyby a negativním tlakem v krčních žilách",
+            "Pouze dýchacími pohyby",
+            "Pouze tlakem kapilár"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fm7",
+          "q": "Kam přivádějí mízu do žilního systému dva hlavní mízní kmeny?",
+          "options": [
+            "Do aorty",
+            "Mízovod hrudní a pravostranný kmen mízní přivádějí mízu do krčních žil",
+            "Do plicní tepny",
+            "Do dolní duté žíly"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fm8",
+          "q": "Co je slezina a kde leží?",
+          "options": [
+            "Žlázový orgán v pravém podžebří",
+            "Největší nakupení lymfatické tkáně; tmavočervený orgán vlevo od žaludku za levým žeberním obloukem",
+            "Orgán produkující inzulin",
+            "Část tenkého střeva"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fm9",
+          "q": "Jaká je funkce sleziny?",
+          "options": [
+            "Filtruje moč",
+            "Pohřebiště červených krvinek, dozrávání červených krvinek, zdroj lymfocytů, fagocytární orgán",
+            "Produkuje žluč",
+            "Reguluje krevní tlak"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fm10",
+          "q": "Proč je lymfatická masáž (manuální lymfodrenáž) prospěšná?",
+          "options": [
+            "Protože zvyšuje krevní tlak",
+            "Protože podporuje pohyb lymfy, snižuje otoky a podporuje imunitní funkci",
+            "Protože posiluje svaly",
+            "Protože zahřívá tkáně"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fm11",
+          "q": "Kdy je lymfatická masáž kontraindikována?",
+          "options": [
+            "Při svalové únavě",
+            "Při aktivním zánětu, infekci, trombóze nebo maligním onemocnění",
+            "Při stresu",
+            "Při svalové bolesti"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fm12",
+          "q": "Co způsobuje lymfedém?",
+          "options": [
+            "Zvýšená tvorba červených krvinek",
+            "Porucha odtoku lymfy způsobující nahromadění tekutiny v tkáních a otoky",
+            "Zánět krevních cév",
+            "Snížená tvorba lymfocytů"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "fyzio_nervovy",
+      "title": "Fyziologie – nervový systém",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "fn1",
+          "q": "Jaká je základní anatomická a funkční jednotka nervového systému?",
+          "options": [
+            "Synapse",
+            "Axon",
+            "Neuron",
+            "Dendrit"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fn2",
+          "q": "Z čeho se skládá neuron?",
+          "options": [
+            "Pouze z těla buňky",
+            "Z těla buňky, dendritů a axonu (neuritu)",
+            "Z axonu a synapse",
+            "Z myelinové pochvy a dendritů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn3",
+          "q": "Co je axon (neurit)?",
+          "options": [
+            "Krátký větvící se výběžek přijímající vzruchy",
+            "Dlouhý výběžek neuronu vedoucí vzruchy od těla buňky",
+            "Tělo nervové buňky",
+            "Chemický přenašeč"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn4",
+          "q": "K čemu slouží myelinová pochva axonu?",
+          "options": [
+            "Ke vstřebávání živin",
+            "Zabraňuje šíření vzruchů na sousední vlákna a urychluje vedení vzruchů",
+            "Produkuje neurotransmitery",
+            "Spojuje neurony"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn5",
+          "q": "Co je synapse?",
+          "options": [
+            "Typ neuronu",
+            "Přenos vzruchu z jednoho neuronu na druhý",
+            "Část mozku",
+            "Myelinová pochva"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn6",
+          "q": "Co jsou neurotransmitery?",
+          "options": [
+            "Hormony produkované v nadledvinách",
+            "Chemické přenašeče v zakončení axonů přenášející vzruchy mezi neurony",
+            "Složky myelinové pochvy",
+            "Enzymy trávicí soustavy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn7",
+          "q": "Jaký je rozdíl mezi excitačními a inhibičními neurotransmitery?",
+          "options": [
+            "Excitační zrychlují přenos, inhibiční ho neovlivňují",
+            "Excitační (budivé) vzruch přenášejí, inhibiční (tlumivé) ho potlačují",
+            "Excitační tlumí, inhibiční budí",
+            "Oba přenášejí stejné vzruchy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn8",
+          "q": "Z čeho se skládá centrální nervový systém (CNS)?",
+          "options": [
+            "Z mozku a periferních nervů",
+            "Z mozku a míchy",
+            "Z míchy a autonomního nervového systému",
+            "Z periferních nervů a smyslových orgánů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn9",
+          "q": "Kde je uložena mícha hřbetní?",
+          "options": [
+            "V lebeční dutině",
+            "V páteřním kanále",
+            "V dutině hrudní",
+            "V dutině břišní"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn10",
+          "q": "Jaká je funkce míchy?",
+          "options": [
+            "Řídí vědomé myšlení",
+            "Je spojovacím článkem mezi mozkem a všemi orgány těla",
+            "Produkuje hormony",
+            "Reguluje trávení"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn11",
+          "q": "Co jsou eferentní (odstředivá) nervová vlákna?",
+          "options": [
+            "Vedou vzruchy z periferie do CNS",
+            "Vedou vzruchy z CNS do periferie (ke svalům nebo žlázám)",
+            "Přenášejí bolestivé vjemy",
+            "Vedou vzruchy mezi mozkovými hemisférami"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn12",
+          "q": "Co jsou aferentní (dostředivá) nervová vlákna?",
+          "options": [
+            "Vedou vzruchy z CNS do svalů",
+            "Vedou vzruchy do CNS a zprostředkovávají různé druhy čití",
+            "Vedou vzruchy mezi neurony CNS",
+            "Regulují srdeční rytmus"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn13",
+          "q": "Co je reflex?",
+          "options": [
+            "Vědomá reakce organismu na podnět",
+            "Základní funkce nervového systému – neuvědomělá odpověď organismu na podnět",
+            "Přenos vzruchu přes synapsi",
+            "Vedení vzruchů po axonu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn14",
+          "q": "Kde jsou uloženy exteroceptory?",
+          "options": [
+            "Ve svalech a šlachách",
+            "Ve vnitřních orgánech",
+            "Především v kůži",
+            "V kloubních pouzdrech"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fn15",
+          "q": "Co jsou proprioceptory?",
+          "options": [
+            "Receptory uložené v kůži vnímající dotyk",
+            "Receptory uložené ve svalech, šlachách a kloubních pouzdrech informující o poloze těla",
+            "Receptory vnitřních orgánů",
+            "Receptory světelných podnětů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn16",
+          "q": "Co jsou interoceptory?",
+          "options": [
+            "Receptory uložené v kůži",
+            "Receptory uložené ve svalech",
+            "Receptory uložené ve vnitřních orgánech",
+            "Receptory v kloubních pouzdrech"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "fn17",
+          "q": "Co je sympatický nervový systém?",
+          "options": [
+            "Reakce na odpočinek a trávení",
+            "Reakce na boj nebo útěk – mobilizuje organismus",
+            "Vědomá kontrola pohybů",
+            "Část CNS"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn18",
+          "q": "Co je parasympatický nervový systém?",
+          "options": [
+            "Reakce na boj nebo útěk",
+            "Reakce na odpočinek a trávení – tlumí organismus",
+            "Část periferního nervového systému řídící pohyb",
+            "Část CNS kontrolující vědomí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn19",
+          "q": "Jak masáž ovlivňuje nervový systém?",
+          "options": [
+            "Aktivuje sympatikus a zvyšuje stres",
+            "Aktivuje parasympatikus, podporuje relaxaci, snižuje hladinu kortizolu",
+            "Blokuje vedení nervových vzruchů",
+            "Poškozuje myelinové pochvy nervů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "fn20",
+          "q": "Jaké receptory v kůži reagují na masážní hmat?",
+          "options": [
+            "Pouze interoceptory",
+            "Exteroceptory v kůži (Meissnerova, Vater-Paccininiho tělíska aj.) a proprioceptory ve svalech",
+            "Pouze proprioceptory",
+            "Pouze receptory bolesti"
+          ],
+          "answer_index": 1
+        }
+      ]
     }
   ]
 }
