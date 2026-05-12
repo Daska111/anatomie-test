@@ -7044,6 +7044,1634 @@
           "answer_index": 1
         }
       ]
+    },
+    {
+      "id": "pohyby_klouby",
+      "title": "Pohyby v kloubech a druhy kloubů",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "pk1",
+          "q": "Pohyb kolem osy příčné se nazývá:",
+          "options": [
+            "Abdukce a addukce",
+            "Ohnutí a natažení (flexe a extenze)",
+            "Rotace",
+            "Cirkumdukce"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pk2",
+          "q": "Pohyb kolem osy šípové se nazývá:",
+          "options": [
+            "Flexe a extenze",
+            "Rotace",
+            "Přitažení a odtažení (addukce a abdukce)",
+            "Pronace a supinace"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pk3",
+          "q": "Pohyb kolem svislé osy se nazývá:",
+          "options": [
+            "Flexe a extenze",
+            "Abdukce a addukce",
+            "Otáčení (rotace) – na horní končetině pronace a supinace",
+            "Cirkumdukce"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pk4",
+          "q": "Co je cirkumdukce?",
+          "options": [
+            "Otáčení kolem svislé osy",
+            "Ohnutí a natažení",
+            "Složený pohyb – kroužení",
+            "Přitažení a odtažení"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pk5",
+          "q": "Čím je omezen rozsah pohybu v kloubu?",
+          "options": [
+            "Pouze napětím svalů",
+            "Napětím kloubního pouzdra, kloubních vazů, rozložením svalů a kostními výrůstky",
+            "Pouze kostními výrůstky",
+            "Pouze věkem"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pk6",
+          "q": "Co se děje s rozsahem pohybu v kloubu s přibývajícím věkem?",
+          "options": [
+            "Zvyšuje se",
+            "Nemění se",
+            "Zmenšuje se, protože se zmenšuje elasticita pohybového aparátu",
+            "Závisí pouze na pohlaví"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pk7",
+          "q": "U koho je rozsah pohybu v kloubu zpravidla větší?",
+          "options": [
+            "U mužů",
+            "U žen",
+            "U obou stejně",
+            "Závisí pouze na věku"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pk8",
+          "q": "Klouby kulovité umožňují pohyb:",
+          "options": [
+            "Pouze v jedné rovině",
+            "Ve více osách",
+            "Pouze otáčení",
+            "Pouze flexi a extenzi"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pk9",
+          "q": "Příkladem kloubu kladkového je:",
+          "options": [
+            "Spojení mezi kostí křížovou a pánevní",
+            "Spojení loketní a pažní kosti v loketním kloubu",
+            "Spojení mezi záprstní kostí palce a zápěstní kůstkou",
+            "Spojení kloubními výběžky obratlů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pk10",
+          "q": "Příkladem kloubu tuhého je:",
+          "options": [
+            "Loketní kloub",
+            "Ramenní kloub",
+            "Spojení mezi kostí křížovou a pánevní",
+            "Kyčelní kloub"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pk11",
+          "q": "Klouby ploché jsou například:",
+          "options": [
+            "Loketní kloub",
+            "Spojení kloubními výběžky obratlů krčních a hrudních",
+            "Ramenní kloub",
+            "Kyčelní kloub"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pk12",
+          "q": "Klouby sedlové jsou například:",
+          "options": [
+            "Loketní kloub",
+            "Ramenní kloub",
+            "Spojení mezi záprstní kostí palce a zápěstní kůstkou",
+            "Kyčelní kloub"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pk13",
+          "q": "Pronace předloktí je pohyb kolem osy:",
+          "options": [
+            "Příčné",
+            "Šípové",
+            "Svislé",
+            "Frontální"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pk14",
+          "q": "Flexe a extenze probíhají v rovině:",
+          "options": [
+            "Frontální",
+            "Transverzální",
+            "Sagitální",
+            "Horizontální"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pk15",
+          "q": "Abdukce a addukce probíhají v rovině:",
+          "options": [
+            "Sagitální",
+            "Transverzální",
+            "Frontální",
+            "Horizontální"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pk16",
+          "q": "Co ovlivňuje pohyblivost v kloubu kromě anatomických faktorů?",
+          "options": [
+            "Pouze věk",
+            "Pouze pohlaví",
+            "Rovněž zaměstnání (např. baletky mají větší rozsah pohybu)",
+            "Pouze teplota prostředí"
+          ],
+          "answer_index": 2
+        }
+      ]
+    },
+    {
+      "id": "kostra_obecne",
+      "title": "Kostra – obecná charakteristika",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "ko1",
+          "q": "Co tvoří kostra?",
+          "options": [
+            "Pouze pevnou oporu těla",
+            "Pevnou a zároveň pohyblivou oporu těla – pasivní pohybový aparát",
+            "Pouze ochranná pouzdra orgánů",
+            "Pouze krevní zásobení"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ko2",
+          "q": "Jak se kostra označuje z hlediska pohybu?",
+          "options": [
+            "Aktivní pohybový aparát",
+            "Pasivní pohybový aparát",
+            "Nervový pohybový aparát",
+            "Svalový pohybový aparát"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ko3",
+          "q": "Jaká ochranná pouzdra tvoří kostra?",
+          "options": [
+            "Pouze hrudní koš",
+            "Lebka pro mozek, hrudní koš pro srdce a plíce, páteř pro míchu",
+            "Pouze lebka",
+            "Pouze páteř"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ko4",
+          "q": "Na jaké části rozlišujeme kostru?",
+          "options": [
+            "Kostru horní a dolní části těla",
+            "Kostru osovou, kostru hlavy a kostru končetin",
+            "Kostru trupu a kostru hlavy",
+            "Kostru vnitřní a vnější"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ko5",
+          "q": "Co patří do osové kostry?",
+          "options": [
+            "Lebka a kostra končetin",
+            "Páteř a kostra hrudníku",
+            "Páteř, kostra hrudníku a lebka",
+            "Pouze páteř"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ko6",
+          "q": "Kostra se označuje jako pasivní pohybový aparát – proč?",
+          "options": [
+            "Protože se nepohybuje vůbec",
+            "Protože pohyb vykonávají svaly, kostra je pouze jejich oporou a pákou",
+            "Protože je tvořena pouze pevnou tkání",
+            "Protože ji nelze ovlivnit vůlí"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "prvni_pomoc_zakon",
+      "title": "První pomoc – zákon a základy",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "ppz1",
+          "q": "Jaké číslo voláme na záchrannou službu?",
+          "options": [
+            "150",
+            "155",
+            "158",
+            "112"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppz2",
+          "q": "Jaké číslo voláme na hasiče?",
+          "options": [
+            "155",
+            "158",
+            "150",
+            "112"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppz3",
+          "q": "Jaké číslo je jednotné evropské tísňové volání?",
+          "options": [
+            "155",
+            "150",
+            "112",
+            "158"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppz4",
+          "q": "Dle §150 trestního zákoníku – občan, který neposkytne první pomoc osobě v nebezpečí, může být potrestán:",
+          "options": [
+            "Pokutou do 10 000 Kč",
+            "Odnětím svobody až na dvě léta",
+            "Odnětím svobody až na pět let",
+            "Zákazem činnosti"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppz5",
+          "q": "Dle §151 trestního zákoníku – řidič, který po dopravní nehodě neposkytne pomoc, může být potrestán:",
+          "options": [
+            "Odnětím svobody až na dvě léta",
+            "Odnětím svobody až na tři léta",
+            "Odnětím svobody až na pět let nebo zákazem činnosti",
+            "Pouze pokutou"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppz6",
+          "q": "Jaké jsou základní životní funkce?",
+          "options": [
+            "Vědomí a pohyb",
+            "Adekvátní dýchání a činnost srdce",
+            "Tlak krve a tělesná teplota",
+            "Reflexy a vědomí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppz7",
+          "q": "Jaká je normální tepová frekvence dospělého člověka?",
+          "options": [
+            "40–50 tepů/min",
+            "60–70 tepů/min",
+            "70–75 tepů/min",
+            "90–100 tepů/min"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppz8",
+          "q": "Jaká je normální dechová frekvence dospělého člověka?",
+          "options": [
+            "10 dechů/min",
+            "20 dechů/min",
+            "30 dechů/min",
+            "40 dechů/min"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppz9",
+          "q": "Kolik litrů krve má dospělý člověk?",
+          "options": [
+            "2–3 litry",
+            "4–6 litrů",
+            "7–8 litrů",
+            "8–10 litrů"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppz10",
+          "q": "Jak zjistíme zástavu dechu?",
+          "options": [
+            "Změřením tepové frekvence",
+            "Hrudník se nezvedá, na tváři necítíme dech a nejdou slyšet šelesty",
+            "Změnou barvy kůže",
+            "Pouze pohledem na oči"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "prvni_pomoc_kpr",
+      "title": "První pomoc – KPR a resuscitace",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "ppk1",
+          "q": "Do jaké hloubky stlačujeme hrudník při KPR u dospělého?",
+          "options": [
+            "2–3 cm",
+            "3–4 cm",
+            "5–6 cm",
+            "7–8 cm"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppk2",
+          "q": "Jak zahajujeme oživování dospělého?",
+          "options": [
+            "2 vdechy, pak 30 stlačení",
+            "30 stlačení hrudníku (+ eventuálně 2 vdechy)",
+            "15 stlačení a 2 vdechy",
+            "5 vdechů, pak stlačení"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppk3",
+          "q": "Jaká je frekvence stlačení hrudníku při KPR?",
+          "options": [
+            "Asi 1 stlačení za sekundu",
+            "Skoro 2 stlačení za sekundu (100–120/min)",
+            "3 stlačení za sekundu",
+            "1 stlačení za 2 sekundy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppk4",
+          "q": "Jak postupujeme u ležícího člověka na zemi, který nereaguje?",
+          "options": [
+            "Ihned zahájíme KPR",
+            "Oslovíme ho, zatřeseme, štípneme (bolestivý podnět), zkontrolujeme dech, zavoláme záchranku",
+            "Otočíme ho na bok a počkáme",
+            "Okamžitě zavoláme záchranku a čekáme"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppk5",
+          "q": "Co je agonální (bazální) dýchání?",
+          "options": [
+            "Normální hluboké dýchání",
+            "Lapání po dechu – příznak zástavy srdce, nutno zahájit KPR",
+            "Zrychlené dýchání při strachu",
+            "Pomalé pravidelné dýchání ve spánku"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppk6",
+          "q": "Jak uvolníme dýchací cesty u bezvědomého?",
+          "options": [
+            "Otočením na bok",
+            "Zakloněním hlavy",
+            "Stiskem hrudníku",
+            "Zdvižením nohou"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppk7",
+          "q": "Člověk při vědomí, který obtížně dýchá – jak postupujeme?",
+          "options": [
+            "Položíme ho na zem",
+            "Dáme ho do vyvýšené polohy (posadíme ho)",
+            "Zahájíme KPR",
+            "Dáme ho do stabilizované polohy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppk8",
+          "q": "Co je kardiopulmonální resuscitace (KPR)?",
+          "options": [
+            "Pouze umělé dýchání",
+            "Srdeční masáž bez dýchání",
+            "Kombinace nepřímé srdeční masáže a umělého dýchání k obnově základních životních funkcí",
+            "Pouze kontrola vědomí"
+          ],
+          "answer_index": 2
+        }
+      ]
+    },
+    {
+      "id": "prvni_pomoc_krvaceni",
+      "title": "První pomoc – krvácení a rány",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "ppkr1",
+          "q": "Jak poznáme tepenné krvácení?",
+          "options": [
+            "Krev pomalu vytéká, tmavě červená",
+            "Krev pulzuje – pravidelně vystřikuje z rány, jasně červená barva",
+            "Krev vytéká rovnoměrně, tmavě červená",
+            "Krev nebolí a pomalu odtéká"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppkr2",
+          "q": "Jaká je barva tepenné krve?",
+          "options": [
+            "Tmavě červená",
+            "Jasně červená",
+            "Fialová",
+            "Hnědá"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppkr3",
+          "q": "Jaká je barva žilní krve?",
+          "options": [
+            "Jasně červená",
+            "Oranžová",
+            "Tmavě červená",
+            "Fialová"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppkr4",
+          "q": "Jak ošetříme tepenné krvácení?",
+          "options": [
+            "Vypláchneme ránu vodou a přiložíme obvaz",
+            "10 minut přímý tlak rukou v rukavicích, žádné vymývání vodou, přiložíme tlakový obvaz",
+            "Ránu necháme volně krvácet",
+            "Přiložíme led"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppkr5",
+          "q": "Co uděláme jako první při přikládání obvazu na krvácející ránu?",
+          "options": [
+            "Ránu vypláchneme vodou",
+            "První kus obvazu dáme do rány, obmotáme obvazem, pak položíme další kus a dotočíme",
+            "Ránu zakryjeme plastrem",
+            "Přiložíme studený obklad"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppkr6",
+          "q": "Kdy má masivní tepenné krvácení přednost před ostatními zraněními?",
+          "options": [
+            "Nikdy",
+            "Pouze u dětí",
+            "Vždy – z masivního tepenného krvácení lze vykrvácet do 1 minuty",
+            "Pouze pokud je postižený v bezvědomí"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppkr7",
+          "q": "Co uděláme s nožem zabodnutým v těle?",
+          "options": [
+            "Okamžitě ho vytáhneme",
+            "Nůž necháme v těle – nevytahujeme ho",
+            "Vytáhneme ho a ránu stlačíme",
+            "Otočíme nůž, aby se rána uzavřela"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppkr8",
+          "q": "Při aplikaci škrtidla je důležité:",
+          "options": [
+            "Škrtidlo přikládat přímo na ránu",
+            "Zapsat čas přiložení škrtidla",
+            "Škrtidlo uvolňovat každé 2 minuty",
+            "Přikládat škrtidlo co nejvolněji"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppkr9",
+          "q": "Co je příznak šoku?",
+          "options": [
+            "Červená kůže obličeje a horečka",
+            "Popělavá (bledá) kůže obličeje",
+            "Modrá kůže a vysoký tlak",
+            "Žlutá kůže a zpomalený tep"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppkr10",
+          "q": "Jak ošetříme otevřenou řeznou ránu nad 1 cm?",
+          "options": [
+            "Přiložíme náplast a počkáme",
+            "Zasijeme sami stehem",
+            "Ošetříme u lékaře – rána musí být zašita",
+            "Vypláchneme vodou a necháme volně"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppkr11",
+          "q": "Při podezření na poranění páteře:",
+          "options": [
+            "Postiženého posadíme",
+            "S postiženým nehýbeme, zavoláme pomoc",
+            "Postiženého otočíme na bok",
+            "Postiženého ihned postavíme"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppkr12",
+          "q": "Jak ošetříme otevřenou zlomeninu?",
+          "options": [
+            "Kost zatlačíme zpět a zalijeme",
+            "Sterilně přikryjeme a znehybníme",
+            "Vypláchneme vodou a přiložíme led",
+            "Pevně obvážeme bez sterilního krytí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppkr13",
+          "q": "Jak fixujeme zlomenou končetinu?",
+          "options": [
+            "Pouze na místě zlomeniny",
+            "Přes jeden kloub nad zlomeninou",
+            "Přes dva klouby – kloub nad i pod zlomeninou",
+            "Pouze pod místem zlomeniny"
+          ],
+          "answer_index": 2
+        }
+      ]
+    },
+    {
+      "id": "prvni_pomoc_stavy",
+      "title": "První pomoc – náhlé stavy",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "pps1",
+          "q": "Jak postupujeme při epileptickém záchvatu?",
+          "options": [
+            "Pevně přidržíme postiženého",
+            "Zamezíme poranění (hlavně hlavy), odstraníme předměty z blízkosti, sledujeme dýchání",
+            "Vložíme něco mezi zuby",
+            "Podáme léky proti záchvatu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pps2",
+          "q": "Kdy voláme záchranku při epileptickém záchvatu?",
+          "options": [
+            "Vždy ihned",
+            "Nikdy – záchvat přejde sám",
+            "Pokud je to první záchvat nebo se opakuje",
+            "Pouze pokud postižený nekrvácí"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pps3",
+          "q": "Jak postupujeme při krvácení z nosu?",
+          "options": [
+            "Zakloníme hlavu dozadu",
+            "Mírně předkloníme hlavu, chladíme zátylek a kořen nosu, monitorujeme množství krve",
+            "Ucpeme nos vatou a zakloníme",
+            "Položíme postiženého na záda"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pps4",
+          "q": "Kdy voláme záchranku při krvácení z nosu?",
+          "options": [
+            "Vždy ihned",
+            "Nikdy",
+            "Pokud se krvácení nezastaví",
+            "Pouze pokud postižený omdlí"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pps5",
+          "q": "Jak postupujeme při mdlobě?",
+          "options": [
+            "Postiženého posadíme",
+            "Zdvihneme nohy postiženého (zvýšený přítok krve k mozku)",
+            "Podáme studený nápoj",
+            "Polijeme obličej studenou vodou"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pps6",
+          "q": "Jaké jsou příznaky hypoglykémie (nízkého cukru v krvi)?",
+          "options": [
+            "Červená kůže, horečka, žízeň",
+            "Bledost, zmatenost, dezorientace, pocení – postižený vypadá jako opilý",
+            "Bolest hlavy a vysoký tlak",
+            "Modré rty a dušnost"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pps7",
+          "q": "Jak ošetříme hypoglykémii u diabetika při vědomí?",
+          "options": [
+            "Podáme inzulín",
+            "Podáme ovocný džus, čokoládu, cukr, med",
+            "Nedáváme nic – počkáme",
+            "Zalijeme ho vodou"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pps8",
+          "q": "Jak podáme cukr diabetikovi, který se z hypoglykémie neprobírá?",
+          "options": [
+            "Do úst přímo",
+            "Mezi zuby a líc (ne do úst – aby se nezadusil), a voláme 155",
+            "Injekcí",
+            "Nepodáváme nic, jen voláme záchranku"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pps9",
+          "q": "Co je hyperventilace?",
+          "options": [
+            "Příliš pomalé dýchání",
+            "Stav kdy člověk dýchá rychleji a hluboce než je potřeba – vede k nadměrnému odstraňování CO₂",
+            "Normální dýchání při zátěži",
+            "Zástava dechu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pps10",
+          "q": "Jak ošetříme hyperventilaci?",
+          "options": [
+            "Zahájíme KPR",
+            "Postiženého položíme a zakloníme hlavu",
+            "Dýchání do papírového pytlíku, posadíme se s ním a dýcháme spolu",
+            "Podáme kyslík z láhve"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "pps11",
+          "q": "Jaké jsou příznaky hyperventilace?",
+          "options": [
+            "Bledost a bezvědomí",
+            "Brnění, křeče, brnění prstů, dýchání jako zadýchaný pes",
+            "Červená kůže a horečka",
+            "Bolest na hrudi a kašel"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pps12",
+          "q": "Jak postupujeme při úrazu elektrickým proudem?",
+          "options": [
+            "Ihned se dotkneme postiženého a odtáhneme ho",
+            "Jako první odpojíme zdroj elektrické energie",
+            "Zahájíme KPR bez dalšího",
+            "Polijeme postiženého vodou"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pps13",
+          "q": "Jak poznáme Heimlichův manévr?",
+          "options": [
+            "Úderem mezi lopatky",
+            "Rychlým stlačením pod solar plexus (pěst pod solar) – k vypuzení cizího tělesa z dýchacích cest",
+            "Stlačením hrudníku",
+            "Zakloněním hlavy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "pps14",
+          "q": "Co je Gordonův manévr a u koho se používá?",
+          "options": [
+            "Stlačení hrudníku u dospělých",
+            "Úder mezi lopatky otevřenou dlaní u dětí – dítě položíme přes sebe a chytíme krk",
+            "Zaklonutí hlavy u dospělých",
+            "Stlačení břicha u dospělých"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "prvni_pomoc_popaleniny",
+      "title": "První pomoc – popáleniny a další",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "ppp1",
+          "q": "Jak dlouho chladíme popáleninu?",
+          "options": [
+            "5 minut",
+            "10 minut",
+            "20 minut",
+            "30 minut"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppp2",
+          "q": "Co děláme při chlazení popáleniny se zbytkem těla?",
+          "options": [
+            "Celé tělo chladíme",
+            "Zbytek těla chráníme teplem",
+            "Celé tělo polijeme studenou vodou",
+            "Postiženého svlékáme"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppp3",
+          "q": "Co při popáleninách NEDĚLÍME?",
+          "options": [
+            "Chladíme vodou",
+            "Sterilně přikryjeme",
+            "Dáváme masti na popáleniny a propichujeme puchýře",
+            "Chráníme zbytek těla teplem"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppp4",
+          "q": "Jak ošetříme oblečení na popálené kůži?",
+          "options": [
+            "Rychle strhneme",
+            "Oblečení nestrhujeme – zabráníme infekci, obstřihneme oblečení kolem spáleniny",
+            "Zalijeme vodou i s oblečením",
+            "Necháme bez ošetření"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppp5",
+          "q": "Jak chladíme popáleniny u malých dětí?",
+          "options": [
+            "Studenou vodou",
+            "Ledem",
+            "Vlažnou vodou (studenou vodou ne – může dojít k zástavě srdce)",
+            "Alkoholem"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "ppp6",
+          "q": "Popálenina 2. stupně se projevuje:",
+          "options": [
+            "Pouze zarudnutím bez poškození kůže",
+            "Tvorbou puchýřků",
+            "Zuhelnatěním tkáně",
+            "Pouze bolestí bez viditelných změn"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppp7",
+          "q": "Jak ošetříme menší popáleniny?",
+          "options": [
+            "Přiložíme mast a překryjeme náplastí",
+            "Chladíme vodou a sterilně přikryjeme",
+            "Propíchneme puchýře a překryjeme",
+            "Přiložíme led přímo na kůži"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppp8",
+          "q": "Při masáži je důležité zeptat se klienta na:",
+          "options": [
+            "Pouze na alergie",
+            "Migrény (nevyvolávat) a vysoký krevní tlak (netlačit krev do hlavy)",
+            "Pouze na krevní tlak",
+            "Pouze na přítomnost infekcí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppp9",
+          "q": "Proč je důležité upozornit klienta, aby po masáži pomalu vstával z lůžka?",
+          "options": [
+            "Kvůli bolestem svalů",
+            "Kvůli odkrvení hlavy při rychlém vstávání",
+            "Kvůli zástavě srdce",
+            "Kvůli závratím z masti"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "ppp10",
+          "q": "Proč se u klientů užívajících warfarin nebo jiné léky ředící krev při masáži netlačí (netepá)?",
+          "options": [
+            "Protože warfarin způsobuje alergii na masáž",
+            "Protože warfarin snižuje srážlivost krve a masáž by mohla způsobit krvácení",
+            "Protože warfarin zvyšuje krevní tlak",
+            "Protože warfarin způsobuje bolestivost svalů"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "tipy_decek_anatomie",
+      "title": "Tipy ze zkoušky – anatomie a různé",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "td1",
+          "q": "Co je ortéza?",
+          "options": [
+            "Náhrada chybějící části těla",
+            "Pomůcka zpevňující nebo nahrazující funkci pohybového aparátu (kolenní, hlezenní ortéza)",
+            "Chirurgický implantát",
+            "Typ obvazu"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2",
+          "q": "Co je protéza?",
+          "options": [
+            "Pomůcka zpevňující kloub",
+            "Náhrada chybějící části těla (např. amputované končetiny)",
+            "Typ ortopedické vložky",
+            "Pomůcka pro chůzi"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td3",
+          "q": "K čemu slouží okostice (periost)?",
+          "options": [
+            "K tvorbě krevních buněk",
+            "Kryje povrch kosti, zajišťuje výživu kosti, podílí se na hojení zlomenin a růstu kosti do šířky",
+            "Tvoří kloubní chrupavku",
+            "Spojuje kosti vazy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td4",
+          "q": "Jaká tkáň je v kosti?",
+          "options": [
+            "Pouze svalová tkáň",
+            "Kostní tkáň (kompaktní a houbovitá), v dřeňové dutině kostní dřeň",
+            "Pouze pojivová tkáň",
+            "Pouze chrupavčitá tkáň"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td5",
+          "q": "Co je pod škárou?",
+          "options": [
+            "Epidermis",
+            "Podkoží (tela subcutanea) – tuková a vazivová tkáň",
+            "Sval",
+            "Fascie"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td6",
+          "q": "Co je nad škárou (nad corium)?",
+          "options": [
+            "Podkoží",
+            "Sval",
+            "Pokožka (epidermis)",
+            "Fascie"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td7",
+          "q": "Kolik žeber má člověk?",
+          "options": [
+            "10 párů",
+            "11 párů",
+            "12 párů",
+            "13 párů"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td8",
+          "q": "Jaké kloubní spojení je v loketním kloubu?",
+          "options": [
+            "Kulovité",
+            "Kladkové (spojení loketní a pažní kosti)",
+            "Sedlové",
+            "Tuhé"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td9",
+          "q": "Co je školní hrb?",
+          "options": [
+            "Vrozená vada páteře",
+            "Kyfóza hrudní páteře vzniklá dlouhodobým špatným sezením",
+            "Vybočení páteře do strany",
+            "Prohloubení bederní páteře"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td10",
+          "q": "Kolik laloků má pravá plíce?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td11",
+          "q": "Kolik laloků má levá plíce?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td12",
+          "q": "Které svaly jsou hlavní dýchací?",
+          "options": [
+            "Mezižeberní svaly",
+            "Bránice (hlavní) a mezižeberní svaly vnější (pomocné nádechové)",
+            "Břišní svaly",
+            "Svaly kloněné"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td13",
+          "q": "Které svaly jsou pomocné výdechové?",
+          "options": [
+            "Bránice",
+            "Svaly kloněné",
+            "Břišní svaly",
+            "Vzpřimovače páteře"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td14",
+          "q": "Které svaly provádějí stoj na špičkách?",
+          "options": [
+            "Přední sval holenní",
+            "Trojhlavý sval lýtkový (m. triceps surae) – plantární flexe",
+            "Dlouhý sval lýtkový",
+            "Sval zákolenní"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td15",
+          "q": "Které svaly provádějí stoj na patách (zvednutí špičky)?",
+          "options": [
+            "Trojhlavý sval lýtkový",
+            "Přední sval holenní – dorzální flexe",
+            "Dlouhý sval lýtkový",
+            "Sval zákolenní"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td16",
+          "q": "Plochá noha příčná a podélná zahrnuje:",
+          "options": [
+            "Pouze pokles příčné klenby",
+            "Pokles příčné klenby (v oblasti hlaviček nártních kostí) a podélné klenby (vnitřní strana chodidla)",
+            "Pouze pokles podélné klenby",
+            "Vybočení palce"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td17",
+          "q": "Kam se upíná zdvihač lopatky (m. levator scapulae)?",
+          "options": [
+            "Nadpažek lopatky",
+            "Horní úhel lopatky",
+            "Dolní úhel lopatky",
+            "Hřeben lopatky"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td18",
+          "q": "Kde začíná podkožní sval krční (m. platysma)?",
+          "options": [
+            "Rukojeť kosti hrudní",
+            "Kůže nad dolní čelistí",
+            "Bradavčitý výběžek kosti spánkové",
+            "Klíční kost"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td19",
+          "q": "Kde se upíná podkožní sval krční (m. platysma)?",
+          "options": [
+            "Bradavčitý výběžek kosti spánkové",
+            "1. žebro",
+            "Podkožní vazivo v oblasti 2. žebra",
+            "Klíční kost"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td20",
+          "q": "Co dělá sval podklíčkový (m. subclavius)?",
+          "options": [
+            "Táhne lopatku dopředu",
+            "Připažení v ramenním kloubu",
+            "Přitažení klíční kosti k 1. žebru",
+            "Pomocný sval nádechový"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td21",
+          "q": "Funkce svalů kloněných (mm. scaleni) při oboustranné akci:",
+          "options": [
+            "Zaklání krční páteř",
+            "Předklání krční páteř nebo zvedají 1. a 2. žebro (pomocné svaly vdechové)",
+            "Uklání krční páteř",
+            "Otáčení hlavy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td22",
+          "q": "Kde se upíná štíhlý sval stehenní (m. gracilis)?",
+          "options": [
+            "Velký chocholík kosti stehenní",
+            "Hlavička lýtkové kosti",
+            "Vnitřní kondyl kosti holenní",
+            "Sedací hrbol"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td23",
+          "q": "Která kožní onemocnění jsou bakteriální?",
+          "options": [
+            "Herpes, pásový opar",
+            "Impetigo, folikulitida, furunkl (způsobené bakteriemi – stafylokoky, streptokoky)",
+            "Plísňová onemocnění",
+            "Ekzém a lupénka"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td24",
+          "q": "Co je pásový opar?",
+          "options": [
+            "Bakteriální onemocnění kůže",
+            "Virové onemocnění způsobené virem varicella-zoster, projevuje se bolestivými puchýři podél nervů",
+            "Plísňové onemocnění",
+            "Alergická reakce"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "tipy_decek2_derma",
+      "title": "Tipy ze zkoušky – dermatologie",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "td2d1",
+          "q": "Je lupénka (psoriáza) infekční onemocnění?",
+          "options": [
+            "Ano, přenáší se kontaktem",
+            "Ano, přenáší se vzduchem",
+            "Ne, lupénka není infekční – je to chronické autoimunitní onemocnění",
+            "Ano, přenáší se krví"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2d2",
+          "q": "Kde jsou predilekční místa lupénky (predilekce psoriatická)?",
+          "options": [
+            "Podpaží, třísla, pod prsy",
+            "Vlasatá část hlavy, okolí loktů, kolen a křížová oblast",
+            "Obličej, záda, ramena",
+            "Meziprstní prostory, přední strana předloktí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2d3",
+          "q": "Co je borelióza?",
+          "options": [
+            "Virové onemocnění přenášené komáry",
+            "Bakteriální onemocnění přenášené klíšťaty – projevuje se mimo jiné charakteristickým kruhovým zarudnutím (erythema migrans)",
+            "Plísňové onemocnění kůže",
+            "Parazitární onemocnění způsobené zákožkou"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2d4",
+          "q": "Co způsobuje svrab (scabies)?",
+          "options": [
+            "Bakterie stafylokok",
+            "Virus herpes",
+            "Zákožka svrabová (parazit)",
+            "Plíseň"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2d5",
+          "q": "Kde jsou predilekční místa svrabu?",
+          "options": [
+            "Vlasatá část hlavy a obličej",
+            "Meziprstní prostory na rukou, přední strana předloktí, boční strany hrudníku, podbřišek",
+            "Záda a hýždě",
+            "Lokty a kolena"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2d6",
+          "q": "Je svrab infekční?",
+          "options": [
+            "Ne, není infekční",
+            "Ano, přenáší se přímým kontaktem s nakaženou osobou",
+            "Ano, ale pouze vzduchem",
+            "Ne, přenáší se pouze klíšťaty"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2d7",
+          "q": "Typickým projevem svrabu jsou:",
+          "options": [
+            "Šupiny a zarudnutí na zádech",
+            "Dvojice 2–3 mm od sebe vzdálených drobných pupínků nebo oděrek",
+            "Velké puchýře na rukou",
+            "Pevně lpící šupiny na hlavě"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2d8",
+          "q": "Co je erythema migrans?",
+          "options": [
+            "Šupinové ložisko lupénky",
+            "Charakteristické kruhové zarudnutí kůže – typický příznak boreliózy po klíštěcím kousnutí",
+            "Plísňové onemocnění",
+            "Alergická reakce na hmyzí bodnutí"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2d9",
+          "q": "Predilekce seboroická se vyskytuje kde?",
+          "options": [
+            "Meziprstní prostory, přední strana předloktí",
+            "Vlasatá část hlavy, obličej, okolí nosu, brada, hrudník, záda mezi lopatkami",
+            "Lokty, kolena, křížová oblast",
+            "Podpaží, třísla, pod prsy"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2d10",
+          "q": "Co je predilekce intertriginosní?",
+          "options": [
+            "Místa s četnými mazovými žlázami",
+            "Místa kde se dvě kožní plochy naléhají – vlhké zapářky (podpaží, třísla, pod prsy)",
+            "Místa typická pro lupénku",
+            "Místa pro projevy akné"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "tipy_decek2_kosti",
+      "title": "Tipy ze zkoušky – kosti a kostra",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "td2k1",
+          "q": "Z čeho se skládá kost (složení)?",
+          "options": [
+            "Pouze z vápníku",
+            "Z organické složky (kolagen – pružnost) a anorganické složky (vápník, fosfor – tvrdost)",
+            "Pouze z kolagenu",
+            "Pouze z minerálních látek"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2k2",
+          "q": "Jak se dělí dlouhé kosti?",
+          "options": [
+            "Na tělo a hlavice",
+            "Na tělo (diafýza) a dva konce – hlavice (epifýzy)",
+            "Na kortikální a trabekulární část",
+            "Na proximální a distální kloub"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2k3",
+          "q": "Dutina dlouhých kostí se nazývá:",
+          "options": [
+            "Kloubní dutina",
+            "Dřeňová dutina",
+            "Haversův kanál",
+            "Synoviální dutina"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2k4",
+          "q": "Co jsou rovnoběžné roviny se sagitální (šípovou) rovinou?",
+          "options": [
+            "Frontální roviny",
+            "Transverzální roviny",
+            "Parasagitální roviny",
+            "Horizontální roviny"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2k5",
+          "q": "Co přenášejí červené krvinky?",
+          "options": [
+            "Živiny",
+            "Hormony",
+            "Kyslík (díky hemoglobinu)",
+            "Oxid uhličitý pouze"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2k6",
+          "q": "Jaká je funkce bílých krvinek?",
+          "options": [
+            "Přenos kyslíku",
+            "Srážení krve",
+            "Obranyschopnost organismu (imunita)",
+            "Přenos živin"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2k7",
+          "q": "Co je školní hrb a v jaké rovině leží?",
+          "options": [
+            "Vybočení páteře do strany ve frontální rovině",
+            "Kyfóza hrudní páteře vzniklá špatným sezením – zakřivení v sagitální rovině",
+            "Prohloubení bederní páteře v sagitální rovině",
+            "Rotace páteře v transverzální rovině"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2k8",
+          "q": "Která dětská vada nohy se projevuje vbočením chodidla dovnitř?",
+          "options": [
+            "Pes planus (plochá noha)",
+            "Pes valgus (valgózní noha – kolena i chodidla dovnitř)",
+            "Pes cavus (vysoká klenba)",
+            "Pes varus (varozní noha)"
+          ],
+          "answer_index": 1
+        },
+        {
+          "id": "td2k9",
+          "q": "Kolik párů žeber má člověk celkem?",
+          "options": [
+            "10 párů",
+            "11 párů",
+            "12 párů",
+            "13 párů"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2k10",
+          "q": "Která žebra jsou tzv. pravá (připojená přímo ke kosti hrudní)?",
+          "options": [
+            "1.–5. žebro",
+            "1.–7. žebro",
+            "8.–10. žebro",
+            "11.–12. žebro"
+          ],
+          "answer_index": 1
+        }
+      ]
+    },
+    {
+      "id": "tipy_decek2_nepatri",
+      "title": "Tipy ze zkoušky – co NEPATŘÍ do skupiny (záludné otázky!)",
+      "type": "mcq",
+      "questions": [
+        {
+          "id": "td2n1",
+          "q": "Který sval NEPATŘÍ mezi svaly ramenního kloubu?",
+          "options": [
+            "Sval nadhřebenový",
+            "Sval deltový",
+            "Dvojhlavý sval pažní",
+            "Sval podlopatkový"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n2",
+          "q": "Který sval NEPATŘÍ mezi svaly paže?",
+          "options": [
+            "Dvojhlavý sval pažní",
+            "Trojhlavý sval pažní",
+            "Sval hákový",
+            "Sval deltový"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "td2n3",
+          "q": "Který sval NEPATŘÍ mezi svaly hrudníku?",
+          "options": [
+            "Velký prsní sval",
+            "Malý prsní sval",
+            "Pilovitý sval přední",
+            "Sval trapézový"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "td2n4",
+          "q": "Který sval NEPATŘÍ mezi zádové svaly?",
+          "options": [
+            "Sval trapézový",
+            "Široký sval zádový",
+            "Velký prsní sval",
+            "Svaly rombické"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n5",
+          "q": "Který sval NEPATŘÍ mezi svaly stehna?",
+          "options": [
+            "Čtyřhlavý sval stehenní",
+            "Dvojhlavý sval stehenní",
+            "Trojhlavý sval lýtkový",
+            "Štíhlý sval stehenní"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n6",
+          "q": "Který sval NEPATŘÍ mezi svaly kyčelního kloubu?",
+          "options": [
+            "Velký sval hýžďový",
+            "Střední sval hýžďový",
+            "Sval bedrokyčlostehenní",
+            "Přední sval holenní"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "td2n7",
+          "q": "Který sval NEPATŘÍ mezi svaly bérce?",
+          "options": [
+            "Přední sval holenní",
+            "Trojhlavý sval lýtkový",
+            "Krejčovský sval",
+            "Dlouhý sval lýtkový"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n8",
+          "q": "Který sval NEPATŘÍ mezi žvýkací svaly?",
+          "options": [
+            "Zevní sval žvýkací (masseter)",
+            "Sval spánkový",
+            "Podkožní sval krční (platysma)",
+            "Sval křídlový vnitřní"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n9",
+          "q": "Který sval NEPATŘÍ mezi svaly krku?",
+          "options": [
+            "Podkožní sval krční",
+            "Zdvihač hlavy",
+            "Svaly kloněné",
+            "Pilovitý sval přední"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "td2n10",
+          "q": "Který sval NEPATŘÍ mezi povrchové svaly zádové?",
+          "options": [
+            "Sval trapézový",
+            "Široký sval zádový",
+            "Vzpřimovače páteře (hluboké svaly zad)",
+            "Svaly rombické"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n11",
+          "q": "Který sval NEPATŘÍ mezi svaly přední skupiny stehna?",
+          "options": [
+            "Čtyřhlavý sval stehenní",
+            "Krejčovský sval",
+            "Dvojhlavý sval stehenní",
+            "Napínač povázky stehenní"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n12",
+          "q": "Co NEPATŘÍ mezi funkce kůže?",
+          "options": [
+            "Ochranná funkce",
+            "Termoregulační funkce",
+            "Tvorba vitaminu D",
+            "Tvorba červených krvinek"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "td2n13",
+          "q": "Co NEPATŘÍ mezi primární morfy (prvotní projevy kožních nemocí)?",
+          "options": [
+            "Skvrna (makula)",
+            "Pupínek (papula)",
+            "Stroupek (crusta)",
+            "Puchýř (vesicula)"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n14",
+          "q": "Co NEPATŘÍ mezi sekundární morfy?",
+          "options": [
+            "Šupina (squama)",
+            "Stroupek (crusta)",
+            "Pupínek (papula)",
+            "Eroze (erosio)"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n15",
+          "q": "Co NEPATŘÍ mezi rohovatějící kožní přívěsky (adnexa)?",
+          "options": [
+            "Vlasy",
+            "Nehty",
+            "Chlupy",
+            "Potní žlázy"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "td2n16",
+          "q": "Který sval NEPATŘÍ mezi svaly provádějící stoj na špičkách?",
+          "options": [
+            "Dvojhlavý sval lýtkový",
+            "Šikmý sval lýtkový",
+            "Přední sval holenní",
+            "Dlouhý sval lýtkový"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n17",
+          "q": "Který sval NEPATŘÍ do skupiny svalů provádějících zevní rotaci v ramenním kloubu?",
+          "options": [
+            "Sval nadhřebenový",
+            "Sval podhřebenový",
+            "Sval podlopatkový",
+            "Malý sval oblý"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n18",
+          "q": "Která z odpovědí NENÍ správná – sval deltový provádí:",
+          "options": [
+            "Upažení (abdukce)",
+            "Předpažení (flexe)",
+            "Připažení (addukce)",
+            "Zapažení (extenze)"
+          ],
+          "answer_index": 2
+        },
+        {
+          "id": "td2n19",
+          "q": "Co NEPATŘÍ mezi složky krve?",
+          "options": [
+            "Červené krvinky",
+            "Bílé krvinky",
+            "Krevní destičky",
+            "Lymfocyty mízních uzlin"
+          ],
+          "answer_index": 3
+        },
+        {
+          "id": "td2n20",
+          "q": "Který útvar NEPATŘÍ mezi části dýchacích cest?",
+          "options": [
+            "Hrtan",
+            "Průdušnice",
+            "Průdušky",
+            "Jícen"
+          ],
+          "answer_index": 3
+        }
+      ]
     }
   ]
 }
